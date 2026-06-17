@@ -1,0 +1,1793 @@
+﻿# whitelist_artikelnummern_semantic
+
+Quelle: `whitelist_artikelnummern_semantic.csv`
+
+Anzahl Datensaetze: 1785
+
+| artikelNummer | artikelBez1 | artikelBez2 | produktNummer | produktBezeichnung | kategorien | matchGruende | normalisierterText |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2093280 | PAULANER OKTOBERFESTBIER | DOSE DPG 0,5L *A | 1002111 | PAULANER BIER PFAND 0,5L | Bier | semantic_bier:PAULANER; whitelist_prefix:PAULANER BIER PFAND 0,5L | PAULANER OKTOBERFESTBIER DOSE DPG PAULANER BIER |
+| 2299930 | DRESSINGSHAKER  MIXERY | WESTMARK |  |  | Bier | semantic_bier:MIXERY | DRESSINGSHAKER MIXERY WESTMARK |
+| 2387792 | MIXERY ULTIMATE BIER | ORIGIN. DOSE DPG0,5L*UMS | 1002097 | MIXERY ULTIMATE BIER DOSE PFAND 0,5L | Bier | semantic_bier:MIXERY; whitelist_prefix:MIXERY ULTIMATE BIER DOSE PFAND 0,5L | MIXERY ULTIMATE BIER ORIGIN DOSE DPG0 MIXERY ULTIMATE BIER DOSE |
+| 2387795 | MIXERY ULTIMATE BIER | LEMON DOSE DPG 0,5L *UMS | 1002097 | MIXERY ULTIMATE BIER DOSE PFAND 0,5L | Bier | semantic_bier:MIXERY; whitelist_prefix:MIXERY ULTIMATE BIER DOSE PFAND 0,5L | MIXERY ULTIMATE BIER LEMON DOSE DPG MIXERY ULTIMATE BIER DOSE |
+| 2396413 | PAULANER NATUR RADLER | DPG 0,5L | 1002111 | PAULANER BIER PFAND 0,5L | Bier | semantic_bier:PAULANER; whitelist_prefix:PAULANER BIER PFAND 0,5L | PAULANER NATUR RADLER DPG PAULANER BIER |
+| 266446 | PAULANER HEFE-WEISSBIER | NATURTRUEB DPG 0,5L | 1002111 | PAULANER BIER PFAND 0,5L | Bier | semantic_bier:PAULANER; whitelist_prefix:PAULANER BIER PFAND 0,5L | PAULANER HEFE WEISSBIER NATURTRUEB DPG PAULANER BIER |
+| 266563 | PAULANER SPEZI | DPG 0,33L |  |  | Bier | semantic_bier:PAULANER | PAULANER SPEZI DPG |
+| 2791859 | PAULANER SPEZI ZERO | DPG 0,33L |  |  | Bier | semantic_bier:PAULANER | PAULANER SPEZI ZERO DPG |
+| 2823258 | MIXERY ICED YELLOW | DOSE DPG 0,5 L |  |  | Bier | semantic_bier:MIXERY | MIXERY ICED YELLOW DOSE DPG |
+| 2829634 | PAULANER WEISSBIER | ZITRONE 0,0%DPG 0,5L SOB |  |  | Bier | semantic_bier:PAULANER | PAULANER WEISSBIER ZITRONE 0 0 DPG SOB |
+| 2927802 | MIXERY ULTIMATE BIER | LEMONDOSE DPG 0,33L *SOB |  |  | Bier | semantic_bier:MIXERY | MIXERY ULTIMATE BIER LEMONDOSE DPG |
+| 2927806 | MIXERY ULTIMATE BIER | ORIGINAL DPG 0,33L *SOB |  |  | Bier | semantic_bier:MIXERY | MIXERY ULTIMATE BIER ORIGINAL DPG |
+| 2997798 | PAULANER LIMO | ORANGE 0,33L |  |  | Bier | semantic_bier:PAULANER | PAULANER LIMO ORANGE |
+| 3083933 | MIXERY ICED PURPLE | DOSE DPG 0,5 L *SOB |  |  | Bier | semantic_bier:MIXERY | MIXERY ICED PURPLE DOSE DPG |
+| 3116807 | PAULANER LIMO | ZITRONE 0,33L |  |  | Bier | semantic_bier:PAULANER | PAULANER LIMO ZITRONE |
+| 3116825 | PAULANER MÜNCHNER HELL | ALKHOLFREI DPG 0,5L |  |  | Bier | semantic_bier:PAULANER | PAULANER MUENCHNER HELL ALKHOLFREI DPG |
+| 3192881 | PAULANER COLA | DPG 0,33L |  |  | Bier | semantic_bier:PAULANER | PAULANER COLA DPG |
+| 447186 | MIXERY NASTROV FLAVOUR | ICED BLUE DOSE DPG0,5L | 1002096 | MIXERY DOSE PFAND 0,5L | Bier | semantic_bier:MIXERY | MIXERY NASTROV FLAVOUR ICED BLUE DOSE DPG0 MIXERY DOSE |
+| 470699 | BITBURGER PILS | DOSE DPG 0,5L | 1002015 | BITBURGER BIER DOSE PFAND 0,5L | Bier | semantic_bier:BITBURGER; whitelist_prefix:BITBURGER BIER DOSE PFAND 0,5L | BITBURGER PILS DOSE DPG BITBURGER BIER DOSE |
+| 605845 | PAULANER MUENCHNER HELL | DPG 0,5L |  |  | Bier | semantic_bier:PAULANER | PAULANER MUENCHNER HELL DPG |
+| 2009354 | MT BIERDECKEL EM 2016 | FUSSBALLD. 15ER PACK |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | MT BIERDECKEL EM 2016 FUSSBALLD 15ER PACK |
+| 2114136 | BIERDECKEL | 9X9 MANN MIT GRILL 6ER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BIERDECKEL 9X9 MANN MIT GRILL 6ER |
+| 2114139 | BIERDECKEL | 9X9 GEMUESE 6ER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BIERDECKEL 9X9 GEMUESE 6ER |
+| 2114140 | BIERDECKEL | 9X9 GRILLKOENIG 6ER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BIERDECKEL 9X9 GRILLKOENIG 6ER |
+| 2114141 | BIERDECKEL | 9X9 SERIENGRILLER 6ER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BIERDECKEL 9X9 SERIENGRILLER 6ER |
+| 2140691 | FLASCHENOEFFNER SCHMIDT |  |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER SCHMIDT |
+| 2140692 | FLASCHENOEFFNER KARL- | HEINZ |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER KARL HEINZ |
+| 2140693 | FLASCHENOEFFNER ECKI |  |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER ECKI |
+| 2214007 | FC BAYERN | BIERDECKEL EMBLEM 50 ST |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN BIERDECKEL EMBLEM |
+| 2217087 | VFB STUTTGART  *ST | FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | VFB STUTTGART FLASCHENOEFFNER |
+| 2239962 | FLASCHENOEFFNER | MANN MIT GRILL |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER MANN MIT GRILL |
+| 2239963 | FLASCHENOEFFNER | GRILLEN O.BIER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER GRILLEN O BIER |
+| 2239972 | FLASCHENOEFFNER | SERIENGRILLER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER SERIENGRILLER |
+| 2300098 | FLASCHENOEFFNER UND | VERSCHLIESSER HERMETUS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER UND VERSCHLIESSER HERMETUS |
+| 2300683 | BEERDY FLASCHENOEFFNER |  |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BEERDY FLASCHENOEFFNER |
+| 2391207 | HAPPY HOUR / ICE CREAM | FLASCHENOEFFNER GOLD |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | HAPPY HOUR ICE CREAM FLASCHENOEFFNER GOLD |
+| 2404125 | FC SCHALKE 04 BIERKRUG | BLAU & WEIß |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC SCHALKE 04 BIERKRUG BLAU & WEISS |
+| 2406870 | FETCH! BOTTLE OPENER | FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FETCH BOTTLE OPENER FLASCHENOEFFNER |
+| 244858 | FC BAYERN 20462 | FLASCHENOEFFNER/KRONK |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN 20462 FLASCHENOEFFNER KRONK |
+| 2478787 | BIERDECKEL/GLASABDECKER | HOPFENSMOOTHIE |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BIERDECKEL GLASABDECKER HOPFENSMOOTHIE |
+| 2478789 | BIERDECKEL/GLASABDECKER | MAENNERABEND |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BIERDECKEL GLASABDECKER MAENNERABEND |
+| 2478792 | BIERDECKEL/GLASABDECKER | DURST WIRD DURCH BIER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:BIERDECKEL/GLASABDECKER  DURST WIRD DURCH BIER | BIERDECKEL GLASABDECKER DURST WIRD DURCH BIER |
+| 2478794 | BIERDECKEL/GLASABDECKER | BIER MIT SCHAUM-EIN... |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:BIERDECKEL/GLASABDECKER  BIER MIT SCHAUM-EIN... | BIERDECKEL GLASABDECKER BIER MIT SCHAUM EIN |
+| 2478796 | BIERDECKEL/GLASABDECKER | SCHERE,STEIN,PAAR BIER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:BIERDECKEL/GLASABDECKER  SCHERE,STEIN,PAAR BIER | BIERDECKEL GLASABDECKER SCHERE STEIN PAAR BIER |
+| 2529323 | TROPICAL GARD.-CARIBBEAN | CACTUS FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | TROPICAL GARD CARIBBEAN CACTUS FLASCHENOEFFNER |
+| 2529325 | TROPICAL GARD.-PALMTREE | FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | TROPICAL GARD PALMTREE FLASCHENOEFFNER |
+| 2559851 | H&H FLASCHENOEFFNER | PAPA |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER PAPA |
+| 2559853 | H&H FLASCHENOEFFNER | BESTER PAPA |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER BESTER PAPA |
+| 2559855 | H&H FLASCHENOEFFNER | OPA |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER OPA |
+| 2559856 | H&H FLASCHENOEFFNER | BESTER OPA |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER BESTER OPA |
+| 2559858 | H&H FLASCHENOEFFNER | BRUDER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER BRUDER |
+| 2559860 | H&H FLASCHENOEFFNER | FREUND |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER FREUND |
+| 2559861 | H&H FLASCHENOEFFNER | BESTER KOLLEGE |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER BESTER KOLLEGE |
+| 2559862 | H&H FLASCHENOEFFNER | BESTER KUMPEL |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER BESTER KUMPEL |
+| 2559863 | H&H FLASCHENOEFFNER | ECHTER KERL |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER ECHTER KERL |
+| 2559864 | H&H FLASCHENOEFFNER | ANGLER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER ANGLER |
+| 2559865 | H&H FLASCHENOEFFNER | ARZT |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER ARZT |
+| 2559866 | H&H FLASCHENOEFFNER | BEAMTER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER BEAMTER |
+| 2559868 | H&H FLASCHENOEFFNER | BIERKOENIG |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:H&H FLASCHENOEFFNER BIERKOENIG | H&H FLASCHENOEFFNER BIERKOENIG |
+| 2559869 | H&H FLASCHENOEFFNER | CHEERS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER CHEERS |
+| 2559871 | H&H FLASCHENOEFFNER | CHEF |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER CHEF |
+| 2559872 | H&H FLASCHENOEFFNER | ELEKTRIKER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER ELEKTRIKER |
+| 2559873 | H&H FLASCHENOEFFNER | FESTIVALGAENGER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER FESTIVALGAENGER |
+| 2559874 | H&H FLASCHENOEFFNER | FEUERWEHRMANN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER FEUERWEHRMANN |
+| 2559875 | H&H FLASCHENOEFFNER | FLASCHENKIND |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER FLASCHENKIND |
+| 2559876 | H&H FLASCHENOEFFNER | FRAU |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER FRAU |
+| 2559878 | H&H FLASCHENOEFFNER | FUSSBALLER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER FUSSBALLER |
+| 2559879 | H&H FLASCHENOEFFNER | FUSSBALLFAN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER FUSSBALLFAN |
+| 2559881 | H&H FLASCHENOEFFNER | GAERTNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER GAERTNER |
+| 2559882 | H&H FLASCHENOEFFNER | GLUECK |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER GLUECK |
+| 2559885 | H&H FLASCHENOEFFNER | GRILLMEISTER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER GRILLMEISTER |
+| 2559886 | H&H FLASCHENOEFFNER | HANDWERKER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER HANDWERKER |
+| 2559887 | H&H FLASCHENOEFFNER | IM RUHESTAND |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER IM RUHESTAND |
+| 2559888 | H&H FLASCHENOEFFNER | INGENIEUR |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER INGENIEUR |
+| 2559891 | H&H FLASCHENOEFFNER | KALTES BIER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:H&H FLASCHENOEFFNER KALTES BIER | H&H FLASCHENOEFFNER KALTES BIER |
+| 2559892 | H&H FLASCHENOEFFNER | KEINE FRAGE |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER KEINE FRAGE |
+| 2559893 | H&H FLASCHENOEFFNER | KONZERTGAENGER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER KONZERTGAENGER |
+| 2559894 | H&H FLASCHENOEFFNER | LEHRER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER LEHRER |
+| 2559895 | H&H FLASCHENOEFFNER | MAURER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER MAURER |
+| 2559899 | H&H FLASCHENOEFFNER | PARTY-LEGENDE |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER PARTY LEGENDE |
+| 2559900 | H&H FLASCHENOEFFNER | RADFAHRER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER RADFAHRER |
+| 2559902 | H&H FLASCHENOEFFNER | SCHOENHEIT |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER SCHOENHEIT |
+| 2559905 | H&H FLASCHENOEFFNER | SPORTLER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER SPORTLER |
+| 2559906 | H&H FLASCHENOEFFNER | STUDENT |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER STUDENT |
+| 2559907 | H&H FLASCHENOEFFNER | YOGA |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER YOGA |
+| 2559908 | H&H FLASCHENOEFFNER | ALEXANDER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER ALEXANDER |
+| 2559909 | H&H FLASCHENOEFFNER | ANDREAS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER ANDREAS |
+| 2559910 | H&H FLASCHENOEFFNER | BENJAMIN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER BENJAMIN |
+| 2559911 | H&H FLASCHENOEFFNER | BERND |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER BERND |
+| 2559913 | H&H FLASCHENOEFFNER | CARSTEN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER CARSTEN |
+| 2559914 | H&H FLASCHENOEFFNER | CHRISTIAN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER CHRISTIAN |
+| 2559916 | H&H FLASCHENOEFFNER | CHRISTOPH |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER CHRISTOPH |
+| 2559917 | H&H FLASCHENOEFFNER | CHRISTOPHER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER CHRISTOPHER |
+| 2559918 | H&H FLASCHENOEFFNER | DANIEL |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER DANIEL |
+| 2559919 | H&H FLASCHENOEFFNER | DAVID |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER DAVID |
+| 2559920 | H&H FLASCHENOEFFNER | DENNIS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER DENNIS |
+| 2559922 | H&H FLASCHENOEFFNER | DOMINIK |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER DOMINIK |
+| 2559924 | H&H FLASCHENOEFFNER | FLORIAN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER FLORIAN |
+| 2559925 | H&H FLASCHENOEFFNER | FRANK |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER FRANK |
+| 2559926 | H&H FLASCHENOEFFNER | JAN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER JAN |
+| 2559928 | H&H FLASCHENOEFFNER | JENS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER JENS |
+| 2559929 | H&H FLASCHENOEFFNER | JOERG |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER JOERG |
+| 2559930 | H&H FLASCHENOEFFNER | JULIAN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER JULIAN |
+| 2559931 | H&H FLASCHENOEFFNER | JUERGEN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER JUERGEN |
+| 2559932 | H&H FLASCHENOEFFNER | KAI |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER KAI |
+| 2559934 | H&H FLASCHENOEFFNER | KEVIN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER KEVIN |
+| 2559939 | H&H FLASCHENOEFFNER | KLAUS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER KLAUS |
+| 2559953 | H&H FLASCHENOEFFNER | MALTE |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER MALTE |
+| 2559954 | H&H FLASCHENOEFFNER | MARC |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER MARC |
+| 2559955 | H&H FLASCHENOEFFNER | MARCEL |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER MARCEL |
+| 2559956 | H&H FLASCHENOEFFNER | MARCO |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER MARCO |
+| 2559957 | H&H FLASCHENOEFFNER | MARKUS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER MARKUS |
+| 2559958 | H&H FLASCHENOEFFNER | MARTIN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER MARTIN |
+| 2559959 | H&H FLASCHENOEFFNER | MARVIN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER MARVIN |
+| 2559960 | H&H FLASCHENOEFFNER | MATTHIAS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER MATTHIAS |
+| 2559961 | H&H FLASCHENOEFFNER | MAX |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER MAX |
+| 2559963 | H&H FLASCHENOEFFNER | MICHAEL |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER MICHAEL |
+| 2559964 | H&H FLASCHENOEFFNER | MIKE |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER MIKE |
+| 2559965 | H&H FLASCHENOEFFNER | MORITZ |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER MORITZ |
+| 2559966 | H&H FLASCHENOEFFNER | NIKLAS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER NIKLAS |
+| 2559968 | H&H FLASCHENOEFFNER | OLIVER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER OLIVER |
+| 2559969 | H&H FLASCHENOEFFNER | PASCAL |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER PASCAL |
+| 2559970 | H&H FLASCHENOEFFNER | PATRICK |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER PATRICK |
+| 2559971 | H&H FLASCHENOEFFNER | PAUL |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER PAUL |
+| 2559973 | H&H FLASCHENOEFFNER | PETER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER PETER |
+| 2559974 | H&H FLASCHENOEFFNER | PHILIPP |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER PHILIPP |
+| 2559975 | H&H FLASCHENOEFFNER | RAINER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER RAINER |
+| 2559976 | H&H FLASCHENOEFFNER | RALF |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER RALF |
+| 2559977 | H&H FLASCHENOEFFNER | RENÉ |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER REN |
+| 2559978 | H&H FLASCHENOEFFNER | ROBERT |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER ROBERT |
+| 2559980 | H&H FLASCHENOEFFNER | SEBASTIAN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER SEBASTIAN |
+| 2559981 | H&H FLASCHENOEFFNER | STEFFEN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER STEFFEN |
+| 2559983 | H&H FLASCHENOEFFNER | STEPHAN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER STEPHAN |
+| 2559984 | H&H FLASCHENOEFFNER | THOMAS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER THOMAS |
+| 2559985 | H&H FLASCHENOEFFNER | TIM |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER TIM |
+| 2559987 | H&H FLASCHENOEFFNER | TOBIAS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER TOBIAS |
+| 2559999 | H&H FLASCHENOEFFNER | TORBEN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER TORBEN |
+| 2560001 | H&H FLASCHENOEFFNER | UWE |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER UWE |
+| 2560002 | H&H FLASCHENOEFFNER | WOLFGANG |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | H&H FLASCHENOEFFNER WOLFGANG |
+| 2614591 | FC BAYERN FLASCHENÖFFNER | EINER GEHT NOCH |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN FLASCHENOEFFNER EINER GEHT NOCH |
+| 2614594 | FC BAYERN FLASCHENÖFFNER | FCB |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN FLASCHENOEFFNER FCB |
+| 2614597 | FC BAYERN FLASCHENÖFFNER | ZUM SIEG GEPUSCHT |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN FLASCHENOEFFNER ZUM SIEG GEPUSCHT |
+| 2614602 | FC BAYERN FLASCHENÖFFNER | ANSTOßZEIT |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN FLASCHENOEFFNER ANSTOSSZEIT |
+| 2626608 | HAPPY LIFE BUS | FLASCHENÖFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | HAPPY LIFE BUS FLASCHENOEFFNER |
+| 2648114 | FC BAYERN 26526 *ST | BIERKRUG DM 2020 |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN 26526 BIERKRUG DM 2020 |
+| 2649151 | TIPSY FLASCHENOEFFNER | 1/5 CHROME |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | TIPSY FLASCHENOEFFNER 1 5 CHROME |
+| 2661449 | HAI SCHLUESSELRING | MIT FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | HAI SCHLUESSELRING MIT FLASCHENOEFFNER |
+| 2661512 | TAPAS FLASCHENOEFFNER | BAMBUS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | TAPAS FLASCHENOEFFNER BAMBUS |
+| 2664668 | BVB  FLASCHENÖFFNER *ST | MIT HOLZGRIFF |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BVB FLASCHENOEFFNER MIT HOLZGRIFF |
+| 2718198 | GRUSS&CO ABEND | BIERKRUG |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO ABEND BIERKRUG |
+| 2718200 | GRUSS&CO HAPPY | BIERKRUG |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO HAPPY BIERKRUG |
+| 2718605 | GRUSS&CO OPA | FLASCHENÖFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO OPA FLASCHENOEFFNER |
+| 273808 | VFB STUTTGART | BIERKRUG 0,5L |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | VFB STUTTGART BIERKRUG |
+| 2743628 | WMF NUSSKNACKER- | FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | WMF NUSSKNACKER FLASCHENOEFFNER |
+| 2776719 | TC HAMBURGER SV *ST | FLASCHENÖFFNER HOLZ |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | TC HAMBURGER SV FLASCHENOEFFNER HOLZ |
+| 2791609 | FC BAYERN 28702 *ST | BIERKRUG 0,5L |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN 28702 BIERKRUG |
+| 2797477 | FC BAYERN 28697 *ST | BIERKRUG 1L |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN 28697 BIERKRUG |
+| 2797673 | FC BAYERN | FLASCHENÖFFNER HOLZ |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN FLASCHENOEFFNER HOLZ |
+| 2807953 | VFB STUTTGART  *ST | FLASCHENÖFFNER PUSH |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | VFB STUTTGART FLASCHENOEFFNER PUSH |
+| 2841835 | VANDINI GP MEN | 2XDG+FLASCHENÖFFNER*NML |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | VANDINI GP MEN 2XDG FLASCHENOEFFNER |
+| 2855001 | FLASCHENOEFFNER GITARRE |  |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER GITARRE |
+| 2855073 | PINOTPAPAGEI KORKEN- | ZIEHER/FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | PINOTPAPAGEI KORKEN ZIEHER FLASCHENOEFFNER |
+| 2855076 | FLASCHENOEFFNER BIER- | ZAEHLER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:FLASCHENOEFFNER BIER- ZAEHLER | FLASCHENOEFFNER BIER ZAEHLER |
+| 2868627 | FLASCHENOEFFNER ELCH |  |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER ELCH |
+| 2868645 | FLASCHENOEFFNER HASE |  |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER HASE |
+| 2876735 | TROPICAL GARDEN LOVELY | FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | TROPICAL GARDEN LOVELY FLASCHENOEFFNER |
+| 2890894 | FC SCHALKE 04 | BIERDECKEL 50ER-SET |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC SCHALKE 04 BIERDECKEL 50ER SET |
+| 2904423 | GRUSS & CO FUßBALL | BIERKRUG |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO FUSSBALL BIERKRUG |
+| 2904443 | GS MEN'S COLLECTION | DG 140ML, 2x BIERDECKEL |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GS MEN S COLLECTION DG 2X BIERDECKEL |
+| 2904517 | GRUSS & CO KÜSSCHEN | FLASCHENÖFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO KUESSCHEN FLASCHENOEFFNER |
+| 2904522 | GRUSS & CO KILLEN | FLASCHENÖFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO KILLEN FLASCHENOEFFNER |
+| 2907203 | ALPINE FLASCHENOEFFNER | HIRSCH 18 CM, L 8 CM *WH |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | ALPINE FLASCHENOEFFNER HIRSCH 18 CM L 8 CM |
+| 2907260 | ALPINE FLASCHENOEFFNER | XAVER H16 CM, L16CM *WH |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | ALPINE FLASCHENOEFFNER XAVER H16 CM L16CM |
+| 2912814 | GRUSS & CO UNTERS. | FLASCHENÖFFNER GEFÜHLE |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER GEFUEHLE |
+| 2912820 | GRUSS & CO UNTERS. | FLASCHENÖFFNER KILL |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER KILL |
+| 2912824 | GRUSS & CO UNTERS. | FLASCHENÖFFNER SMOOTHIE |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER SMOOTHIE |
+| 2912829 | GRUSS & CO UNTERS. | FLASCHENÖFFNER HEUTE |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER HEUTE |
+| 2912831 | GRUSS & CO UNTERS. | FLASCHENÖFFNER NACH |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER NACH |
+| 2912842 | GRUSS & CO UNTERS. | FLASCHENÖFFNER LANDE |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER LANDE |
+| 2912845 | GRUSS & CO UNTERS. | FLASCHENÖFFNER STRESS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER STRESS |
+| 2912848 | GRUSS & CO UNTERS. | FLASCHENÖFFNER OBIAD |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER OBIAD |
+| 2912851 | GRUSS & CO UNTERS. | FLASCHENÖFFNER AUSZEIT |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER AUSZEIT |
+| 2912854 | GRUSS & CO UNTERS. | FLASCHENÖFFNER BUS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER BUS |
+| 2912858 | GRUSS & CO UNTERS. | FLASCHENÖFFNER PAPA |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER PAPA |
+| 2912861 | GRUSS & CO UNTERS. | FLASCHENÖFFNER MEER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER MEER |
+| 2912864 | GRUSS & CO UNTERS. | FLASCHENÖFFNER ROCK |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER ROCK |
+| 2912866 | GRUSS & CO UNTERS. | FLASCHENÖFFNER LIEBLINGS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER LIEBLINGS |
+| 2912873 | GRUSS & CO UNTERS. | FLASCHENÖFFNER UHR |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER UHR |
+| 2912876 | GRUSS & CO UNTERS. | FLASCHENÖFFNER LAUNE |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER LAUNE |
+| 2912878 | GRUSS & CO UNTERS. | FLASCHENÖFFNER CHILLER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER CHILLER |
+| 2912882 | GRUSS & CO UNTERS. | FLASCHENÖFFNER STATT |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER STATT |
+| 2912883 | GRUSS & CO UNTERS. | FLASCHENÖFFNER NOTFALL |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER NOTFALL |
+| 2912885 | GRUSS & CO UNTERS. | FLASCHENÖFFNER DU & ICH |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER DU & ICH |
+| 2912887 | GRUSS & CO UNTERS. | FLASCHENÖFFNER OPAMEDIZI |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER OPAMEDIZI |
+| 2912892 | GRUSS & CO UNTERS. | FLASCHENÖFFNER TISCH |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER TISCH |
+| 2912895 | GRUSS & CO UNTERS. | FLASCHENÖFFNER TYP |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER TYP |
+| 2931860 | BRAWA 49834 H0 | BIERWAGEN G10 DB TUCHER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BRAWA 49834 H0 BIERWAGEN G10 DB TUCHER |
+| 2936851 | LED UNTERSETZER 10WEISS | OHNE BIER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:LED UNTERSETZER 10WEISS OHNE BIER | LED UNTERSETZER 10WEISS OHNEBIER |
+| 2936852 | LED UNTERSETZER 10ROT | OHNE BIER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:LED UNTERSETZER 10ROT OHNE BIER | LED UNTERSETZER 10ROT OHNEBIER |
+| 2936854 | LED UNTERSETZER 10BLAU | OHNE BIER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:LED UNTERSETZER 10BLAU OHNE BIER | LED UNTERSETZER 10BLAU OHNEBIER |
+| 2936855 | LED UNTERSETZER 10GRUEN | OHNE BIER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:LED UNTERSETZER 10GRUEN OHNE BIER | LED UNTERSETZER 10GRUEN OHNEBIER |
+| 2938646 | LUCHADOR FLASCHENÖFFNER | LUCHADOR BOTTLE OPENERS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | LUCHADOR FLASCHENOEFFNER LUCHADOR BOTTLE OPENERS |
+| 2938648 | DOG FLASCHENÖFFNER | DOG BOTTLE OPENER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | DOG FLASCHENOEFFNER DOG BOTTLE OPENER |
+| 2938688 | GUITAR SCHLÜSSELANHÄNGER | FLASCHENÖFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GUITAR SCHLUESSELANHAENGER FLASCHENOEFFNER |
+| 2938744 | FLASCHENÖFFNER M. LÖFFEL | SPOON OPENER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER M LOEFFEL SPOON OPENER |
+| 2939717 | PIKO 54597 H0 | BIERWAGEN GOERLITZ DRG 2 |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:PIKO 54597 H0 BIERWAGEN GOERLITZ DRG 2 | PIKO 54597 H0 BIERWAGEN GOERLITZ DRG 2 |
+| 2939719 | PIKO 54598 H0 | BIERWAGEN PYRASER DRG II |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:PIKO 54598 H0 BIERWAGEN PYRASER DRG II | PIKO 54598 H0 BIERWAGEN PYRASER DRG II |
+| 2939812 | CLEAN PAC EDELSTAHL | FLASCHENOEFFNER 1ST |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | CLEAN PAC EDELSTAHL FLASCHENOEFFNER |
+| 2944906 | Holz-Flaschenöffner | m.Text natur sort.*AUS |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | HOLZ FLASCHENOEFFNER M TEXT NATUR SORT |
+| 2945437 | TC HAMBURGER SV*ST | BIERKRUG RELIEF |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:TC HAMBURGER SV*ST BIERKRUG RELIEF | TC HAMBURGER SV BIERKRUG RELIEF |
+| 2945472 | TC HAMBURGER SV*ST | MAGNET FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | TC HAMBURGER SV MAGNET FLASCHENOEFFNER |
+| 2948279 | VFB STUTTGART *ST | BIERDECKEL 20ER SET |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | VFB STUTTGART BIERDECKEL 20ER SET |
+| 2948283 | VFB STUTTGART *ST | FLASCHENOEFFNER HOLZ |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | VFB STUTTGART FLASCHENOEFFNER HOLZ |
+| 2950558 | FC BAYERN SCHL.-ANH. | HUT FLASCHENÖFFNER/SMU |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN SCHL ANH HUT FLASCHENOEFFNER SMU |
+| 2986678 | FLASCHENÖFFNER  *ST | IM DISPLAY |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER IM DISPLAY |
+| 2987573 | FLASCHENOEFFNER LARRY | H 30 CM, L 10 CM, 2SORT |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER LARRY H 30 CM L 10 CM 2SORT |
+| 2990145 | GRUSS&CO GRILLEN | BIERKRUG |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO GRILLEN BIERKRUG |
+| 3000366 | WESTMARK GRILLZANGE | MIT FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | WESTMARK GRILLZANGE MIT FLASCHENOEFFNER |
+| 3041070 | BC FLASCHENÖFFNER | ZÄHLER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BC FLASCHENOEFFNER ZAEHLER |
+| 3041900 | GRUSS & CO FEIERABEND | BIERKRUG |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO FEIERABEND BIERKRUG |
+| 3044027 | FC BAYERN | BIERDECKEL 50ER-SET |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN BIERDECKEL 50ER SET |
+| 3045338 | BC BIERKRUG | TOTENKOPFFORM |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BC BIERKRUG TOTENKOPFFORM |
+| 3046196 | GRUSS&CO FLASCHENOEFFNER | KILLEN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO FLASCHENOEFFNER KILLEN |
+| 3046198 | GRUSS&CO FLASCHENOEFFNER | BESTES |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO FLASCHENOEFFNER BESTES |
+| 3046199 | GRUSS&CO FLASCHENOEFFNER | FEIER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO FLASCHENOEFFNER FEIER |
+| 3046202 | GRUSS&CO FLASCHENOEFFNER | MAENNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO FLASCHENOEFFNER MAENNER |
+| 3046204 | GRUSS&CO FLASCHENOEFFNER | BETREUT |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO FLASCHENOEFFNER BETREUT |
+| 3046205 | GRUSS&CO FLASCHENOEFFNER | OBIAD |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO FLASCHENOEFFNER OBIAD |
+| 3046207 | GRUSS&CO FLASCHENOEFFNER | BIER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO FLASCHENOEFFNER BIER |
+| 3046209 | GRUSS&CO FLASCHENOEFFNER | PAPA |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO FLASCHENOEFFNER PAPA |
+| 3046902 | BC FLASCHENÖFFNER 1 | TOTENKOPF BART *DI |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BC FLASCHENOEFFNER 1 TOTENKOPF BART |
+| 3046903 | BC FLASCHENÖFFNER 2 | TOTENKOPF *DI |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BC FLASCHENOEFFNER 2 TOTENKOPF |
+| 3051019 | PIKO 54599 H0 | BIERWAGEN GROSCH DB III |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer; whitelist_prefix:PIKO 54599 H0 BIERWAGEN GROSCH DB III | PIKO 54599 H0 BIERWAGEN GROSCH DB III |
+| 3052774 | FC SCHALKE | FLASCHENÖFFNER SOUND |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC SCHALKE FLASCHENOEFFNER SOUND |
+| 3055564 | FLASCHENOEFFNER | GITARRE BLUES |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER GITARRE BLUES |
+| 3055568 | FLASCHENOEFFNER GITARRE | HEAVY METAL |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER GITARRE HEAVY METAL |
+| 3057931 | FLASCHENOEFFNER  GENTLE | WESTMARK |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER GENTLE WESTMARK |
+| 3078059 | VFB STUTTGART *ST | FLASCHENOEFFNER MAGNET |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | VFB STUTTGART FLASCHENOEFFNER MAGNET |
+| 3078062 | VFB STUTTGART *ST | BIERKRUG |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | VFB STUTTGART BIERKRUG |
+| 3082845 | BIERDECKEL/GLASABDECKER | UND AM ENDE GIN |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BIERDECKEL GLASABDECKER UND AM ENDE GIN |
+| 3094686 | GRUSS&CO PAPA | BIERKRUG |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO PAPA BIERKRUG |
+| 3101786 | LURCH FLASCHENÖFFNER | COMFORT IRON GREY |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | LURCH FLASCHENOEFFNER COMFORT IRON GREY |
+| 3110118 | GRUSS&CO PAPA | FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS&CO PAPA FLASCHENOEFFNER |
+| 3111297 | GS BIERKRUG | DG/SEIFE 720ML |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GS BIERKRUG DG SEIFE |
+| 3115283 | KELA FLASCHENÖFFNER | RONDO EDELSTAHL |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | KELA FLASCHENOEFFNER RONDO EDELSTAHL |
+| 3127758 | SMILEY BILLARDKUGEL | FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | SMILEY BILLARDKUGEL FLASCHENOEFFNER |
+| 3137675 | VFB STUTTGART | FLASCHENOEFFNER GRAFFITI |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | VFB STUTTGART FLASCHENOEFFNER GRAFFITI |
+| 3140761 | FC BAYERN 53515 *ST | METALL-FLASCHENOEFFNER B |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN 53515 METALL FLASCHENOEFFNER B |
+| 3140773 | FC BAYERN 53518 | SA FLASCHENOEFFNER BK |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN 53518 SA FLASCHENOEFFNER BK |
+| 3148873 | GLAS-BIERKRUG | 2SORT. 8CM Z.H. *ON |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GLAS BIERKRUG 2SORT 8CM Z H |
+| 3152474 | FLASCHENOEFFNER CONNY | 2SORT 1TLG SCHWARZ*SO |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FLASCHENOEFFNER CONNY 2SORT 1TLG SCHWARZ |
+| 3177713 | VFB STUTTGART *ST | SCHL.-ANH.FLASCHENÖFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | VFB STUTTGART SCHL ANH FLASCHENOEFFNER |
+| 3181984 | SHEEPWORLD PAPA | BIERKRUG |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | SHEEPWORLD PAPA BIERKRUG |
+| 3182226 | SHEEPWORLD PAPA | FLASCHENÖFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | SHEEPWORLD PAPA FLASCHENOEFFNER |
+| 3184609 | FC BAYERN *ST | FLASCHENÖFFNER KRONKORK |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | FC BAYERN FLASCHENOEFFNER KRONKORK |
+| 3195975 | GRUSS & CO UNTERS. | FLASCHENÖFFNER JETZT |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | GRUSS & CO UNTERS FLASCHENOEFFNER JETZT |
+| 334449 | KARAB. LED | FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | KARAB LED FLASCHENOEFFNER |
+| 528650 | BVB BIERDECKEL 50ST. | 34708300*ST |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BVB BIERDECKEL 34708300 |
+| 999196 | BVB SCHLUESSELBAND   *ST | MIT FLASCHENOEFFNER |  |  | Bierbezug/Zubehoer | semantic_bierbezug:zubehoer | BVB SCHLUESSELBAND MIT FLASCHENOEFFNER |
+| 2944855 | BEERPONG SET DEUTSCHLAND | 24 PAPIERBECHER *EM |  |  | Bierbezug/Zubehoer; Fanartikel WM/EM | semantic_bierbezug:zubehoer; whitelist_prefix:BEERPONG SET DEUTSCHLAND 24 PAPIERBECHER *EM | BEERPONG SET DEUTSCHLAND 24 PAPIERBECHER |
+| 2060028 | FUNNY FRISCH CHIPSFRISCH | UNGARISCH 4X40G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH CHIPSFRISCH UNGARISCH 4X40G |
+| 2072069 | KETTLE CHIPS PAPRIKA | ROASTED ONION 150G*NML | 1002280 | KETTLE CHIPS 150G | Chips & Salziges | semantic_chips:KETTLE; whitelist_prefix:KETTLE CHIPS 150G | KETTLE CHIPS PAPRIKA ROASTED ONION KETTLE CHIPS |
+| 2103542 | KETTLE CHIPS | BALSAMIC VINEGAR 40G *A |  |  | Chips & Salziges | semantic_chips:KETTLE; whitelist_prefix:KETTLE CHIPS 150G | KETTLE CHIPS BALSAMIC VINEGAR |
+| 2170345 | XOX REISCHIPS EXOTIC | ASIA 100G | 1002548 | XOX KRUPUK/REISCHIPS 100G | Chips & Salziges | semantic_chips:XOX; whitelist_prefix:XOX KRUPUK/REISCHIPS 100G | XOX REISCHIPS EXOTIC ASIA XOX KRUPUK REISCHIPS |
+| 2407381 | XOX POPCORN | TOFFEE KAKAO 125G*SOBE |  |  | Chips & Salziges | semantic_chips:XOX | XOX POPCORN TOFFEE KAKAO |
+| 2506348 | KETTLE CHIPS SEA SALT | 40G *A |  |  | Chips & Salziges | semantic_chips:KETTLE; whitelist_prefix:KETTLE CHIPS 150G | KETTLE CHIPS SEA SALT |
+| 2520332 | XOX XXL BREZEL | 120G   *A*NML |  |  | Chips & Salziges | semantic_chips:XOX | XOX XXL BREZEL |
+| 2604296 | XOX HUMMUSCHIPS | SWEET CHILI 90G |  |  | Chips & Salziges | semantic_chips:XOX | XOX HUMMUSCHIPS SWEET CHILI |
+| 2604299 | XOX LINSENCHIPS | PAPRIKA 90G |  |  | Chips & Salziges | semantic_chips:XOX | XOX LINSENCHIPS PAPRIKA |
+| 2640662 | FUNNY FRISCH LINSEN | CHIPS PAPRIKA 90G*NML |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH LINSEN CHIPS PAPRIKA |
+| 2698666 | XOX BAILEYS POPCORN | 125G*SOBE |  |  | Chips & Salziges | semantic_chips:XOX | XOX BAILEYS POPCORN |
+| 2794092 | XOX BAILEYS POPCORN | SALTED CARAMEL 125G*SOBE |  |  | Chips & Salziges | semantic_chips:XOX | XOX BAILEYS POPCORN SALTED CARAMEL |
+| 2794098 | XOX MAIS-ERBSEN-FLIPS | PAPRIKA 100G*SOBE | 1002548 | XOX KRUPUK/REISCHIPS 100G | Chips & Salziges | semantic_chips:XOX; whitelist_prefix:XOX KRUPUK/REISCHIPS 100G | XOX MAIS ERBSEN FLIPS PAPRIKA XOX KRUPUK REISCHIPS |
+| 2850461 | FUNNY FRISCH OFEN CHIPS | PAPRIKA 125G*AK*NML |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH OFEN CHIPS PAPRIKA |
+| 2850478 | FUNNY FRISCH OFEN CHIPS | SOUR CREAM 125G*AK*NML |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH OFEN CHIPS SOUR CREAM |
+| 2850483 | FUNNY FRISCH OFEN CHIPS | SWEET CHIPS 125G*AK*NML |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH OFEN CHIPS SWEET CHIPS |
+| 2887148 | KETTLE CHIPS PAPRIKA | ROAST ONION 130G*NML |  |  | Chips & Salziges | semantic_chips:KETTLE; whitelist_prefix:KETTLE CHIPS 150G | KETTLE CHIPS PAPRIKA ROAST ONION |
+| 2903434 | FUNNY FRISCH OFEN CHIPS | SMOKY BBQ STYLE 125G*SOB |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH OFEN CHIPS SMOKY BBQ STYLE |
+| 2919079 | FUNNY FRISCH POPCHIPS | SEA SALT&PEPPER80G*NML |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH POPCHIPS SEA SALT&PEPPER80G |
+| 2924618 | FUNNY FRISCH POPCHIPS | SOUR CR.&ONION 80G   *AK |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH POPCHIPS SOUR CR &ONION |
+| 2924655 | FUNNY FRISCH POPCHIPS | RED PAPRIKA ST 80G *AUS |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH POPCHIPS RED PAPRIKA ST |
+| 2937873 | FUNNY FRISCH LINSEN | CHIPS ORIENTAL 90G *AK |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH LINSEN CHIPS ORIENTAL |
+| 3050845 | FUNNY FRISCH JUMPYS | 75G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH JUMPYS |
+| 3058961 | XOX SUPER BOWLS | BBQ STYLE 450G       *AK |  |  | Chips & Salziges | semantic_chips:XOX | XOX SUPER BOWLS BBQ STYLE |
+| 3058967 | XOX SUPER BOWLS | CHEDDAR CHEESE ST450G*AK |  |  | Chips & Salziges | semantic_chips:XOX | XOX SUPER BOWLS CHEDDAR CHEESE ST450G |
+| 3088571 | XOX KNUFFELS SCHINKEN | KAESE 75G            *AK |  |  | Chips & Salziges | semantic_chips:XOX | XOX KNUFFELS SCHINKEN KAESE |
+| 3131976 | FUNNY FRISCH POPCHIPS | POTATO BBQ-STYLE 80G*SOB |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH POPCHIPS POTATO BBQ STYLE |
+| 3145227 | FUNNY FRISCH FRIT-STICKS | UNGARISCH 100G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH FRIT STICKS UNGARISCH |
+| 3168267 | XOX PEPPER DEVIL | FOOTBALLS 450G       *AK |  |  | Chips & Salziges | semantic_chips:XOX | XOX PEPPER DEVIL FOOTBALLS |
+| 3185827 | FUNNY-FRISCH CHIPSFRISCH | PEPERONI 150G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH CHIPSFRISCH PEPERONI |
+| 3185840 | FUNNY-FRISCH CHIPSFRISCH | ORIENTAL 150G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH CHIPSFRISCH ORIENTAL |
+| 3186103 | FUNNY-FRISCH RINGLI | PAPRIKA 75G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH RINGLI PAPRIKA |
+| 3186118 | FUNNY-FRISCH INTENSE | CHIPS JUICY PAPRIKA 110G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH INTENSE CHIPS JUICY PAPRIKA |
+| 3186472 | FUNNY-FRISCH INTENSE | CHIPS SWEET&SPICY C.110G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH INTENSE CHIPS SWEET&SPICY C |
+| 3186555 | FUNNY-FRISCH CHIPSFRISCH | GESALZEN 150G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH CHIPSFRISCH GESALZEN |
+| 3186571 | FUNNY-FRISCH CHIPSFRISCH | SOUR CREAM 150G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH CHIPSFRISCH SOUR CREAM |
+| 3191103 | FUNNY FRISCH CHIPSFRISCH | UNGARISCH 150G +25G*AK | 1002199 | FUNNY FRISCH CHIPS 150-175G | Chips & Salziges | semantic_chips:FUNNY FRISCH; whitelist_prefix:FUNNY FRISCH CHIPS 150-175G | FUNNY FRISCH CHIPSFRISCH UNGARISCH FUNNY FRISCH CHIPS 150 |
+| 3191853 | XOX FUSSBALL PARTY | MIX 300G             *AK |  |  | Chips & Salziges | semantic_chips:XOX | XOX FUSSBALL PARTY MIX |
+| 3191856 | XOX FUSSBALL PARTY | FLIPS 450G        *AK |  |  | Chips & Salziges | semantic_chips:XOX | XOX FUSSBALL PARTY FLIPS |
+| 3191871 | XOX SNACKBALLS | CHEESE 150G          *AK |  |  | Chips & Salziges | semantic_chips:XOX | XOX SNACKBALLS CHEESE |
+| 3191873 | XOX SNACKBALLS | PAPRIKA 150G        *AK |  |  | Chips & Salziges | semantic_chips:XOX | XOX SNACKBALLS PAPRIKA |
+| 3191875 | XOX SNACKBALLS | BBQ 150G            *AK |  |  | Chips & Salziges | semantic_chips:XOX | XOX SNACKBALLS BBQ |
+| 3196956 | FUNNY-FRISCH LINSEN | CHIPS PAPRIKA 90G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH LINSEN CHIPS PAPRIKA |
+| 3200516 | FUNNY-FRISCH RINGLI PAPR | IKA 75G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH RINGLI PAPR IKA |
+| 359528 | XOX KRUPUK | 100G | 1002548 | XOX KRUPUK/REISCHIPS 100G | Chips & Salziges | semantic_chips:XOX; whitelist_prefix:XOX KRUPUK/REISCHIPS 100G | XOX KRUPUK XOX KRUPUK REISCHIPS |
+| 36983 | FUNNY FRISCH CHIPS | UNGARISCH 150G*NML | 1002199 | FUNNY FRISCH CHIPS 150-175G | Chips & Salziges | semantic_chips:FUNNY FRISCH; whitelist_prefix:FUNNY FRISCH CHIPS 150-175G | FUNNY FRISCH CHIPS UNGARISCH FUNNY FRISCH CHIPS 150 |
+| 440071 | FUNNY FRISCH RINGLI | PAPRIKA 90G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH RINGLI PAPRIKA |
+| 5024 | FUNNY FRISCH JUMPYS | 75G *AUS |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH JUMPYS |
+| 587083 | XOX PEPPERMIX | 125G | 1002549 | XOX PEPPERMIX 125G | Chips & Salziges | semantic_chips:XOX | XOX PEPPERMIX XOX PEPPERMIX |
+| 666204 | FUNNY FRISCH | FRIT STICKS 120G |  |  | Chips & Salziges | semantic_chips:FUNNY FRISCH | FUNNY FRISCH FRIT STICKS |
+| 733169 | XOX APFELCHIPS | JONATHAN 40G |  |  | Chips & Salziges | semantic_chips:XOX | XOX APFELCHIPS JONATHAN |
+| 2043832 | NOCH 15965 H0 | FUSSBALLTEAM DEUTSCHLAND |  |  | Fanartikel WM/EM | semantic_fanartikel:modell_fussballteam; whitelist_prefix:NOCH 15965 H0 FUSSBALLTEAM DEUTSCHLAND | NOCH 15965 H0 FUSSBALLTEAM DEUTSCHLAND |
+| 2243986 | HAARKREIDE 3 FARBEN | DEUTSCHLAND        AK 18 |  |  | Fanartikel WM/EM | whitelist_prefix:HAARKREIDE 3 FARBEN DEUTSCHLAND        AK 18 | HAARKREIDE 3 FARBEN DEUTSCHLAND AK 18 |
+| 2243994 | SCHMINCKFARBE   E.FABER | DEUTSCHLAND 3 Farb.+Schw |  |  | Fanartikel WM/EM | whitelist_prefix:SCHMINCKFARBE   E.FABER DEUTSCHLAND 3 Farb.+Schw | SCHMINCKFARBE E FABER DEUTSCHLAND 3 FARB SCHW |
+| 2768652 | ADIDAS FUSSBALL WM 22 | XTREM H57798-10A     GR5 |  |  | Fanartikel WM/EM | semantic_fanartikel:wm_em_deutschland | ADIDAS FUSSBALL WM 22 XTREM H57798 10A GR5 |
+| 2923562 | ADIDAS FUSSBALL EM 24 | XTREM IN9366-10A     GR5 |  |  | Fanartikel WM/EM | semantic_fanartikel:wm_em_deutschland | ADIDAS FUSSBALL EM 24 XTREM IN9366 10A GR5 |
+| 3099275 | ADIDAS FUSSBALL WM 26 | XTREM JD8032-10A |  |  | Fanartikel WM/EM | semantic_fanartikel:wm_em_deutschland | ADIDAS FUSSBALL WM 26 XTREM JD8032 10A |
+| 3155337 | LEGO 43020 EDITIONS | POKAL DER FUSSBALL WM |  |  | Fanartikel WM/EM | semantic_fanartikel:wm_em_deutschland | LEGO 43020 EDITIONS POKAL DER FUSSBALL WM |
+| 3162070 | WM 2026 FISCHERHUT | DEUTSCHLAND |  |  | Fanartikel WM/EM | semantic_fanartikel:wm_em_deutschland; whitelist_prefix:WM 2026 FISCHERHUT DEUTSCHLAND | WM 2026 FISCHERHUT DEUTSCHLAND |
+| 3164020 | FANSONNENBRILLE WM 2026 | DEUTSCHLAND *A |  |  | Fanartikel WM/EM | semantic_fanartikel:wm_em_deutschland; whitelist_prefix:FANSONNENBRILLE WM 2026 DEUTSCHLAND *A | FANSONNENBRILLE WM 2026 DEUTSCHLAND |
+| 2618846 | STICKER FUßBALL |  |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | STICKER FUSSBALL |
+| 2841922 | WM 2022 ADR XL TC | PANINI 030945 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | WM 2022 ADR XL TC PANINI 030945 |
+| 2841923 | WM 2022 ADR XL STARTER | PANINI 709997 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | WM 2022 ADR XL STARTER PANINI 709997 |
+| 2841928 | WM 2022 ADR XL FAT-PACK | PANINI 030914 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | WM 2022 ADR XL FAT PACK PANINI 030914 |
+| 2841932 | WM 2022 ADR XL PREM GOLD | PANINI 031140 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | WM 2022 ADR XL PREM GOLD PANINI 031140 |
+| 2841936 | WM 2022 ADR XL PREM | PANINI 031133 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | WM 2022 ADR XL PREM PANINI 031133 |
+| 2852778 | FIFA WM 22 STICKER | PANINI 028874 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | FIFA WM 22 STICKER PANINI 028874 |
+| 2852779 | FIFA WM 22 STARTER | PANINI 2804992 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | FIFA WM 22 STARTER PANINI 2804992 |
+| 2852781 | FIFA WM 22 MULTIPACK | PANINI 906498 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | FIFA WM 22 MULTIPACK PANINI 906498 |
+| 2852784 | FIFA WM 22 SAMMELALBUM | PANINI 2702002 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | FIFA WM 22 SAMMELALBUM PANINI 2702002 |
+| 2867958 | FIFA WM 22 STARTER 2 | PANINI 033595 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | FIFA WM 22 STARTER 2 PANINI 033595 |
+| 2877931 | FIFA WM 22 UPDATE | PANINI 028966 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | FIFA WM 22 UPDATE PANINI 028966 |
+| 2920074 | FRAUEN WM 23 BOOSTER | PANINI 338/60925 *BST |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | FRAUEN WM 23 BOOSTER PANINI 338 60925 |
+| 2920076 | FRAUEN WM 23 ECOBLISTER | PANINI 338/60924 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | FRAUEN WM 23 ECOBLISTER PANINI 338 60924 |
+| 2921808 | FRAUEN WM 23 ALBUM | PANINI 338/60923 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | FRAUEN WM 23 ALBUM PANINI 338 60923 |
+| 2927878 | FIFA FRAUEN WM FLOW PACK | PANINI 338/60927 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | FIFA FRAUEN WM FLOW PACK PANINI 338 60927 |
+| 3007104 | EM 2024 STICKER STARTER | TOP MEDIA 068384 *BX |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | EM 2024 STICKER STARTER TOP MEDIA 068384 |
+| 3007108 | EM 2024 STICKER MEP | TOP MEDIA 068438 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | EM 2024 STICKER MEP TOP MEDIA 068438 |
+| 3007109 | EM 2024 STICKER MULTIPAC | TOP MEDIA 068391 *BX |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | EM 2024 STICKER MULTIPAC TOP MEDIA 068391 |
+| 3007111 | EM 2024 STICKER MINI TIN | TOP MEDIA 068421 *BX |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | EM 2024 STICKER MINI TIN TOP MEDIA 068421 |
+| 3007114 | EM 2024 STICKER HARDCOVE | TOP MEDIA 070813 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | EM 2024 STICKER HARDCOVE TOP MEDIA 070813 |
+| 3007376 | EM 2024 STICKER | TOP MEDIA 068360 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | EM 2024 STICKER TOP MEDIA 068360 |
+| 3101302 | BASKETBALL EURO ECO-BL | PANINI 338/61268 *BX |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | BASKETBALL EURO ECO BL PANINI 338 61268 |
+| 3101961 | BASKETBALL EURO ALBUM SC | PANINI 338/61265 *BX |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | BASKETBALL EURO ALBUM SC PANINI 338 61265 |
+| 367534 | STICKER FUSSBALL 1 | 3 BLATT/PG.   761-02 |  |  | Fanartikel WM/EM; Sticker/Sammelkarten WM/EM | semantic_sticker_sammelkarten:wm_em | STICKER FUSSBALL 1 3 BLATT PG 761 02 |
+| 107491 | SODASTREAM SIRUP | HIMBEER 375 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP HIMBEER |
+| 107492 | SODASTREAM SIRUP | WALDMEISTER 375 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP WALDMEISTER |
+| 107493 | SODASTREAM SIRUP | ISOTONIC 375 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ISOTONIC |
+| 2051238 | CAPRI-SUN KIRSCHE | POUCH 0,2L | 1000110 | CAPRI SUN 0,2L | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN KIRSCHE POUCH CAPRI SUN |
+| 2177304 | CAPRI-SUN SAFARI | 10 ER PACK  *A | 1000071 | CAPRI SUN 10x0,2L | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN SAFARI 10 ER PACK CAPRI SUN 10X0 |
+| 2177307 | CAPRI-SUN ELFENTRANK | 10 ER PACK  *A | 1000071 | CAPRI SUN 10x0,2L | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN ELFENTRANK 10 ER PACK CAPRI SUN 10X0 |
+| 2467440 | COCA COLA ZERO | DOSE DPG 0,33 L | 1002028 | COCA COLA DOSE PFAND 330ML | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA DOSE PFAND 250ML; whitelist_prefix:COCA COLA DOSE PFAND 330ML; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA ZERO DOSE DPG COCA COLA DOSE |
+| 2467461 | MEZZO MIX | DOSE DPG 0,33L *A |  |  | Softdrinks | semantic_softdrinks:MEZZO MIX | MEZZO MIX DOSE DPG |
+| 248230 | SODASTREAM SIRUP | MANDARIN 375 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP MANDARIN |
+| 2516448 | SODASTREAM SIRUP | ICE TEA PFIRSICH 375 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ICE TEA PFIRSICH |
+| 2516450 | SODASTREAM SIRUP | GINGER ALE 375 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP GINGER ALE |
+| 2516455 | SODASTREAM SIRUP | ICE TEA ZITRONE 375 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ICE TEA ZITRONE |
+| 2516456 | SODASTREAM SIRUP | KRAEUTERGESCHMACK 375 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP KRAEUTERGESCHMACK |
+| 2526063 | CAPRI-SUN BUBBLES | ORANGE DPG 330 ML *SOB |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN BUBBLES ORANGE DPG |
+| 2526069 | CAPRI-SUN BUBBLES | HIMBEERE DPG 330 ML *SOB |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN BUBBLES HIMBEERE DPG |
+| 260167 | CAPRI-SUN KIRSCHE | GRANATAPF.  0,33L | 1000068 | CAPRI SUN 0,33L | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN KIRSCHE GRANATAPF CAPRI SUN |
+| 260175 | CAPRI-SUN MANGO | MARACUJA  0,33L | 1000068 | CAPRI SUN 0,33L | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN MANGO MARACUJA CAPRI SUN |
+| 2618421 | SPRITE | DPG 1 L *UMS |  |  | Softdrinks | semantic_softdrinks:SPRITE; whitelist_prefix:SPRITE PFAND 0,5L | SPRITE DPG |
+| 2641900 | SODASTREAM SIRUP | PEPSI 440ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP PEPSI |
+| 2641920 | SODASTREAM SIRUP | PEPSI MAX O. Z. 440ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP PEPSI MAX O Z |
+| 2641926 | SODASTREAM SIRUP | 7 UP 440ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP 7 UP |
+| 2641928 | SODASTREAM SIRUP | MIRINDA 440ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP MIRINDA |
+| 2641930 | SODASTREAM SIRUP | SCHWIPSCHWAP 440ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP SCHWIPSCHWAP |
+| 2641932 | SODASTREAM SIRUP | 7 UP OHNE ZUCKER 440ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP 7 UP OHNE ZUCKER |
+| 2641935 | SODASTREAM SIRUP | MIRINDA O. Z. 440ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP MIRINDA O Z |
+| 2641936 | SODASTREAM SIRUP | SCHWIPSCHWAP O. Z. 440ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP SCHWIPSCHWAP O Z |
+| 266706 | SODASTREAM SIRUP | COLA 500 ML | 1002138 | SODASTREAM SIRUP 375ML-500ML | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP COLA SODASTREAM SIRUP |
+| 266712 | SODASTREAM SIRUP | COLA LIGHT 500 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP COLA LIGHT |
+| 266717 | SODASTREAM SIRUP | ORANGE 500 ML | 1002138 | SODASTREAM SIRUP 375ML-500ML | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ORANGE SODASTREAM SIRUP |
+| 266725 | SODASTREAM SIRUP | ZITRONE-LIMETTE 500 ML | 1002138 | SODASTREAM SIRUP 375ML-500ML | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ZITRONE LIMETTE SODASTREAM SIRUP |
+| 266728 | SODASTREAM SIRUP | COLA MIX 500 ML | 1002138 | SODASTREAM SIRUP 375ML-500ML | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP COLA MIX SODASTREAM SIRUP |
+| 270747 | FANTA ORANGE | DPG 1 L *UMS |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA ORANGE DPG |
+| 271508 | MEZZO MIX ORANGE | DPG 1 L *UMS |  |  | Softdrinks | semantic_softdrinks:MEZZO MIX | MEZZO MIX ORANGE DPG |
+| 2753410 | FANTA  MANGO DRAGONFRUIT | DOSE DPG 0,33L |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA MANGO DRAGONFRUIT DOSE DPG |
+| 2753419 | FANTA  EXOTIC | DOSE DPG 0,33L |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA EXOTIC DOSE DPG |
+| 2753752 | FANTA ORANGE SIRUP | 0,33L *AT *NML | 1004368 | FANTA/SPRITE/MEZZO MIX SIRUP 0,33L GLAS *OE | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L; whitelist_prefix:FANTA/SPRITE/MEZZO MIX SIRUP 0,33L GLAS *OE | FANTA ORANGE SIRUP FANTA SPRITE MEZZO MIX SIRUP GLAS |
+| 2765047 | SODASTREAM SIRUP | PFIRSICH ICE TEA 440ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP PFIRSICH ICE TEA |
+| 2765049 | SODASTREAM SIRUP | ZITRONE ICE TEA 440ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ZITRONE ICE TEA |
+| 2765051 | SODASTREAM SIRUP | GREEN ICE TEA 440ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP GREEN ICE TEA |
+| 2787677 | FANTA  ELDERFLOWER | DPG 0,33L |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA ELDERFLOWER DPG |
+| 2787703 | FANTA STRAWBERRY KIWI | DPG 0,33L *SOB |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA STRAWBERRY KIWI DPG |
+| 2789378 | COCA COLA  ZERO | DPG 6x0,33L *SOB |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA ZERO DPG 6X0 |
+| 2799322 | COCA COLA FLASCHE | DPG 0,33L*A *SOB |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA FLASCHE DPG |
+| 2799391 | CAPRI-SUN JUNGLE DRINK | 10 ER PACK  *A |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN JUNGLE DRINK 10 ER PACK |
+| 2799690 | COCA COLA ZERO | FLASCHE DPG 0,33L*A *SOB |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA ZERO FLASCHE DPG |
+| 2811156 | COCA COLA  ZERO ZERO | DPG PET 0,5L *NML |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA ZERO ZERO DPG PET |
+| 2816196 | CAPRI-SUN SIRUP | MULTIVITAMIN 0,6L |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN SIRUP MULTIVITAMIN |
+| 2816200 | CAPRI-SUN SIRUP | KIRSCHE 600ML *SOB |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN SIRUP KIRSCHE |
+| 2824841 | SODASTREAM SIRUP BIO | GINGER ALE 500ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP BIO GINGER ALE |
+| 2824845 | SODASTREAM SIRUP BIO | APFEL 500ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP BIO APFEL |
+| 2824856 | SODASTREAM SIRUP BIO | ORANGE 500ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP BIO ORANGE |
+| 2824861 | SODASTREAM SIRUP BIO | CASSIS 500ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP BIO CASSIS |
+| 2824872 | SODASTREAM SIRUP BIO | ZITRONE 500ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP BIO ZITRONE |
+| 2824876 | SODASTREAM SIRUP BIO | PINK GRAPEFRUIT 500ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP BIO PINK GRAPEFRUIT |
+| 2832102 | SODASTREAM SIRUP 440ML | ROCKSTAR ORIGINAL ZERO |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ROCKSTAR ORIGINAL ZERO |
+| 2832105 | SODASTREAM SIRUP 440ML | ROCKSTAR ZERO GUAVA |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ROCKSTAR ZERO GUAVA |
+| 2839813 | COCA COLA LIPPENPFLEGE | EMPEAK Z82044HW |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA LIPPENPFLEGE EMPEAK Z82044HW |
+| 2887633 | COCA COLA  ZERO SUGAR | DOSE DPG 0,25L *A |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA ZERO SUGAR DOSE DPG |
+| 2921837 | COCA COLA  ZERO SUGAR | FUTURE DOSE DPG0,25L *AK |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA ZERO SUGAR FUTURE DOSE DPG0 |
+| 2923280 | SODASTREAM SIRUP | GRAPEFRUIT O.Z. 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP GRAPEFRUIT O Z |
+| 2923283 | SODASTREAM SIRUP | ZITRONE O.Z. 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ZITRONE O Z |
+| 2923285 | SODASTREAM SIRUP | ISOTONIC 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ISOTONIC |
+| 2923286 | SODASTREAM SIRUP | COLA 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP COLA |
+| 2923287 | SODASTREAM SIRUP | ORANGE 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ORANGE |
+| 2923288 | SODASTREAM SIRUP | ORANGE O.Z. 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ORANGE O Z |
+| 2923289 | SODASTREAM SIRUP | ZITRONE-LIMETTE 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ZITRONE LIMETTE |
+| 2923290 | SODASTREAM SIRUP | Z.-LIMETTE O.Z. 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP Z LIMETTE O Z |
+| 2923292 | SODASTREAM SIRUP | COLA O.Z. 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP COLA O Z |
+| 2923293 | SODASTREAM SIRUP | COLA+ORANGE 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP COLA ORANGE |
+| 2923294 | SODASTREAM SIRUP | COLA+ORANGE O.Z 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP COLA ORANGE O Z |
+| 2923295 | SODASTREAM SIRUP | ROTE BEEREN O.Z. 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ROTE BEEREN O Z |
+| 2923296 | SODASTREAM SIRUP | KIRSCHE O.Z. 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP KIRSCHE O Z |
+| 2940573 | CAPRI-SUN BUBBLES | KIRSCHE 0,33L *A |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN BUBBLES KIRSCHE |
+| 2941052 | SPRITE  ZERO ZITR.LIMET. | DOSE DPG 0,33L |  |  | Softdrinks | semantic_softdrinks:SPRITE; whitelist_prefix:SPRITE PFAND 0,5L | SPRITE ZERO ZITR LIMET DOSE DPG |
+| 2963463 | COCA COLA LIPPBALM | EMPEAK 1411273EW |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA LIPPBALM EMPEAK 1411273EW |
+| 2987405 | FANTA  ZERO O.Z. ORANGE | DOSE DPG 0,33L |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA ZERO O Z ORANGE DOSE DPG |
+| 2987417 | COCA COLA CHERRY | DOSE DPG 0,33L *A |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA CHERRY DOSE DPG |
+| 2994400 | CAPRI-SUN MULTIVITAMIN | ZERO POUCH 0,2L |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN MULTIVITAMIN ZERO POUCH |
+| 2998905 | FANTA ORANGE EINWEG | DOSE 0,33L |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA ORANGE EINWEG DOSE |
+| 3005721 | CAPRI-SUN MULTIVITAMIN | ZERO 10 ER PACK  *A |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN MULTIVITAMIN ZERO 10 ER PACK |
+| 3014986 | CAPRI-SUN SIRUP VITAMIN | MONSTER ALARM 0,6L |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN SIRUP VITAMIN MONSTER ALARM |
+| 3029986 | COCA COLA  ZERO SUGAR | DESTINY DOSE DPG 0,25L*A |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA ZERO SUGAR DESTINY DOSE DPG |
+| 3075556 | MEZZO MIX BERRY LOVE | DOSE DPG 0,33L *A |  |  | Softdrinks | semantic_softdrinks:MEZZO MIX | MEZZO MIX BERRY LOVE DOSE DPG |
+| 3076864 | COCA COLA LIPPBALM CHERR | EMPEAK 1411803EW |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA LIPPBALM CHERR EMPEAK 1411803EW |
+| 3078705 | SODASTREAM SIRUP PINK | GRAPEFRUIT O.Z. 440 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP PINK GRAPEFRUIT O Z |
+| 3091643 | CAPRI-SUN MYSTIC DRAGON | 10 ER PACK *A |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN MYSTIC DRAGON 10 ER PACK |
+| 3091647 | CAPRI-SUN COLA | 10 ER PACK *A |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN COLA 10 ER PACK |
+| 3091650 | CAPRI-SUN MONSTER ZERO | 10 ER PACK *A |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN MONSTER ZERO 10 ER PACK |
+| 3091651 | CAPRI-SUN CHERRY | 10 ER PACK *A |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN CHERRY 10 ER PACK |
+| 3099565 | COCA COLA CHERRY CUP | EMPEAK Z82045HW |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA CHERRY CUP EMPEAK Z82045HW |
+| 3099582 | SPRITE LIPPENPFLEGESTIFT | EMPEAK E88854HW |  |  | Softdrinks | semantic_softdrinks:SPRITE; whitelist_prefix:SPRITE PFAND 0,5L | SPRITE LIPPENPFLEGESTIFT EMPEAK E88854HW |
+| 3099590 | COCA COLA VANILLA PFLEGE | EMPEAK E88857HW |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA VANILLA PFLEGE EMPEAK E88857HW |
+| 3105612 | FANTA CASSIS | DOSE DPG 0,33L |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA CASSIS DOSE DPG |
+| 3106058 | COCA COLA VANILLA | EINWEG DOSE 0,33L *SOB |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA VANILLA EINWEG DOSE |
+| 3106793 | CAPRI-SUN MYSTIC DRAGON | POUCH 0,2L |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN MYSTIC DRAGON POUCH |
+| 3106876 | CAPRI-SUN SIRUP | FAIRY BERRY ZERO 0,6L |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN SIRUP FAIRY BERRY ZERO |
+| 3108441 | COCA COLA | DPG 0,85L |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA DPG |
+| 3108460 | COCA COLA ZERO | DPG 0,85L |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA ZERO DPG |
+| 3110890 | CAPRI SUN ICE POPS | 400G                 *AK |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN ICE POPS |
+| 3112445 | CAPRI-SUN MONSTER | ZERO POUCH 0,2L |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN MONSTER ZERO POUCH |
+| 3113839 | MEZZO MIX | DPG 0,85L |  |  | Softdrinks | semantic_softdrinks:MEZZO MIX | MEZZO MIX DPG |
+| 3113848 | SPRITE | DPG 0,85L |  |  | Softdrinks | semantic_softdrinks:SPRITE; whitelist_prefix:SPRITE PFAND 0,5L | SPRITE DPG |
+| 3113852 | FANTA ORANGE | DPG 0,85L |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA ORANGE DPG |
+| 3126745 | FANTA APFEL LYCHEE ZERO | DPG 0,33L *SOB |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA APFEL LYCHEE ZERO DPG |
+| 3126904 | FANTA MARACUJA | ZERO DPG 0,33L *SOB |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA MARACUJA ZERO DPG |
+| 3126907 | FANTA FRAMBUESA ZERO | DPG 0,33L *SOB |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA FRAMBUESA ZERO DPG |
+| 3126911 | FANTA PINEAPPLE | GRAPEFRUIT DPG 0,33L*SOB |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA PINEAPPLE GRAPEFRUIT DPG |
+| 3129057 | COCA COLA LEMON | DOSE DPG 0,33L *A |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA LEMON DOSE DPG |
+| 3144670 | FANTA WALDBEERE SF | DOSE DPG 0,33L *A |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA WALDBEERE SF DOSE DPG |
+| 3145402 | FANTA TUTTI FRUTTI SF | DOSE DPG 0,33L*A |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA TUTTI FRUTTI SF DOSE DPG |
+| 3151852 | MEZZO MIX RASPBERRY | DOSE DPG 0,33L*A |  |  | Softdrinks | semantic_softdrinks:MEZZO MIX | MEZZO MIX RASPBERRY DOSE DPG |
+| 3152631 | CAPRI-SUN EHGR. | FRIES 43510 |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN EHGR FRIES 43510 |
+| 3153199 | CAPRI-SUN COLA | POUCH 0,2L *A |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN COLA POUCH |
+| 3164115 | COCA COLA ZERO ZERO | KFREI DOSE DPG 0,33L |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA ZERO ZERO KFREI DOSE DPG |
+| 3167073 | CAPRI-SUN ELECTROLYTES | MANGO MARACUJA  0,33L |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN ELECTROLYTES MANGO MARACUJA |
+| 3167075 | CAPRI-SUN ELECTROLYTES | BLACKBERRY RASPBER 0,33L |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN ELECTROLYTES BLACKBERRY RASPBER |
+| 3191848 | CAPRI SUN SOFT CHEWS | MONSTER ALARM 147G |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN SOFT CHEWS MONSTER ALARM |
+| 3191849 | CAPRI SUN SOFT CHEWS | FRUIT-MIX 147G |  |  | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN SOFT CHEWS FRUIT MIX |
+| 3193584 | FANTA  APFEL KIRSCH | DOSE DPG 0,33L *A |  |  | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA APFEL KIRSCH DOSE DPG |
+| 3193954 | COCA COLA | VANILLA PET 0,5L |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA VANILLA PET |
+| 326556 | CAPRI-SUN MULTIVITAMIN | 10 ER PACK *A | 1000071 | CAPRI SUN 10x0,2L | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN MULTIVITAMIN 10 ER PACK CAPRI SUN 10X0 |
+| 458025 | CAPRI-SUN MONSTER | 10 ER PACK   *A | 1000071 | CAPRI SUN 10x0,2L | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN MONSTER 10 ER PACK CAPRI SUN 10X0 |
+| 491678 | CAPRI-SUN | MONSTER ALARM 0,2L | 1000110 | CAPRI SUN 0,2L | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN MONSTER ALARM CAPRI SUN |
+| 555097 | CAPRI-SUN MULTIVITAMIN | POUCH    0,33L | 1000068 | CAPRI SUN 0,33L | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN MULTIVITAMIN POUCH CAPRI SUN |
+| 599049 | COCA COLA CLASSIC | DPG 6X0,33L *SOB |  |  | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA CLASSIC DPG 6X0 |
+| 605912 | CAPRI-SUN ORANGE | 10 ER PACK  *A | 1000071 | CAPRI SUN 10x0,2L | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN ORANGE 10 ER PACK CAPRI SUN 10X0 |
+| 642471 | COCA COLA LIGHT DPG | PET 0,5L | 1002029 | COCA COLA PFAND 0,5L | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA LIGHT DPG PET COCA COLA |
+| 642474 | COCA COLA DPG | PET 0,5L | 1002029 | COCA COLA PFAND 0,5L | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA DPG PET COCA COLA |
+| 642477 | COCA COLA ZERO DPG | PET 0,5L | 1002029 | COCA COLA PFAND 0,5L | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA ZERO DPG PET COCA COLA |
+| 642479 | FANTA ORANGE DPG | PET 0,5L | 1002042 | FANTA PFAND 0,5L | Softdrinks | semantic_softdrinks:FANTA; whitelist_prefix:FANTA PFAND 0,5L | FANTA ORANGE DPG PET FANTA |
+| 642486 | MEZZO MIX ORANGE DPG | PET 0,5L |  |  | Softdrinks | semantic_softdrinks:MEZZO MIX | MEZZO MIX ORANGE DPG PET |
+| 68066 | CAPRI-SUN ORANGE | POUCH 0,2L | 1000110 | CAPRI SUN 0,2L | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN ORANGE POUCH CAPRI SUN |
+| 68130 | CAPRI-SUN MULTIVITAMIN | POUCH 0,2L | 1000110 | CAPRI SUN 0,2L | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN MULTIVITAMIN POUCH CAPRI SUN |
+| 75693 | COCA COLA | DPG 1 L *UMS | 1002031 | COCA COLA PFAND 1L | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA DPG COCA COLA |
+| 75966 | COCA COLA ZERO | DPG 1 L *UMS | 1002031 | COCA COLA PFAND 1L | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA ZERO DPG COCA COLA |
+| 824598 | SODASTREAM SIRUP | COLA OHNE ZUCKER 500ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP COLA OHNE ZUCKER |
+| 824606 | SODASTREAM SIRUP | ZITR.-LIMETTE O.Z. 500ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ZITR LIMETTE O Z |
+| 824619 | SODASTREAM SIRUP | ORANGE OHNE ZUCKER 500ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ORANGE OHNE ZUCKER |
+| 84819 | CAPRI-SUN ORANGE-PEACH | POUCH 0,33L | 1000068 | CAPRI SUN 0,33L | Softdrinks | semantic_softdrinks:CAPRI SUN; whitelist_prefix:CAPRI SUN 0,33L | CAPRI SUN ORANGE PEACH POUCH CAPRI SUN |
+| 932580 | COCA COLA  CLASSIC | DOSE DPG 0,33L | 1002028 | COCA COLA DOSE PFAND 330ML | Softdrinks | semantic_softdrinks:COCA COLA; whitelist_prefix:COCA COLA DOSE PFAND 250ML; whitelist_prefix:COCA COLA DOSE PFAND 330ML; whitelist_prefix:COCA COLA PFAND 0,5L; whitelist_prefix:COCA COLA PFAND 1,5L; whitelist_prefix:COCA COLA PFAND 1L | COCA COLA CLASSIC DOSE DPG COCA COLA DOSE |
+| 951677 | SODASTREAM SIRUP | KIRSCHE 375 ML | 1002138 | SODASTREAM SIRUP 375ML-500ML | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP KIRSCHE SODASTREAM SIRUP |
+| 97639 | SPRITE DPG | PET 0,5L | 1002140 | SPRITE PFAND 0,5L | Softdrinks | semantic_softdrinks:SPRITE; whitelist_prefix:SPRITE PFAND 0,5L | SPRITE DPG PET SPRITE |
+| 980501 | SODASTREAM SIRUP | ENERGY 375 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP ENERGY |
+| 984550 | SODASTREAM SIRUP PINK | GRAPEFRUIT 375 ML |  |  | Softdrinks | semantic_softdrinks:SODASTREAM SIRUP; whitelist_prefix:SODASTREAM SIRUP 375ML-500ML | SODASTREAM SIRUP PINK GRAPEFRUIT |
+| 112615 | LINDT MINI PRALINES*ALK | WEIHNACHTEN 100G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES WEIHNACHTEN |
+| 113066 | RAGUSA FRIENDS BLOND | PRALINES 4X11G NML |  |  | Suesswaren | semantic_suesswaren:PRALIN* | RAGUSA FRIENDS BLOND PRALINES 4X11G NML |
+| 118015 | LINDT LES GRANDES | FEINHERB 150G | 1002314 | LINDT LES GRANDES 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT LES GRANDES FEINHERB LINDT LES GRANDES |
+| 119523 | LINDT CREATION | PISTAZIE 148G*ALK | 1002299 | LINDT CREATION 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT CREATION PISTAZIE LINDT CREATION |
+| 12126 | TROLLI BURGER | GUMMIBONBON 50G |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI BURGER GUMMIBONBON |
+| 122706 | LINDT LES GRANDES | BLANC AMANDE 150G | 1002314 | LINDT LES GRANDES 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT LES GRANDES BLANC AMANDE LINDT LES GRANDES |
+| 12354 | RITTER SPORT SCHOKOLADE | WEISSE VOLL-NUSS 100G | 1000189 | RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE 100G | Suesswaren | semantic_suesswaren:RITTER SPORT; whitelist_prefix:RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE 100G | RITTER SPORT SCHOKOLADE WEISSE VOLL NUSS RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE |
+| 12358 | RITTER SPORT SCHOKOLADE | RUM-TRAUBEN-NUSS 100G | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE RUM TRAUBEN NUSS RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 12361 | RITTER SPORT SCHOKOLADE | MARZIPAN 100G | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE MARZIPAN RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 12362 | RITTER SPORT SCHOKOLADE | HALBBITTER 100G*SOBE | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE HALBBITTER RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 12364 | RITTER SPORT SCHOKOLADE | ALPENMILCH 100G | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE ALPENMILCH RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 12365 | RITTER SPORT SCHOKOLADE | EDEL-VOLLMILCH 100G | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE EDEL VOLLMILCH RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 12366 | RITTER SPORT SCHOKOLADE | NOUGAT 100G | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE NOUGAT RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 12367 | RITTER SPORT SCHOKOLADE | TRAUBEN-NUSS 100G | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE TRAUBEN NUSS RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 12368 | RITTER SPORT SCHOKOLADE | VOLL-NUSS 100G | 1000189 | RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE 100G | Suesswaren | semantic_suesswaren:RITTER SPORT; whitelist_prefix:RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE 100G | RITTER SPORT SCHOKOLADE VOLL NUSS RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE |
+| 12369 | RITTER SPORT SCHOKOLADE | JOGHURT 100G | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE JOGHURT RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 123883 | LINDT LES GRANDES | MILCH HASELNUSS 150G | 1002314 | LINDT LES GRANDES 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT LES GRANDES MILCH HASELNUSS LINDT LES GRANDES |
+| 12481 | RITTER SPORT SCHOKOLADE | KNUSPER FLAKES 100G*SOBE | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE KNUSPER FLAKES RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 12513 | ILM I LOVE MILKA PRALINE | HASELNUSS 110G | 1000352 | MILKA HERZ 110G-138G | Suesswaren | semantic_suesswaren:PRALIN* | ILM I LOVE MILKA PRALINE HASELNUSS MILKA HERZ |
+| 12586 | PRINZEN ROLLE | KAKAO 400G*NML | 1000308 | PRINZENROLLE 400G | Suesswaren | semantic_suesswaren:PRINZENROLLE | PRINZEN ROLLE KAKAO PRINZENROLLE |
+| 12640 | BOEHME FRUCHTKARAMELLEN | 250G *F | 1002198 | FRUCHTKARAMELLEN 300G | Suesswaren | semantic_suesswaren:BOEHME | BOEHME FRUCHTKARAMELLEN FRUCHTKARAMELLEN |
+| 12648 | MERCI BLAU - HELLE | VIELFALT250G | 1000328 | MERCI VIELFALT 250G | Suesswaren | semantic_suesswaren:MERCI | MERCI BLAU HELLE VIELFALT250G MERCI VIELFALT |
+| 12700 | MERCI GROSSE VIELFALT | 250G | 1000328 | MERCI VIELFALT 250G | Suesswaren | semantic_suesswaren:MERCI | MERCI GROSSE VIELFALT MERCI VIELFALT |
+| 139259 | LINDT EIERLIKOER-EIER | LOSE 18G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EIERLIKOER EIER LOSE |
+| 140317 | RITTER SPORT SCHOKOLADE | GEBRAN MANDEL100G*AK | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE GEBRAN MANDEL100G RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 145030 | HEIDEL EURO GELDKASSETTE | 60G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL EURO GELDKASSETTE |
+| 148379 | HEILEMANN MINI | PRALINES 91G | 1002261 | HEILEMANN PRALINES MINI 91G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN MINI PRALINES HEILEMANN PRALINES MINI |
+| 149809 | LINDT MINI PRALINES | NOUGAT 165G | 1002324 | LINDT MINI PRALINES 158G-180G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES NOUGAT LINDT MINI PRALINES |
+| 152644 | RÜDESHEIMER VERPOORTEN | PRALINEN ZB 120G*W*NML | 1002477 | RÜDESHEIMER VERPOORTEN 120G | Suesswaren | semantic_suesswaren:PRALIN* | RUEDESHEIMER VERPOORTEN PRALINEN ZB RUEDESHEIMER VERPOORTEN |
+| 152745 | SCHLADERER PRALINES | ADVENTSKAL. 255G *W-BK |  |  | Suesswaren | semantic_suesswaren:PRALIN* | SCHLADERER PRALINES ADVENTSKAL |
+| 158554 | LINDT FIORETTO | PRAESENT MARZIPAN 138G | 1002306 | LINDT FIORETTO PRÄSENT 138G | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO PRAESENT MARZIPAN LINDT FIORETTO PRAESENT |
+| 158557 | LINDT FIORETTO | PRAESENT ZABAIO 138G*NML | 1002306 | LINDT FIORETTO PRÄSENT 138G | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO PRAESENT ZABAIO LINDT FIORETTO PRAESENT |
+| 178165 | HEIDEL WEIHN.NOSTALGIE | GESCHENKSAECK.158G*WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL WEIHN NOSTALGIE GESCHENKSAECK |
+| 178232 | HEIDEL WEIHN.NOSTALGIE | NIKOLAUSSTIEFEL 63G*WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL WEIHN NOSTALGIE NIKOLAUSSTIEFEL |
+| 17938 | HEIDEL MÄNNERPARTIE | 37G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL MAENNERPARTIE |
+| 17950 | HEIDEL YOGA  SCHACHTEL | NIMM DIR ZEIT 75G NML | 1002235 | HEIDEL CHOCO GRÜSSE 100G | Suesswaren | semantic_suesswaren:HEIDEL; whitelist_prefix:HEIDEL CHOCO GRÜSSE 100G; whitelist_prefix:HEIDEL CHOCO GRÜSSE 30G | HEIDEL YOGA SCHACHTEL NIMM DIR ZEIT NML HEIDEL CHOCO GRUESSE |
+| 180092 | LINDT DARK ADVENTS- | KALENDER DARK 250G *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DARK ADVENTS KALENDER DARK |
+| 18237 | HEILEMANN | ALLES LIEBE 52G | 1002260 | HEILEMANN PRALINEN 52G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN ALLES LIEBE HEILEMANN PRALINEN |
+| 18242 | HEILEMANN HERZLICHEN | GLUECKWUNSCH 52G | 1002260 | HEILEMANN PRALINEN 52G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN HERZLICHEN GLUECKWUNSCH HEILEMANN PRALINEN |
+| 18252 | HEILEMANN KLEINES | DANKESCHOEN 52G | 1002260 | HEILEMANN PRALINEN 52G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN KLEINES DANKESCHOEN HEILEMANN PRALINEN |
+| 192689 | LINDOR KISSENPACKUNG | MISCHUNG 323G*NML | 1002320 | LINDT LINDOR KISSEN 322-325G | Suesswaren | semantic_suesswaren:LINDT | LINDOR KISSENPACKUNG MISCHUNG LINDT LINDOR KISSEN 322 |
+| 19942 | TROLLI APFELRINGE | SAUER 150G | 1000323 | TROLLI FRUCHTGUMMI 175G-200G | Suesswaren | semantic_suesswaren:TROLLI | TROLLI APFELRINGE SAUER TROLLI FRUCHTGUMMI |
+| 19957 | TROLLI PFIRSICHRINGE | 150G | 1000323 | TROLLI FRUCHTGUMMI 175G-200G | Suesswaren | semantic_suesswaren:TROLLI | TROLLI PFIRSICHRINGE TROLLI FRUCHTGUMMI |
+| 19958 | TROLLI SAURE GLUEH- | WUERMCHEN 150G | 1000323 | TROLLI FRUCHTGUMMI 175G-200G | Suesswaren | semantic_suesswaren:TROLLI | TROLLI SAURE GLUEH WUERMCHEN TROLLI FRUCHTGUMMI |
+| 200131 | LINDT SPEZ.-EIER | SORTIERT BTL. 90G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SPEZ EIER SORTIERT BTL |
+| 200132 | LINDT LINDOR-EIER | VOLLMILCH BTL 90G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR EIER VOLLMILCH BTL |
+| 200133 | LINDT CRESTA-EIER | 90G   *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT CRESTA EIER |
+| 200134 | LINDT NOUGAT-EIER | BTL. 90G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NOUGAT EIER BTL |
+| 200136 | LINDT TRUEFF.-EIER | MARC DE CHAM. 90G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TRUEFF EIER MARC DE CHAM |
+| 200137 | LINDT BLAETTERKROK.-EIER | BTL. 85G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BLAETTERKROK EIER BTL |
+| 200139 | LINDT EIERLIKOER-EIER | 108G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EIERLIKOER EIER |
+| 200140 | LINDT ALKOHOL-EIER | SORTIERT 108G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ALKOHOL EIER SORTIERT |
+| 200143 | LINDT BLAETTER-KROKANT | ZAPFEN 90G   *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BLAETTER KROKANT ZAPFEN |
+| 200144 | LINDT NOUGAT | BAUMBEHANG 100G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NOUGAT BAUMBEHANG |
+| 2008715 | LINDT LINDOR KUGELN ERD- | BEER-SAH BEUT. 137G | 1002321 | LINDT LINDOR KUGELN BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KUGELN ERD BEER SAH BEUT LINDT LINDOR KUGELN BEUTEL |
+| 2009667 | SCHAUMZUCKER-FRUCHTGUMMI | KRONEN MIT 15% P125G*SOB | 1000207 | BEAUTY SWEETIES FRUCHTGUMMI 125G | Suesswaren | semantic_suesswaren:BEAUTY SWEETIES; whitelist_prefix:BEAUTY SWEETIES FRUCHTGUMMI 125G | SCHAUMZUCKER FRUCHTGUMMI KRONEN MIT 15 P125G BEAUTY SWEETIES FRUCHTGUMMI |
+| 2009691 | SAURE FRUCHTGUMMI-KATZEN | MIT 25% FRUCHTSAFT 125G | 1000207 | BEAUTY SWEETIES FRUCHTGUMMI 125G | Suesswaren | semantic_suesswaren:BEAUTY SWEETIES; whitelist_prefix:BEAUTY SWEETIES FRUCHTGUMMI 125G | SAURE FRUCHTGUMMI KATZEN MIT 25 FRUCHTSAFT BEAUTY SWEETIES FRUCHTGUMMI |
+| 2012240 | LINDT WEIHNACHTSMARKT | ADV.KALENDER 250G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMARKT ADV KALENDER |
+| 2012579 | LINDT PRALINES ROTGOLD | PRALINES 300G *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES ROTGOLD PRALINES |
+| 201551 | LINDT SAMMELNUMMER | LOSE EIER 17G/18G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SAMMELNUMMER LOSE EIER |
+| 201930 | LINDT SCHOKOLADE*ALK | GEF.COGNAC 100G*SOBE | 1002337 | LINDT SCHOKOLADE GEFÜLLT 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G; whitelist_prefix:LINDT SCHOKOLADE GEFÜLLT 100G | LINDT SCHOKOLADE GEF COGNAC LINDT SCHOKOLADE GEFUELLT |
+| 201931 | LINDT SCHOKOLADE GEF. | KIRSCH 100G*ALK*SOBE | 1002337 | LINDT SCHOKOLADE GEFÜLLT 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G; whitelist_prefix:LINDT SCHOKOLADE GEFÜLLT 100G | LINDT SCHOKOLADE GEF KIRSCH LINDT SCHOKOLADE GEFUELLT |
+| 201932 | LINDT SCHOKOLADE GEF. | WILLIAMS 100G*ALK*SOBE | 1002337 | LINDT SCHOKOLADE GEFÜLLT 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G; whitelist_prefix:LINDT SCHOKOLADE GEFÜLLT 100G | LINDT SCHOKOLADE GEF WILLIAMS LINDT SCHOKOLADE GEFUELLT |
+| 201934 | LINDT SCHOKOLADE | CRESTA ROT 100G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SCHOKOLADE CRESTA ROT LINDT SCHOKOLADE |
+| 201935 | LINDT PRALINES-MISCHUNG | KLEINER DANK 41G*ALK | 1002332 | LINDT PRALINES KLEINER DANK 40G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES MISCHUNG KLEINER DANK LINDT PRALINES KLEINER DANK |
+| 201938 | LINDT SCHOKOLADE MASSIV | ALPENVOLLMILCH E.F.100G | 1002338 | LINDT SCHOKOLADE VOLLMILCH 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SCHOKOLADE MASSIV ALPENVOLLMILCH E F LINDT SCHOKOLADE VOLLMILCH |
+| 201939 | LINDT SCHOKOLADE | ZB 52% CACAO 100G | 1002338 | LINDT SCHOKOLADE VOLLMILCH 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SCHOKOLADE ZB 52 CACAO LINDT SCHOKOLADE VOLLMILCH |
+| 201946 | LINDT HAUCHD. TAEFELCHEN | AUSL VM WEIßE 125G*W*NML | 1002307 | LINDT HAUCHDÜNNE TÄFELCHEN 125G | Suesswaren | semantic_suesswaren:LINDT | LINDT HAUCHD TAEFELCHEN AUSL VM WEISSE LINDT HAUCHDUENNE TAEFELCHEN |
+| 201947 | LINDT HAUCHD. TAEFELCHEN | VOLLMILCH 125G | 1002307 | LINDT HAUCHDÜNNE TÄFELCHEN 125G | Suesswaren | semantic_suesswaren:LINDT | LINDT HAUCHD TAEFELCHEN VOLLMILCH LINDT HAUCHDUENNE TAEFELCHEN |
+| 2019626 | PRALINA MINIETAGERE | 2-TLG. KLAR |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINA MINIETAGERE 2 TLG KLAR |
+| 201966 | LINDT FIORETTO NOUGAT | PRAESENT 138G *S | 1002306 | LINDT FIORETTO PRÄSENT 138G | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO NOUGAT PRAESENT LINDT FIORETTO PRAESENT |
+| 201987 | LINDT WEIHN.-CHOCOLADE | 100G     *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHN CHOCOLADE |
+| 201988 | LINDT WEIHNACHTS ZAUBER | PRALINEN 100G *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT WEIHNACHTS ZAUBER PRALINEN |
+| 201990 | LINDT MARZIPAN RIEGEL | 50G | 1002334 | LINDT RIEGEL 50G | Suesswaren | semantic_suesswaren:LINDT | LINDT MARZIPAN RIEGEL LINDT RIEGEL |
+| 201992 | LINDT WEIHNACHTSMANDELN | 100G  *WEIHN*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANDELN |
+| 202003 | LINDT WEIHNACHTS KOSTBAR | TANNENB100G*WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTS KOSTBAR TANNENB100G |
+| 202004 | LINDT WEIHNACHTSMANN | 40G      *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANN |
+| 202005 | LINDT WEIHNACHTSMANN | 70G       *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANN |
+| 202006 | LINDT WEIHNACHTSMANN | 125G       *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANN |
+| 202007 | LINDT WEIHNACHTSMANN | 200G     *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANN |
+| 202012 | LINDT MINI KUGELN | LINDOR 100G  *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI KUGELN LINDOR |
+| 202030 | LINDT GOLDHASE | 200G*ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE |
+| 202031 | LINDT GOLDHASE | 100G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE |
+| 202032 | LINDT GOLDHASE | 50G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE |
+| 202033 | LINDT ALPENMILCH-MINI- | EIER 100G   *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ALPENMILCH MINI EIER |
+| 202034 | LINDT LINDOR-MINI-EIER | VOLLMILCH 100G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MINI EIER VOLLMILCH |
+| 202035 | LINDT LINDOR -MINI-EIER | IM KOECHER 150G *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MINI EIER IM KOECHER |
+| 202060 | LINDT KLASSISCHE | SPEZIALIT. 144G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KLASSISCHE SPEZIALIT |
+| 202061 | LINDT KLASSISCHE | SPEZIALIT. 214G *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KLASSISCHE SPEZIALIT |
+| 202062 | LINDT KLASSISCHE | SPEZIALIT. 288G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KLASSISCHE SPEZIALIT |
+| 202063 | LINDT ALKOHOL SPEZIALIT. | EIER 144G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ALKOHOL SPEZIALIT EIER |
+| 202064 | LINDT AUSLESE GEM. | SORTIERUNG 288G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT AUSLESE GEM SORTIERUNG |
+| 202069 | LINDT HASEN-NEST MIT | SPEZ.-EIERN 194G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HASEN NEST MIT SPEZ EIERN |
+| 202087 | LINDT MINI-KUGELN | ALPENMILCH 100G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI KUGELN ALPENMILCH |
+| 202090 | LINDT MINI GOLDHASE | EDELBITTER60% 5x10G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI GOLDHASE EDELBITTER60 5X10G |
+| 202101 | LINDT ALKOHOL-SPEZIALIT. | EIER 216G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ALKOHOL SPEZIALIT EIER |
+| 202105 | LINDT ALKOHOL-FLAESCHCH. | SORTIERT 131G *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ALKOHOL FLAESCHCH SORTIERT |
+| 202106 | LINDT NOUGAT RIEGEL | 50G | 1002334 | LINDT RIEGEL 50G | Suesswaren | semantic_suesswaren:LINDT | LINDT NOUGAT RIEGEL LINDT RIEGEL |
+| 202377 | ROTSTERN SANDMANN | WAFFELROELLCHEN 45G |  |  | Suesswaren | semantic_suesswaren:ROTSTERN | ROTSTERN SANDMANN WAFFELROELLCHEN |
+| 2028526 | PRALINENKAPSELN SILBER | 26X16MM 75 STUECK *WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENKAPSELN SILBER 26X16MM 75 STUECK |
+| 2028531 | PRALINENKAPSELN GOLD | 26X16MM 75 STUECK *WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENKAPSELN GOLD 26X16MM 75 STUECK |
+| 2038902 | LINDT MINI PRALINES 180G | WEIHNACHTEN *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES WEIHNACHTEN |
+| 2038911 | LINDT ROSE GOLDSTUECKE | PRALINES 180G*WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT ROSE GOLDSTUECKE PRALINES |
+| 2040987 | LINDT HELLO SANTA 244G | ADVENTSKAL. *BK*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO SANTA ADVENTSKAL |
+| 2048422 | TROLLI HALLOWEEN | SWEET&SOUR 360G      *AK |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI HALLOWEEN SWEET&SOUR |
+| 2049708 | HEIDEL SCHMUCKDOSE | VIEL GLUECK 54G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHMUCKDOSE VIEL GLUECK |
+| 2049751 | HEIDEL CHOCO MINIS | NOSTALGIE 8ER 40G *WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL CHOCO MINIS NOSTALGIE 8ER |
+| 2049821 | LINDT CRESTA DOPPELDREH | 101G     *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT CRESTA DOPPELDREH |
+| 2049832 | LINDT MARZIPAN LOSE | 20G*W-BK*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MARZIPAN LOSE |
+| 2050344 | LINDT BLAETTERKROKANT | LOSE 18G          *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BLAETTERKROKANT LOSE |
+| 2050554 | HEIDEL CHOCO MINIS EURO | 12ER 36G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL CHOCO MINIS EURO 12ER |
+| 2050556 | HEIDEL EURO KOEFFERCHEN | 33G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL EURO KOEFFERCHEN |
+| 2050559 | HEIDEL GROSSER EURO | KOFFER 112,5G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GROSSER EURO KOFFER |
+| 2057048 | LINDT LINDOR MARC DE | CHAMP DOPPELDREH90G*O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MARC DE CHAMP DOPPELDREH90G |
+| 2058722 | LINDT GOLDHASE | LIM.ED.100G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE LIM ED |
+| 2062108 | LINDT LINDOR PRAESENT | BOX MISCHUNG 187G | 1002322 | LINDT LINDOR PRÄSENT BOX 186-187G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR PRAESENT BOX MISCHUNG LINDT LINDOR PRAESENT BOX 186 |
+| 2063616 | ALNATURA BIO SÉLECTION | PRALINEN TRÜFFEL 100G |  |  | Suesswaren | semantic_suesswaren:PRALIN* | ALNATURA BIO S LECTION PRALINEN TRUEFFEL |
+| 2063622 | ALNATURA BIO SÉLECTION | PRALINEN VARIATIONEN100G |  |  | Suesswaren | semantic_suesswaren:PRALIN* | ALNATURA BIO S LECTION PRALINEN VARIATIONEN100G |
+| 2077854 | RAGUSA FRIENDS MIX | PRALINES 132G*NML | 1000285 | RAGUSA FRIENDS PRALINES 132G | Suesswaren | semantic_suesswaren:PRALIN* | RAGUSA FRIENDS MIX PRALINES RAGUSA FRIENDS PRALINES |
+| 2083440 | LINDT SCHOKOLADE | MARILLE TAFEL 100G*ALK | 1002337 | LINDT SCHOKOLADE GEFÜLLT 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G; whitelist_prefix:LINDT SCHOKOLADE GEFÜLLT 100G | LINDT SCHOKOLADE MARILLE TAFEL LINDT SCHOKOLADE GEFUELLT |
+| 2085821 | RITTER SPORT SCHOKOLADE | WEISSE ZIMTCRISP 100G*NM | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE WEISSE ZIMTCRISP RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 20898 | LINDT CHOCO-KAROTTEN | 81G              *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT CHOCO KAROTTEN |
+| 20900 | LINDT MINI-KUEKEN | 50G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI KUEKEN |
+| 2093177 | HEILEMANN PRALINENMISCH. | COMPOSITION 119G |  |  | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN PRALINENMISCH COMPOSITION |
+| 2093179 | HEILEMANN EDELBITTER- | PRALINE-COMPOSITION 125G | 1002258 | HEILEMANN PRALINEN 125G-130G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN EDELBITTER PRALINE COMPOSITION HEILEMANN PRALINEN |
+| 2093180 | HEILEMANN NOUGAT- | PRALINE-COMPOSITION 125G | 1002258 | HEILEMANN PRALINEN 125G-130G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN NOUGAT PRALINE COMPOSITION HEILEMANN PRALINEN |
+| 2093181 | HEILEMANN NOUGAT- | PRALINE-COMPOSITION 200G | 1002259 | HEILEMANN PRALINEN 200-210G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN NOUGAT PRALINE COMPOSITION HEILEMANN PRALINEN 200 |
+| 2093363 | FRANKONIA DEXTROSE TAFEL | WEISSE SCH LAKTOSEFR 80G | 1000938 | FRANKONIA LAKTOSEFREI 80-100G | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA DEXTROSE TAFEL WEISSE SCH LAKTOSEFR FRANKONIA LAKTOSEFREI 80 |
+| 2093422 | FRANKONIA ZARTBI. DEXTR. | SCHOKOL O. LAKT. 80G*NML | 1000938 | FRANKONIA LAKTOSEFREI 80-100G | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA ZARTBI DEXTR SCHOKOL O LAKT FRANKONIA LAKTOSEFREI 80 |
+| 2093588 | HEILEMANN TRUEFFEL- | MARC DE CHAMPAGNE 130G | 1002258 | HEILEMANN PRALINEN 125G-130G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN TRUEFFEL MARC DE CHAMPAGNE HEILEMANN PRALINEN |
+| 2093652 | HEILEMANN TRUEFFEL- | MARC DE CHAMPAGNE 210G | 1002259 | HEILEMANN PRALINEN 200-210G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN TRUEFFEL MARC DE CHAMPAGNE HEILEMANN PRALINEN 200 |
+| 2093670 | HEILEMANN | UNSERE BESTEN 125G | 1002258 | HEILEMANN PRALINEN 125G-130G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN UNSERE BESTEN HEILEMANN PRALINEN |
+| 2093689 | HEILEMANN | UNSERE BESTEN 198G | 1002259 | HEILEMANN PRALINEN 200-210G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN UNSERE BESTEN HEILEMANN PRALINEN 200 |
+| 2105691 | HEIDEL NOSTA WEIHNACHTS- | MAILBOX 95G *WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL NOSTA WEIHNACHTS MAILBOX |
+| 2106451 | LINDT GOLDHASE | INDIVIDUAL.100G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE INDIVIDUAL |
+| 2106452 | LINDT GOLDHASE | BLUMEN 200G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE BLUMEN |
+| 2106478 | HEIDEL CHOCO MINIS | NOSTALGIE 40G *ON |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL CHOCO MINIS NOSTALGIE |
+| 2106485 | HEIDEL OSTERNEST | 89G*OSTERN |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL OSTERNEST |
+| 2107544 | HEIDEL TABLET | 90G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL TABLET |
+| 21099 | LINDT SCHOKOLADE MASSIV | GANZNUSS VOLLMILCH 100G | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SCHOKOLADE MASSIV GANZNUSS VOLLMILCH LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 2110805 | JUERGENS UDO | MERCI UDO   +S |  |  | Suesswaren | semantic_suesswaren:MERCI | JUERGENS UDO MERCI UDO S |
+| 2116104 | VERPOORTEN-PRALINES VM | 120G  *O-BK |  |  | Suesswaren | semantic_suesswaren:PRALIN* | VERPOORTEN PRALINES VM |
+| 2116112 | VERPOORTEN-PRALINES ZB | 120G  *O-BK |  |  | Suesswaren | semantic_suesswaren:PRALIN* | VERPOORTEN PRALINES ZB |
+| 2118836 | LINDT LINDOR HERZBOX | MILCH 325G | 1002319 | LINDT LINDOR HERZBOX 325G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR HERZBOX MILCH LINDT LINDOR HERZBOX |
+| 2119487 | LINDT LINDOR KUGELN | COCOS BEUTEL 136G*S | 1002321 | LINDT LINDOR KUGELN BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KUGELN COCOS BEUTEL LINDT LINDOR KUGELN BEUTEL |
+| 2127456 | HEIDEL OSTER-NOSTALGIE | PRAESENTDOSE 91G*OSTERN |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL OSTER NOSTALGIE PRAESENTDOSE |
+| 2130739 | LINDT EXCELLENCE 78% | 100G *S | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT EXCELLENCE 78 LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 2131594 | VEGAN FRUCHTGUMMI- | HAESCHEN ZUCKERFREI 125G | 1000207 | BEAUTY SWEETIES FRUCHTGUMMI 125G | Suesswaren | semantic_suesswaren:BEAUTY SWEETIES; whitelist_prefix:BEAUTY SWEETIES FRUCHTGUMMI 125G | VEGAN FRUCHTGUMMI HAESCHEN ZUCKERFREI BEAUTY SWEETIES FRUCHTGUMMI |
+| 2141550 | FRANKONIA SCHOKOSMILE | VM-SCHOKOMILCHCR120G*NML |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA SCHOKOSMILE VM SCHOKOMILCHCR120G |
+| 2141553 | FRANKONIA RIEGEL BLONDE | VEG. MANDEL TOGO40G *NML |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA RIEGEL BLONDE VEG MANDEL TOGO40G |
+| 21460 | HEIDEL SPRUECHEDOSEN | DU BIST DIE/DER BESTE32G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SPRUECHEDOSEN DU BIST DIE DER BESTE32G |
+| 21483 | HEIDEL LIEBE EMOTICONS | 7ER 52,5G*NML | 1002240 | HEIDEL EMOTICON 7ER 52,5G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL LIEBE EMOTICONS 7ER HEIDEL EMOTICON 7ER |
+| 21507 | LINDT MINI-WEIHNACHTS- | MAENNER 50G    *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI WEIHNACHTS MAENNER |
+| 2153243 | HEIDEL EINHORNDOSE | 97G | 1002239 | HEIDEL DOSE 97G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL EINHORNDOSE HEIDEL DOSE |
+| 2153346 | NYX BUTTER GLOSS | PRALINE |  |  | Suesswaren | semantic_suesswaren:PRALIN* | NYX BUTTER GLOSS PRALINE |
+| 2154155 | HEIDEL SCHLOSSDOSE | MEERJUNGFRAU118G | 1002238 | HEIDEL DOSE 118G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHLOSSDOSE MEERJUNGFRAU118G HEIDEL DOSE |
+| 2154181 | HEIDEL DRACHENDOSE | 97G*NML | 1002239 | HEIDEL DOSE 97G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL DRACHENDOSE HEIDEL DOSE |
+| 215687 | LINDT MINI WEIHNACHTS- | MAENNER 60% 50G*WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI WEIHNACHTS MAENNER 60 |
+| 2157223 | MIA BELLA KATZENZUNGEN | VOLLMILCH 100G | 1004639 | MIA BELLA PRALINEN | Suesswaren | semantic_suesswaren:PRALIN* | MIA BELLA KATZENZUNGEN VOLLMILCH MIA BELLA PRALINEN |
+| 2157243 | RITTER SPORT SCHOKO | WUERFEL DANKESCHÖN 176G | 1000191 | RITTER SPORT SCHOKO WÜRFEL 176G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKO WUERFEL DANKESCHOEN RITTER SPORT SCHOKO WUERFEL |
+| 2170727 | LINDT KROKANT BECHER | 100G  *S*NML | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT KROKANT BECHER LINDT SCHOKOLADE |
+| 2170734 | LINDT MINI EIS PRALINES | 90G *S | 1002326 | LINDT MINI PRALINES 90G-100G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI EIS PRALINES LINDT MINI PRALINES |
+| 2170735 | LINDT MINI EIS PRALINES | 165G*S*ALK*NML | 1002324 | LINDT MINI PRALINES 158G-180G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI EIS PRALINES LINDT MINI PRALINES |
+| 2170745 | LINDT CREATION HIMBEERE | DELUXE 150G*NML | 1002299 | LINDT CREATION 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT CREATION HIMBEERE DELUXE LINDT CREATION |
+| 217097 | LINDT DESSERT MOUSSE | HERB TAFEL 140G*NML | 1002300 | LINDT DESSERT MOUSSE 140G | Suesswaren | semantic_suesswaren:LINDT | LINDT DESSERT MOUSSE HERB TAFEL LINDT DESSERT MOUSSE |
+| 217101 | LINDT DESSERT MOUSSE | MILCH TAFEL 140G *S*NML | 1002300 | LINDT DESSERT MOUSSE 140G | Suesswaren | semantic_suesswaren:LINDT | LINDT DESSERT MOUSSE MILCH TAFEL LINDT DESSERT MOUSSE |
+| 2174713 | HEIDEL EMOTICONS | 32G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL EMOTICONS |
+| 2174730 | HEIDEL GLUECKS-SACK | 151G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GLUECKS SACK |
+| 2174737 | HEIDEL ROTE ROSE | 54G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL ROTE ROSE |
+| 2178012 | TROLLI SUPER BRAIN | 150G *AK |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI SUPER BRAIN |
+| 2178016 | TROLLI DINO REX | 150G | 1000323 | TROLLI FRUCHTGUMMI 175G-200G | Suesswaren | semantic_suesswaren:TROLLI | TROLLI DINO REX TROLLI FRUCHTGUMMI |
+| 2183511 | ZETTI EDEL NOUGAT | 150G *NML |  |  | Suesswaren | semantic_suesswaren:ZETTI | ZETTI EDEL NOUGAT |
+| 2183573 | ZETTI NUGANA | 100G |  |  | Suesswaren | semantic_suesswaren:ZETTI | ZETTI NUGANA |
+| 2186659 | LINDT FIORETTO MINIS | ZABAIONE 115G*ALK*NML | 1002305 | LINDT FIORETTO MINIS 115G | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO MINIS ZABAIONE LINDT FIORETTO MINIS |
+| 2188918 | RITTER SPORT VEGANE SCH. | DUNKLE MANDEL QU100G*NML | 1000190 | RITTER SPORT SCHOKOLADE TAFEL VEGAN 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VEGANE SCH DUNKLE MANDEL QU100G RITTER SPORT SCHOKOLADE TAFEL VEGAN |
+| 2188925 | RITTER SPORT VEGANE SCH. | DU VOLL-NUSS AM.100G*NML | 1000190 | RITTER SPORT SCHOKOLADE TAFEL VEGAN 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VEGANE SCH DU VOLL NUSS AM RITTER SPORT SCHOKOLADE TAFEL VEGAN |
+| 2193259 | HEIDEL NOSTALGIE | TAESCHCHEN 55G*WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL NOSTALGIE TAESCHCHEN |
+| 2193264 | HEIDEL WEIHNACHTS NOSTAL | GIE PRAESENT 124G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL WEIHNACHTS NOSTAL GIE PRAESENT |
+| 2193303 | LINDT SCHNEEMANN | 40G*WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SCHNEEMANN |
+| 2193312 | LINDT ADVENTSKALENDER | LINDOR 290G*WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ADVENTSKALENDER LINDOR |
+| 2193318 | LINDT TEDDY | 40G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TEDDY |
+| 2195293 | HEIDEL GESCHENKDOESCHEN | NOSTALGIE 32G*WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GESCHENKDOESCHEN NOSTALGIE |
+| 2206477 | HEIDEL CHOCO GRUESSE | NOSTALGIE 100G    *WEIHN |  |  | Suesswaren | semantic_suesswaren:HEIDEL; whitelist_prefix:HEIDEL CHOCO GRÜSSE 100G; whitelist_prefix:HEIDEL CHOCO GRÜSSE 30G | HEIDEL CHOCO GRUESSE NOSTALGIE |
+| 2209803 | LINDT GOLDHASE BLUMEN | NOUGAT EIER 90G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE BLUMEN NOUGAT EIER |
+| 2209866 | LINDT GOLDHASE BLUMEN | MINI EIER VM 180G *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE BLUMEN MINI EIER VM |
+| 2209870 | LINDT GOLDHASE BLUMEN | GOLDHASE MINI 5x10G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE BLUMEN GOLDHASE MINI 5X10G |
+| 2216018 | BADEFEE GESCHENKSET | PRALINEN SET |  |  | Suesswaren | semantic_suesswaren:PRALIN* | BADEFEE GESCHENKSET PRALINEN SET |
+| 222664 | SNICKERS 2PACK | 80G *KASSE*SOBE |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS 2PACK |
+| 222698 | SNICKERS MULTIPACK | 17x5x50g*NML |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS MULTIPACK 17X5X50G |
+| 2237281 | RITTER SPORT SCHOKO | WUERFEL LASS DICH FE176G | 1000191 | RITTER SPORT SCHOKO WÜRFEL 176G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKO WUERFEL LASS DICH FE176G RITTER SPORT SCHOKO WUERFEL |
+| 2243922 | FIPSI PRALINENDOSE FLACH | *ON |  |  | Suesswaren | semantic_suesswaren:PRALIN* | FIPSI PRALINENDOSE FLACH |
+| 2244124 | LINDT CREATION HASELNUSS | 150G*SOBE | 1002299 | LINDT CREATION 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT CREATION HASELNUSS LINDT CREATION |
+| 2245895 | SAROTTI SCHWARZE HERREN | SCHOKO.GES.MAN.100G*SOBE | 1000335 | SAROTTI SCHWARZE HERREN SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:SAROTTI; whitelist_prefix:SAROTTI SCHWARZE HERREN SCHOKOLADE 100G | SAROTTI SCHWARZE HERREN SCHOKO GES MAN SAROTTI SCHWARZE HERREN SCHOKOLADE |
+| 2267055 | PRALINENKAPSELN BUNT | HERZ 30 STÜCK |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENKAPSELN BUNT HERZ 30 STUECK |
+| 2267062 | PRALINENKAPSELN BUNT | RUND 30 STÜCK |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENKAPSELN BUNT RUND 30 STUECK |
+| 2285495 | HEIDEL KLEINE SCHMUCK- | DOSE VIEL GLUECK 21G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL KLEINE SCHMUCK DOSE VIEL GLUECK |
+| 2292522 | LINDT MINI EMOTIONAL ROT | 100G | 1002326 | LINDT MINI PRALINES 90G-100G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI EMOTIONAL ROT LINDT MINI PRALINES |
+| 2317052 | FRANKONIA NO SUGAR ADDED | TAFEL VOLLMILCH 80G | 1000937 | FRANKONIA SCHOKOLADE NO SUGAR ADDED 85-100G | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA NO SUGAR ADDED TAFEL VOLLMILCH FRANKONIA SCHOKOLADE NO SUGAR ADDED 85 |
+| 2317069 | FRANKONIA NO SUGAR ADDED | TAFEL HASELNUSS 85G | 1000937 | FRANKONIA SCHOKOLADE NO SUGAR ADDED 85-100G | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA NO SUGAR ADDED TAFEL HASELNUSS FRANKONIA SCHOKOLADE NO SUGAR ADDED 85 |
+| 2317113 | FRANKONIA NO SUGAR ADDED | TAFEL NOUGAT 100G | 1000937 | FRANKONIA SCHOKOLADE NO SUGAR ADDED 85-100G | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA NO SUGAR ADDED TAFEL NOUGAT FRANKONIA SCHOKOLADE NO SUGAR ADDED 85 |
+| 2319867 | HIPP SMOOTHIE-MIX BIO | HEIDEL,APF,BIR120ML*SOB | 1001097 | HIPP SMOOTHIE 120ML | Suesswaren | semantic_suesswaren:HEIDEL | HIPP SMOOTHIE MIX BIO HEIDEL APF BIR120ML HIPP SMOOTHIE |
+| 233373 | RITTER SPORT SCHOKOLADE | OLYMPIA 100G*A*NML | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE OLYMPIA RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 235055 | MERCI PETITS | CHOC.COLL.125G  *AK | 1000329 | MERCI PETITS 125G | Suesswaren | semantic_suesswaren:MERCI | MERCI PETITS CHOC COLL MERCI PETITS |
+| 235719 | TROLLI DRACULA | 150G  *A | 1000323 | TROLLI FRUCHTGUMMI 175G-200G | Suesswaren | semantic_suesswaren:TROLLI | TROLLI DRACULA TROLLI FRUCHTGUMMI |
+| 235754 | TROLLI | GLOTZER GEFUELLT 75G |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI GLOTZER GEFUELLT |
+| 2367896 | SNICKERS WHITE RIEGEL | 60ML                *EIS | 1002488 | SNICKERS RIEGEL EIS 55ML-72ML | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS WHITE RIEGEL SNICKERS RIEGEL EIS |
+| 2373710 | LINDT WEIHNACHTS | SCHICHTNOUGAT 93G*WEINML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTS SCHICHTNOUGAT |
+| 2373711 | LINDT WEIHNACHTSKOSTBARK | SAMT PRALINES*WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT WEIHNACHTSKOSTBARK SAMT PRALINES |
+| 2373713 | LINDT DUNKLER | MISCHBEUTEL 150G *W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DUNKLER MISCHBEUTEL |
+| 2378866 | LINDT LINDOR MANGO | BEUTEL 137G*S*NML | 1002315 | LINDT LINDOR BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MANGO BEUTEL LINDT LINDOR BEUTEL |
+| 2379019 | HEIDEL CHOCO GRUESSE | WEISSE WEIHN 100G *WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL; whitelist_prefix:HEIDEL CHOCO GRÜSSE 100G; whitelist_prefix:HEIDEL CHOCO GRÜSSE 30G | HEIDEL CHOCO GRUESSE WEISSE WEIHN |
+| 2383397 | LINDT FILZ PRALINÉS | PRALINEN 175G *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | LINDT FILZ PRALIN S PRALINEN |
+| 2383865 | LINDT SANTA IM MINI | SCHORNSTEIN 60G   *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA IM MINI SCHORNSTEIN |
+| 2383881 | HEIDEL GROSSE GEBURTS- | TAGSTORTE 86G NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GROSSE GEBURTS TAGSTORTE NML |
+| 2383903 | LINDT WEIHN.MANN NUSS | 125G  *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHN MANN NUSS |
+| 2383998 | LINDT WEIHNACHTS | CASHEWS 100G *WEIHN*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTS CASHEWS |
+| 2392116 | TROLLI MULTI MIX | 430G*SOBE |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI MULTI MIX |
+| 2392159 | TROLLI SAURE | GLUEHWUERMCHEN 1000G | 1002505 | TROLLI BIZZL MIX/SAURE GLÜHWÜRMCHEN 1000G | Suesswaren | semantic_suesswaren:TROLLI; whitelist_prefix:TROLLI BIZZL MIX/SAURE GLÜHWÜRMCHEN 1000G | TROLLI SAURE GLUEHWUERMCHEN TROLLI BIZZL MIX SAURE GLUEHWUERMCHEN |
+| 2396825 | TROLLI MINI BURGER | BOX 15X10G |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI MINI BURGER BOX 15X10G |
+| 23984 | TROLLI GUMMI WORLD | MINIMISCHBEUTEL 230G*NML |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI GUMMI WORLD MINIMISCHBEUTEL |
+| 23985 | WAWI SCHOKO-REIS TAFEL | VOLLMSCHOKOLADE 200G*SOB | 1002534 | WAWI SCHOKO-REIS EDEL SCHOKOLADE 200G NEU | Suesswaren | semantic_suesswaren:WAWI; whitelist_prefix:WAWI SCHOKO-REIS EDEL SCHOKOLADE 200G NEU | WAWI SCHOKO REIS TAFEL VOLLMSCHOKOLADE WAWI SCHOKO REIS EDEL SCHOKOLADE NEU |
+| 24035 | LINDT FIORETTO MINIS | NOUGAT 115G*NML | 1002305 | LINDT FIORETTO MINIS 115G | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO MINIS NOUGAT LINDT FIORETTO MINIS |
+| 2403536 | LINDT LINDOR 70% | BEUTEL 136G | 1002315 | LINDT LINDOR BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR 70 BEUTEL LINDT LINDOR BEUTEL |
+| 2403541 | LINDT MINI PRALINES | NOIR 163G    *W*ALK | 1002324 | LINDT MINI PRALINES 158G-180G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES NOIR LINDT MINI PRALINES |
+| 2404072 | LINDT LINDOR TAFEL | MILCH 100G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT LINDOR TAFEL MILCH LINDT SCHOKOLADE |
+| 2405634 | FRUCHTGUMMI-SCHMETTER- | LINGE VEGAN 125G | 1000207 | BEAUTY SWEETIES FRUCHTGUMMI 125G | Suesswaren | semantic_suesswaren:BEAUTY SWEETIES; whitelist_prefix:BEAUTY SWEETIES FRUCHTGUMMI 125G | FRUCHTGUMMI SCHMETTER LINGE VEGAN BEAUTY SWEETIES FRUCHTGUMMI |
+| 2415093 | LINDT LINDOR | TAFEL 70% 100G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT LINDOR TAFEL 70 LINDT SCHOKOLADE |
+| 2418665 | LINDT LINDOR BEUTEL | MILCH 137G *NML | 1002315 | LINDT LINDOR BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL MILCH LINDT LINDOR BEUTEL |
+| 242665 | TROLLI HAIFISCHE | 150G | 1000323 | TROLLI FRUCHTGUMMI 175G-200G | Suesswaren | semantic_suesswaren:TROLLI | TROLLI HAIFISCHE TROLLI FRUCHTGUMMI |
+| 2432950 | RITTER SPORT SCHOKOLADE | WAFFEL 100G*NML | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE WAFFEL RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 2437144 | HEIDEL GESCHENKDOESCHEN | OSTERGRUESSE 32G *OSTERN |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GESCHENKDOESCHEN OSTERGRUESSE |
+| 2437161 | HEIDEL CHOCO GRUESSE | OSTERGRUESSE100G *OSTERN |  |  | Suesswaren | semantic_suesswaren:HEIDEL; whitelist_prefix:HEIDEL CHOCO GRÜSSE 100G; whitelist_prefix:HEIDEL CHOCO GRÜSSE 30G | HEIDEL CHOCO GRUESSE OSTERGRUESSE100G |
+| 2439921 | LINDT LINDOR HERZPACKUNG | MILCH 200G            *A |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR HERZPACKUNG MILCH |
+| 2442802 | HEILEMANN MINI-PRALINES | SCHWARZ/WEISS 91G | 1002261 | HEILEMANN PRALINES MINI 91G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN MINI PRALINES SCHWARZ WEISS HEILEMANN PRALINES MINI |
+| 2442832 | HEILEMANN TRUEFFEL- | PRALINE-COMPOSITION 200G | 1002259 | HEILEMANN PRALINEN 200-210G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN TRUEFFEL PRALINE COMPOSITION HEILEMANN PRALINEN 200 |
+| 2444646 | HEIDEL GESCHENKDOSE | OSTERGRUESSE 108G *O-BK |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GESCHENKDOSE OSTERGRUESSE |
+| 2448537 | LINDT KUEKEN | 40G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KUEKEN |
+| 2448538 | LINDT GOLDHASE | MINI NEST 55G *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE MINI NEST |
+| 2448542 | LINDT OSTER-BLUETEN | ROEHRCH. MIX 160G*O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT OSTER BLUETEN ROEHRCH MIX |
+| 2449158 | LINDT LINDOR HERZPACKUNG | MILCH 112G *A *SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR HERZPACKUNG MILCH |
+| 2453430 | LINDT GOLDHASE | EDELBITTER 50G   *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE EDELBITTER |
+| 245713 | RITTER SPORT MINI | ADVENTSKAL. 347G*WH |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT MINI ADVENTSKAL |
+| 2460068 | MERCI MOUSSE AU CHOCOLAT | VF 210G *A*SOBE | 1000328 | MERCI VIELFALT 250G | Suesswaren | semantic_suesswaren:MERCI | MERCI MOUSSE AU CHOCOLAT VF MERCI VIELFALT |
+| 2466760 | RITTER SPORT SCHOKOLADE | KAKAO 55% GHANA 100G*NML | 1002455 | RITTER SPORT SCHOKOLADE KAKAO KLASSE 100G | Suesswaren | semantic_suesswaren:RITTER SPORT; whitelist_prefix:RITTER SPORT SCHOKOLADE KAKAO KLASSE 100G | RITTER SPORT SCHOKOLADE KAKAO 55 GHANA RITTER SPORT SCHOKOLADE KAKAO KLASSE |
+| 2466766 | RITTER SPORT SCHOKOLADE | KL.61% NICARA100G*NML | 1002455 | RITTER SPORT SCHOKOLADE KAKAO KLASSE 100G | Suesswaren | semantic_suesswaren:RITTER SPORT; whitelist_prefix:RITTER SPORT SCHOKOLADE KAKAO KLASSE 100G | RITTER SPORT SCHOKOLADE KL 61 NICARA100G RITTER SPORT SCHOKOLADE KAKAO KLASSE |
+| 2466767 | RITTER SPORT SCHOKOLADE | KL. 74% PERU 100G*NML | 1002455 | RITTER SPORT SCHOKOLADE KAKAO KLASSE 100G | Suesswaren | semantic_suesswaren:RITTER SPORT; whitelist_prefix:RITTER SPORT SCHOKOLADE KAKAO KLASSE 100G | RITTER SPORT SCHOKOLADE KL 74 PERU RITTER SPORT SCHOKOLADE KAKAO KLASSE |
+| 2469723 | LINDT LINDOR BEUTEL | PISTAZIE 137G | 1002315 | LINDT LINDOR BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL PISTAZIE LINDT LINDOR BEUTEL |
+| 2470302 | ZETTI KNUSPERFLOCKEN | WEISSE SCHOKO 150G*NML | 1002557 | ZETTI KNUSPERFLOCKEN SCHOKOLADE 150G-170G | Suesswaren | semantic_suesswaren:ZETTI; whitelist_prefix:ZETTI KNUSPERFLOCKEN SCHOKOLADE 125G-140G; whitelist_prefix:ZETTI KNUSPERFLOCKEN SCHOKOLADE 150G-170G | ZETTI KNUSPERFLOCKEN WEISSE SCHOKO ZETTI KNUSPERFLOCKEN SCHOKOLADE |
+| 2470306 | ZETTI KNUSPERFLOCKEN | VOLLMILCH 170G *NML | 1002557 | ZETTI KNUSPERFLOCKEN SCHOKOLADE 150G-170G | Suesswaren | semantic_suesswaren:ZETTI; whitelist_prefix:ZETTI KNUSPERFLOCKEN SCHOKOLADE 125G-140G; whitelist_prefix:ZETTI KNUSPERFLOCKEN SCHOKOLADE 150G-170G | ZETTI KNUSPERFLOCKEN VOLLMILCH ZETTI KNUSPERFLOCKEN SCHOKOLADE |
+| 2479306 | LINDT LINDOR BEUTEL | VOLLMILCH 137G*A |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL VOLLMILCH |
+| 2480412 | HEIDEL WISSENSQUIZ | SCHOKOTAEFELCHEN 18NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL WISSENSQUIZ SCHOKOTAEFELCHEN 18NML |
+| 2480449 | HEIDEL GOLD KREDITKARTE | 30G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GOLD KREDITKARTE |
+| 2480939 | HEIDEL MAENNERBOX | 86G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL MAENNERBOX |
+| 2480946 | HEIDEL GUTE BESSERUNG | PRALINEN 97G*NML | 1002243 | HEIDEL PRALINEN 97G | Suesswaren | semantic_suesswaren:HEIDEL; semantic_suesswaren:PRALIN* | HEIDEL GUTE BESSERUNG PRALINEN HEIDEL PRALINEN |
+| 2480950 | HEIDEL VIELEN DANK | PRALINEN 97G*NML | 1002243 | HEIDEL PRALINEN 97G | Suesswaren | semantic_suesswaren:HEIDEL; semantic_suesswaren:PRALIN* | HEIDEL VIELEN DANK PRALINEN HEIDEL PRALINEN |
+| 2482221 | FRANKONIA HASELN. RIEGEL | LAKTO/GLUTFREI 4x25G*NML | 1000939 | FRANKONIA RIEGEL 4x25G | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA HASELN RIEGEL LAKTO GLUTFREI 4X25G FRANKONIA RIEGEL 4X25G |
+| 2482324 | FRANKONIA BIO BLONDE | SCHOKO VEGAN 100G *NML | 1000940 | FRANKONIA VEGAN 100G | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA BIO BLONDE SCHOKO VEGAN FRANKONIA VEGAN |
+| 2482548 | FRANKONIA POWER MOTION | NSA TAFEL PROT HAZEL 90G | 1002044 | FRANKONIA NO SUGAR PROTEIN 90G | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA POWER MOTION NSA TAFEL PROT HAZEL FRANKONIA NO SUGAR PROTEIN |
+| 2482554 | FRANKONIA POWER MOTION | NSA TAFEL PROT WHITE 90G | 1002044 | FRANKONIA NO SUGAR PROTEIN 90G | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA POWER MOTION NSA TAFEL PROT WHITE FRANKONIA NO SUGAR PROTEIN |
+| 2491647 | LINDT TEDDY KLEIN | ADVENTSKAL. 128G *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TEDDY KLEIN ADVENTSKAL |
+| 2491649 | LINDT MINI LINDOR | ADVENTSKAL. 109G *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI LINDOR ADVENTSKAL |
+| 2491652 | LINDT WEIHNACHTSMIX | KLASSIKER 260*BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMIX KLASSIKER 260 |
+| 2491657 | LINDT XXL MISCHBEUTEL | LINDOR 300G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT XXL MISCHBEUTEL LINDOR |
+| 2491660 | LINDT XXL TEDDY KINDER | MISCHUNG 268G*BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT XXL TEDDY KINDER MISCHUNG |
+| 2499896 | FRANKONIA NO SUGAR ADDED | TAFEL ZARTBITTER 80G | 1000937 | FRANKONIA SCHOKOLADE NO SUGAR ADDED 85-100G | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA NO SUGAR ADDED TAFEL ZARTBITTER FRANKONIA SCHOKOLADE NO SUGAR ADDED 85 |
+| 2501301 | MIA BELLA MINI RIEGEL | BEUTEL SELEC  500G | 1004639 | MIA BELLA PRALINEN | Suesswaren | semantic_suesswaren:PRALIN* | MIA BELLA MINI RIEGEL BEUTEL SELEC MIA BELLA PRALINEN |
+| 2501361 | RITTER SPORT 83G | GESCHENK WUERFE*WH |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT GESCHENK WUERFE |
+| 2501364 | RITTER SPORT | RENTIER WUER83G *WH |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT RENTIER WUER83G |
+| 2501450 | LINDT SANTA GLAMOUR | 125G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA GLAMOUR |
+| 2501454 | RITTER SPORT | WEIHNACHTSTA53G  *WH |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT WEIHNACHTSTA53G |
+| 2501456 | LINDT SANTA GLAMOUR | 200G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA GLAMOUR |
+| 2504180 | LINDT MARZIPAN | BEUTEL100G   *WEIHN*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MARZIPAN BEUTEL100G |
+| 2504208 | LINDT MISCHUNG | BEUTEL 200G*WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MISCHUNG BEUTEL |
+| 2505861 | TROLLI APFELGARTEN | 150G*SOBE |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI APFELGARTEN |
+| 2506910 | LINDT EXCELLENCE 60% | 100G *S*NML | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT EXCELLENCE 60 LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 2517590 | LINDT FUER KENNER | CLASSIC 200G*ALK*NML | 1002330 | LINDT PRALINES 200G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT FUER KENNER CLASSIC LINDT PRALINES |
+| 2518467 | LINDT FUER KENNER HELL | &ZART 200G*ALK*NML | 1002330 | LINDT PRALINES 200G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT FUER KENNER HELL &ZART LINDT PRALINES |
+| 2518472 | LINDT FUER KENNER | CLASSIC 125G*ALK | 1002329 | LINDT PRALINES 125G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT FUER KENNER CLASSIC LINDT PRALINES |
+| 2518481 | LINDT FUER KENNER NOIRS | 200G *W*NML | 1002330 | LINDT PRALINES 200G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT FUER KENNER NOIRS LINDT PRALINES |
+| 2518491 | LINDT FUER KENNER | NOUGAT 200G*NML | 1002330 | LINDT PRALINES 200G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT FUER KENNER NOUGAT LINDT PRALINES |
+| 2518496 | LINDT SPEZIALITAETEN | 125G*ALK | 1002329 | LINDT PRALINES 125G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT SPEZIALITAETEN LINDT PRALINES |
+| 2518500 | LINDT PRALINES ROYAL | 250G     *W*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES ROYAL |
+| 2518519 | LINDT DES DAMES | 250G*ALK | 1002331 | LINDT PRALINES HOCHFEIN 200G/DES DAMES/SPEZIALITÄTEN 250G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; whitelist_prefix:LINDT PRALINES HOCHFEIN 200G/DES DAMES/SPEZIALITÄTEN 250G | LINDT DES DAMES LINDT PRALINES HOCHFEIN DES DAMES SPEZIALITAETEN |
+| 2518533 | LINDT MINI PRALINES | 44G*KASSA*ALK | 1002325 | LINDT MINI PRALINES 44G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES LINDT MINI PRALINES |
+| 2518538 | LINDT MINI PRALINES | 100G*ALK | 1002326 | LINDT MINI PRALINES 90G-100G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES LINDT MINI PRALINES |
+| 2518541 | LINDT MINI PRALINES | 180G*ALK | 1002324 | LINDT MINI PRALINES 158G-180G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES LINDT MINI PRALINES |
+| 2518546 | LINDT MINI PRALINES | GEBURTSTAG 100G*ALK | 1002327 | LINDT PRALINEN 100G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES GEBURTSTAG LINDT PRALINEN |
+| 2518552 | LINDT SPEZIALITAETEN | 250G*ALK | 1002331 | LINDT PRALINES HOCHFEIN 200G/DES DAMES/SPEZIALITÄTEN 250G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; whitelist_prefix:LINDT PRALINES HOCHFEIN 200G/DES DAMES/SPEZIALITÄTEN 250G | LINDT SPEZIALITAETEN LINDT PRALINES HOCHFEIN DES DAMES SPEZIALITAETEN |
+| 2518555 | LINDT HOCHFEIN | 200G*ALK*NML | 1002331 | LINDT PRALINES HOCHFEIN 200G/DES DAMES/SPEZIALITÄTEN 250G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; whitelist_prefix:LINDT PRALINES HOCHFEIN 200G/DES DAMES/SPEZIALITÄTEN 250G | LINDT HOCHFEIN LINDT PRALINES HOCHFEIN DES DAMES SPEZIALITAETEN |
+| 2518559 | LINDT PRALINES HOCHFEIN | 350G*ALK*NML |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES HOCHFEIN |
+| 2518704 | LINDT FROHE WEIHNACHTEN | PRALINES 167G   *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT FROHE WEIHNACHTEN PRALINES |
+| 2519056 | LINDT FROHE WEIHNACHTEN | PRALINES 96G   *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT FROHE WEIHNACHTEN PRALINES |
+| 2519059 | LINDT FROHE WEIHNACHTEN | DRAGIHASELNU100G*WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FROHE WEIHNACHTEN DRAGIHASELNU100G |
+| 2519063 | LINDT FROHE WEIHNACHTEN | KISSENPACKUNG 46G*WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FROHE WEIHNACHTEN KISSENPACKUNG |
+| 2519103 | LINDT LINDOR KISSEN | 70% 322G *A*NML | 1002322 | LINDT LINDOR PRÄSENT BOX 186-187G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KISSEN 70 LINDT LINDOR PRAESENT BOX 186 |
+| 2525937 | LINDT FUER KENNER | MARZIPAN 200G*ALK*NML | 1002329 | LINDT PRALINES 125G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT FUER KENNER MARZIPAN LINDT PRALINES |
+| 2526868 | TROLLI SWEET BARBECUE | PARTY 450G *NML |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI SWEET BARBECUE PARTY |
+| 2526916 | LIEBEN DANK PRALINES | 40G*ALK*SOBE |  |  | Suesswaren | semantic_suesswaren:PRALIN* | LIEBEN DANK PRALINES |
+| 2526918 | FUER DICH PRALINES | 40G*ALK*SOBE |  |  | Suesswaren | semantic_suesswaren:PRALIN* | FUER DICH PRALINES |
+| 2526919 | MEINE LIEBSTEN | HELLE PRALINES 140G*SOBE |  |  | Suesswaren | semantic_suesswaren:PRALIN* | MEINE LIEBSTEN HELLE PRALINES |
+| 2527384 | PRAESENT PRALINEN & | CHOCOLADEN 175G*ALK*SOBE |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRAESENT PRALINEN & CHOCOLADEN |
+| 2527506 | ILM SAG ES MIT MILKA | PRALINMILCHCR110G*AK*NML |  |  | Suesswaren | semantic_suesswaren:PRALIN* | ILM SAG ES MIT MILKA PRALINMILCHCR110G |
+| 2529621 | HEIDEL SCHMUCKDOSE | OSTERGRUESSE       *O-BK |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHMUCKDOSE OSTERGRUESSE |
+| 2529668 | LINDT XXL OSTERBEUTEL | KLASSIK 288G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT XXL OSTERBEUTEL KLASSIK |
+| 2529691 | LINDT GOLDHASE | SPIELEEIMER 142G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE SPIELEEIMER |
+| 2530265 | LINDT LINDOR OSTERMIX | XXL 254G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR OSTERMIX XXL |
+| 2530314 | LINDT GOLDHASE VERSTECKT | 200G  *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE VERSTECKT |
+| 2530319 | LINDT EIERLIKOER VANILLE | EIER 90G *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EIERLIKOER VANILLE EIER |
+| 2530356 | LINDT MARZIPAN EIER | 85G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MARZIPAN EIER |
+| 2530379 | XXL OSTERBEUTEL KINDER | LINDT 288G   *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | XXL OSTERBEUTEL KINDER LINDT |
+| 2537610 | FRANKONIA POWER MOTION | NSA TAFEL PROT CRISP 90G |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA POWER MOTION NSA TAFEL PROT CRISP |
+| 2543715 | LINDT LIEBLINGSPRALINES | NOUGAT 40G*NML | 1002332 | LINDT PRALINES KLEINER DANK 40G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT LIEBLINGSPRALINES NOUGAT LINDT PRALINES KLEINER DANK |
+| 2543731 | LINDT EXCELLENCE | CARAMEL-SALZ 100G*NML | 1002332 | LINDT PRALINES KLEINER DANK 40G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT EXCELLENCE CARAMEL SALZ LINDT PRALINES KLEINER DANK |
+| 2543738 | LINDT MOUSSE | PFLAUME-RUM EB 150G*ALK | 1002332 | LINDT PRALINES KLEINER DANK 40G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MOUSSE PFLAUME RUM EB LINDT PRALINES KLEINER DANK |
+| 2552243 | LINDT TRAUBE NUSS | TAFEL 300G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TRAUBE NUSS TAFEL |
+| 2552244 | LINDT DUNKLE MANDEL | NUSS 300G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DUNKLE MANDEL NUSS |
+| 255247 | LINDT SCHOKOL. EDELBITT. | MOUSSE MINZE 150G*SOBE | 1002303 | LINDT EDELBITTER MOUSSE 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT SCHOKOL EDELBITT MOUSSE MINZE LINDT EDELBITTER MOUSSE |
+| 255963 | LINDT HELLO SALTED | CARAMEL STICK 39G*NML | 1002311 | LINDT HELLO STICK 39G | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO SALTED CARAMEL STICK LINDT HELLO STICK |
+| 256044 | LINDT HELLO SALTED | CARAMEL TAFEL 100G | 1002312 | LINDT HELLO TAFEL 100G | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO SALTED CARAMEL TAFEL LINDT HELLO TAFEL |
+| 2561666 | TROLLI HOPPLA HOPP | 360G *ON |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI HOPPLA HOPP |
+| 2563367 | MIA BELLA HASELNUSS- | PRALINE 140G*UMST | 1004639 | MIA BELLA PRALINEN | Suesswaren | semantic_suesswaren:PRALIN* | MIA BELLA HASELNUSS PRALINE MIA BELLA PRALINEN |
+| 2564848 | MIA BELLA BELGISCHE | MEERESFRUECHTE 250G | 1004639 | MIA BELLA PRALINEN | Suesswaren | semantic_suesswaren:PRALIN* | MIA BELLA BELGISCHE MEERESFRUECHTE MIA BELLA PRALINEN |
+| 2567839 | LINDT GOLDHASE | WEISS 50G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE WEISS |
+| 2578949 | LINDOR CORNET | MILCH 500G *A | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDOR CORNET MILCH LINDT SCHOKOLADE |
+| 2578954 | LINDOR CORNET | MIX 500G    *A | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDOR CORNET MIX LINDT SCHOKOLADE |
+| 2580181 | MERCI HERBE VIELFALT | 250G                  *A |  |  | Suesswaren | semantic_suesswaren:MERCI | MERCI HERBE VIELFALT |
+| 2580193 | MIA BELLA MINI PRALINEN- | MISCHUNG O.ALKOHOL 100G | 1004639 | MIA BELLA PRALINEN | Suesswaren | semantic_suesswaren:PRALIN* | MIA BELLA MINI PRALINEN MISCHUNG O ALKOHOL MIA BELLA PRALINEN |
+| 2580194 | MIA BELLA MINI PRALINEN- | MISCHUNG M.ALKOHOL 100G | 1004639 | MIA BELLA PRALINEN | Suesswaren | semantic_suesswaren:PRALIN* | MIA BELLA MINI PRALINEN MISCHUNG M ALKOHOL MIA BELLA PRALINEN |
+| 2580195 | MIA BELLA PRALINEN- | MIT+OHN ALK300G *UMS | 1004639 | MIA BELLA PRALINEN | Suesswaren | semantic_suesswaren:PRALIN* | MIA BELLA PRALINEN MIT OHN ALK300G MIA BELLA PRALINEN |
+| 2585913 | RITTER SPORT SCHOKOLADE | NUSS-KLASSE CASHEW 100G | 1000189 | RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE 100G | Suesswaren | semantic_suesswaren:RITTER SPORT; whitelist_prefix:RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE 100G | RITTER SPORT SCHOKOLADE NUSS KLASSE CASHEW RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE |
+| 2593141 | BEAUTY SWEETIES MATCHA | SONNEN VEGAN 125G*SOBE | 1000207 | BEAUTY SWEETIES FRUCHTGUMMI 125G | Suesswaren | semantic_suesswaren:BEAUTY SWEETIES; whitelist_prefix:BEAUTY SWEETIES FRUCHTGUMMI 125G | BEAUTY SWEETIES MATCHA SONNEN VEGAN BEAUTY SWEETIES FRUCHTGUMMI |
+| 2600958 | MEINE LIEBSTEN CONFISERI | PRALINE140G*A*ALK*SOBE |  |  | Suesswaren | semantic_suesswaren:PRALIN* | MEINE LIEBSTEN CONFISERI PRALINE140G |
+| 2604699 | FRANKONIA NO SUGAR | ADDED KEKS 90G*SOB |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA NO SUGAR ADDED KEKS |
+| 2605331 | HEIDEL WUERFEL-SPASS | 32G | 1002243 | HEIDEL PRALINEN 97G | Suesswaren | semantic_suesswaren:HEIDEL; semantic_suesswaren:PRALIN* | HEIDEL WUERFEL SPASS HEIDEL PRALINEN |
+| 2605332 | HEIDEL | DREH DEIN GLUECK 97G*NML | 1002243 | HEIDEL PRALINEN 97G | Suesswaren | semantic_suesswaren:HEIDEL; semantic_suesswaren:PRALIN* | HEIDEL DREH DEIN GLUECK HEIDEL PRALINEN |
+| 2605336 | HEIDEL DREHSPASS | EMOTICON 90G NML | 1002243 | HEIDEL PRALINEN 97G | Suesswaren | semantic_suesswaren:HEIDEL; semantic_suesswaren:PRALIN* | HEIDEL DREHSPASS EMOTICON NML HEIDEL PRALINEN |
+| 2616270 | CHOCOLATERIE PRALINENSET | MIT REZEPTBUCH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | CHOCOLATERIE PRALINENSET MIT REZEPTBUCH |
+| 2616848 | HEIDEL STIFTEDOSE | ASTRONAUT 118G | 1002242 | HEIDEL NASCHTÜTE 84G-95G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL STIFTEDOSE ASTRONAUT HEIDEL NASCHTUETE |
+| 2616850 | HEIDEL RAKETE | 64G | 1002242 | HEIDEL NASCHTÜTE 84G-95G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL RAKETE HEIDEL NASCHTUETE |
+| 2616851 | HEIDEL ASTRONAUT | NASCHTUETE            *A | 1002242 | HEIDEL NASCHTÜTE 84G-95G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL ASTRONAUT NASCHTUETE HEIDEL NASCHTUETE |
+| 2617849 | LINDT MINI PRALINES | BOTSCHAFT 44G*A*NML*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES BOTSCHAFT |
+| 2617876 | LINDT BUTTERMIL.LIMETTE | TAFEL 100G*S*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BUTTERMIL LIMETTE TAFEL |
+| 2618904 | MIA BELLA LIKOER-KIRSCH | PRALINEN 165G | 1004639 | MIA BELLA PRALINEN | Suesswaren | semantic_suesswaren:PRALIN* | MIA BELLA LIKOER KIRSCH PRALINEN MIA BELLA PRALINEN |
+| 2621269 | LINDT KALENDER | FILZ EDITION 275G *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KALENDER FILZ EDITION |
+| 2621404 | LINDT LINDOR XMAS | PRAESENT MILCH 200G*W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR XMAS PRAESENT MILCH |
+| 2621405 | LINDT LINDOR XMAS | PRAESENT MISCH.199G*W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR XMAS PRAESENT MISCH |
+| 2621407 | LINDT TRINKCHOKOLADE | VOLLMILCH 120G *W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TRINKCHOKOLADE VOLLMILCH |
+| 2621409 | LINDT ZAPFEN MARC DE | CHAMPAGNE 101G *BK*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ZAPFEN MARC DE CHAMPAGNE |
+| 2621410 | LINDT MINI PRALINÉS 44G | WEIHNACHTS-ZAUB.*BK*AL |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | LINDT MINI PRALIN S WEIHNACHTS ZAUB |
+| 2623667 | LINDT SANTA GLAMOUR | 70G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA GLAMOUR |
+| 2626204 | LINDT TEDDY KLEINE | GESCHENKE 60G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TEDDY KLEINE GESCHENKE |
+| 2629602 | LINDOR BEUTEL | STRACCIATELLA 134G*NML | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDOR BEUTEL STRACCIATELLA LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 2629603 | LINDT VOLLMILCH TAFEL | OHNE ZUCKER 100G | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT VOLLMILCH TAFEL OHNE ZUCKER LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 2629604 | LINDT ZARTBITTER TAFEL | OHNE ZUCKER 100G*SOBE | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT ZARTBITTER TAFEL OHNE ZUCKER LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 2629605 | LINDT MINI PRALINES | WEISS 163G*ALK | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT MINI PRALINES WEISS LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 2629610 | LINDT EXCELLENCE | 100% 50G | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT EXCELLENCE 100 LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 2632100 | HEIDEL GESCHENKDOSE | WEIHN.STIEFEL 97G*WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GESCHENKDOSE WEIHN STIEFEL |
+| 2632101 | HEIDEL SANTA GESCHENK- | DOSE NOSTALGIE 54G*WEIHN |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SANTA GESCHENK DOSE NOSTALGIE |
+| 2632102 | HEIDEL RIESENRAD WEIHN.- | NOSTALGIE 118G    *WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL RIESENRAD WEIHN NOSTALGIE |
+| 2633520 | RITTER SPORT WEIHNACHTS- | HELD MIX 187G     *WEIHN |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT WEIHNACHTS HELD MIX |
+| 2634169 | HEIDEL | LIEBES-BOTSCHAFTEN 75G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL LIEBES BOTSCHAFTEN |
+| 2634175 | HEIDEL | ALLES LIEBE HERZ 108G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL ALLES LIEBE HERZ |
+| 2634187 | HEIDEL | LIEBESWUERFEL 32G NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL LIEBESWUERFEL NML |
+| 2634190 | HEIDEL | LIEBES BAROMETER 90G NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL LIEBES BAROMETER NML |
+| 2634195 | HEIDEL EURO 3D | CHOCO GRUESSE 100G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL EURO 3D CHOCO GRUESSE |
+| 2634200 | HEIDEL EURO | GELDDOSE 22G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL EURO GELDDOSE |
+| 2634250 | HEIDEL SCHMUCKDOSE | SCHOENER/MIESER TAG 60G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHMUCKDOSE SCHOENER MIESER TAG |
+| 2634297 | HEIDEL SCHATZTRUHE | ASTRAONAUT 118G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHATZTRUHE ASTRAONAUT |
+| 2634511 | HEIDEL EURO | GELDTRANSPORTER 113G*NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL EURO GELDTRANSPORTER |
+| 2636776 | FRANKONIA NO SUGAR ADDED | RIEGEL CHOC. BROWNIE 50G |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA NO SUGAR ADDED RIEGEL CHOC BROWNIE |
+| 2637590 | LINDT FIORETTO MINIS | BEUTEL 115G *W*ALK*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO MINIS BEUTEL |
+| 26382 | LINDT HASENNEST MIT | SPEZ.-EIERN 280G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HASENNEST MIT SPEZ EIERN |
+| 2642787 | LINDT LES GRANDES | MANDEL SALZ 150G *W *NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LES GRANDES MANDEL SALZ |
+| 2643169 | LINDT SANTA GLAMOUR MINI | 50G               *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA GLAMOUR MINI |
+| 2645518 | LINDT DE INDIVIDUELLER | KALENDER 194G  *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DE INDIVIDUELLER KALENDER |
+| 2646586 | HEIDEL PRAESENTDOSE | OSTERGRUESSE *O-BK |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL PRAESENTDOSE OSTERGRUESSE |
+| 2648890 | LINDT DEKO EIER MINI | MILCH GOLD 180G   *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DEKO EIER MINI MILCH GOLD |
+| 2648897 | LINDT MINI GOLDHASEN | IM BECHER 105G   *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI GOLDHASEN IM BECHER |
+| 2648902 | LINDT MINI HOHLFIGUREN | IM BECHER 105G   *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI HOHLFIGUREN IM BECHER |
+| 2648907 | LINDT LINDOR KL GESCHENK | MILCH 67G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KL GESCHENK MILCH |
+| 2648908 | LINDT LINDOR KLEINE | GESCHENKE MIX 67G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KLEINE GESCHENKE MIX |
+| 2648912 | LINDT WEISSE EIER | MISCHUNG 140G    *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEISSE EIER MISCHUNG |
+| 2648914 | LINDT DEKO HENNE | GOLD 35G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DEKO HENNE GOLD |
+| 2648916 | LINDT DEKO HENNE | HANDBEMALT 35G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DEKO HENNE HANDBEMALT |
+| 2648918 | LINDT GOLDHASE WEISS& | ERDBEERE 100G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE WEISS& ERDBEERE |
+| 2648919 | LINDT BLAETTERKROKANT | HERB 100G       *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BLAETTERKROKANT HERB |
+| 2648921 | LINDT BLAETTERKROKANT | KLASSISCH 100G   *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BLAETTERKROKANT KLASSISCH |
+| 2648925 | LINDT MINI EIER GANZNUSS | MILCH 86G        *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI EIER GANZNUSS MILCH |
+| 2648926 | LINDT MINI EIER GANZNUSS | DUNKEL 86G       *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI EIER GANZNUSS DUNKEL |
+| 2649204 | LINDT PUZZLE | RAVENSBURGER 1 ZUGABE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT PUZZLE RAVENSBURGER 1 ZUGABE |
+| 2649208 | LINDT PUZZLE | RAVENSBURGER 2 ZUGABE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT PUZZLE RAVENSBURGER 2 ZUGABE |
+| 2651064 | LINDT LINDOR | KISSEN ZUGABE   *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KISSEN ZUGABE |
+| 2651475 | LINDT GOLDHASE IN GESCH. | TASCHE 100G      *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE IN GESCH TASCHE |
+| 2656604 | LINDT VEGAN TAFEL COOKIE | 100G   *W*NML | 1002340 | LINDT SWEET YOU 100G | Suesswaren | semantic_suesswaren:LINDT | LINDT VEGAN TAFEL COOKIE LINDT SWEET YOU |
+| 2656613 | LINDT VEGAN TAFEL SALTED | CARAMEL 100G  *W*NML | 1002340 | LINDT SWEET YOU 100G | Suesswaren | semantic_suesswaren:LINDT | LINDT VEGAN TAFEL SALTED CARAMEL LINDT SWEET YOU |
+| 2659564 | LINDT PRALINES FREUDE | SCHENKEN 180G      *A | 1002324 | LINDT MINI PRALINES 158G-180G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES FREUDE SCHENKEN LINDT MINI PRALINES |
+| 2659675 | ALNATURA BIO PRALINE | KUGELN NOUGAT ZB 96G*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | ALNATURA BIO PRALINE KUGELN NOUGAT ZB |
+| 2661519 | SNICKERS MINIS | 275G*NML |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS MINIS |
+| 2665697 | RITTER SPORT BUNTER WINT | MIX BEUTEL 195G*WH |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT BUNTER WINT MIX BEUTEL |
+| 2665847 | LINDT FUER KENNER | ALKOHOL 200G    *A*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FUER KENNER ALKOHOL |
+| 2672057 | RITTER SPORT SCHOKOLADE | CRANBERRY NUSS 100G NML | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE CRANBERRY NUSS NML RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 2672133 | LINDT CREATION NOUGAT | KROKANT 150G   *W*NML | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT CREATION NOUGAT KROKANT LINDT SCHOKOLADE |
+| 2672140 | LINDT EB MOUSSE | CARAMEL SALZ 150G *W |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EB MOUSSE CARAMEL SALZ |
+| 2672156 | LINDT LINDOR BEUTEL | HASELNUSS 137G*SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL HASELNUSS |
+| 2672162 | LINDT MOCCA TAFEL | 100G*W | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT MOCCA TAFEL LINDT SCHOKOLADE |
+| 2672649 | LINDT DIVA  TRUEFFEL | COLLIER 182G*W*ALK*SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DIVA TRUEFFEL COLLIER |
+| 2681107 | CHOCOLATERIE WEIHNACHTEN | PRALINEN-SCHOKOFOERMCHEN |  |  | Suesswaren | semantic_suesswaren:PRALIN* | CHOCOLATERIE WEIHNACHTEN PRALINEN SCHOKOFOERMCHEN |
+| 268140 | LINDT LINDOR KUGELN | DARK 60% BEUTEL 136G *W | 1002321 | LINDT LINDOR KUGELN BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KUGELN DARK 60 BEUTEL LINDT LINDOR KUGELN BEUTEL |
+| 2685381 | HEIDEL NOSTALGIE | WEIHNACHTSM.86g*WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL NOSTALGIE WEIHNACHTSM |
+| 2685399 | HEIDEL PRAESENTDOSE | WEIHN. NOSTA.183G*WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL PRAESENTDOSE WEIHN NOSTA |
+| 268904 | LINDT LINDOR PRAESENT | BOX MILCH 187G | 1002322 | LINDT LINDOR PRÄSENT BOX 186-187G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR PRAESENT BOX MILCH LINDT LINDOR PRAESENT BOX 186 |
+| 2692217 | LINDT KALLIGRAFIE XMAS | TASCHE 141G  *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KALLIGRAFIE XMAS TASCHE |
+| 2692221 | LINDT KALLIGRAFIE XMAS | WUERFEL 58G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KALLIGRAFIE XMAS WUERFEL |
+| 2692253 | LINDT LINDOR XMAS WUERF. | MILCH 100G  *W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR XMAS WUERF MILCH |
+| 2692264 | LINDT LINDOR XMAS WUERF. | MISCHUNG 99G *W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR XMAS WUERF MISCHUNG |
+| 2692284 | LINDT KALLIGRAFIE XMAS | TANNE 105G *WH *STR |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KALLIGRAFIE XMAS TANNE |
+| 2692333 | LINDT KALLIGRAFIE XMAS | PRALINÉ 175G*BK*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | LINDT KALLIGRAFIE XMAS PRALIN |
+| 2693214 | ALNATURA BIO PRALINE | VARIATION 97G*OST |  |  | Suesswaren | semantic_suesswaren:PRALIN* | ALNATURA BIO PRALINE VARIATION |
+| 2698761 | LINDT LINDOR PRAESENT | MIT HERZ CUTOUTS 187G*A |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR PRAESENT MIT HERZ CUTOUTS |
+| 2698763 | LINDT LINDOR HERZPACKUNG | ERDBEER-SAHNE 200G *A |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR HERZPACKUNG ERDBEER SAHNE |
+| 2701791 | LINDT LINDOR TAFEL | CARAMEL & SALZ      100G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT LINDOR TAFEL CARAMEL & SALZ LINDT SCHOKOLADE |
+| 2701796 | LINDT EDELBITTER MOUSSE | ERDBEER PFEFFER 150G*NML | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT EDELBITTER MOUSSE ERDBEER PFEFFER LINDT SCHOKOLADE |
+| 2701799 | LINDT LINDOR BEUTEL | CARAMEL & SALZ 137G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT LINDOR BEUTEL CARAMEL & SALZ LINDT SCHOKOLADE |
+| 2704186 | LINDT MINI PRALINÉS*ALK | EMOTIO BOTSCHAFT 100G *A | 1002326 | LINDT MINI PRALINES 90G-100G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | LINDT MINI PRALIN S EMOTIO BOTSCHAFT LINDT MINI PRALINES |
+| 2704188 | LINDT MINI PRALINÉS | EMOTI EDITI ROSA 180G *A | 1002326 | LINDT MINI PRALINES 90G-100G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | LINDT MINI PRALIN S EMOTI EDITI ROSA LINDT MINI PRALINES |
+| 2704732 | LINDT MINI PRALINÉS | EMOTIO EDITI ROT 180G *A | 1002326 | LINDT MINI PRALINES 90G-100G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | LINDT MINI PRALIN S EMOTIO EDITI ROT LINDT MINI PRALINES |
+| 2705188 | LINDT MINI PRALINES | JOGHURT 90G*A | 1002326 | LINDT MINI PRALINES 90G-100G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES JOGHURT LINDT MINI PRALINES |
+| 2705193 | LINDT PRALINES | JOGHURT 163G *A | 1002326 | LINDT MINI PRALINES 90G-100G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES JOGHURT LINDT MINI PRALINES |
+| 2707173 | MAERKLIN 44218 H0 | KUEHLWAGEN RITTER SPORT |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | MAERKLIN 44218 H0 KUEHLWAGEN RITTER SPORT |
+| 2708865 | RITTER SPORT SCHOKOLADE | MINI BLAUE T. 200G *NML | 1000188 | RITTER SPORT MINIS 150G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE MINI BLAUE T RITTER SPORT MINIS |
+| 2708870 | RITTER SPORT SCHOKOLADE | MINI KNUSPTUETE 200G*NML | 1000188 | RITTER SPORT MINIS 150G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE MINI KNUSPTUETE RITTER SPORT MINIS |
+| 2708897 | RITTER SPORT SCHOKOLADE | MINI B. TUETE 200G*NML | 1000188 | RITTER SPORT MINIS 150G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE MINI B TUETE RITTER SPORT MINIS |
+| 2710679 | PRINZEN ROLLE | VOLLKORN 352G*SOBE | 1000308 | PRINZENROLLE 400G | Suesswaren | semantic_suesswaren:PRINZENROLLE | PRINZEN ROLLE VOLLKORN PRINZENROLLE |
+| 2710771 | LINDT TEDDY PULLOVER | 100G *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TEDDY PULLOVER |
+| 2710772 | LINDT ADVENTSKALENDER | ADVENTSKRANZ 270G *W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ADVENTSKALENDER ADVENTSKRANZ |
+| 2710773 | LINDT GLAMOUR | PRALINES 167G *W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT GLAMOUR PRALINES |
+| 2710774 | LINDT GOLDSTÜCKE | PRALIONES 300G *BK*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDSTUECKE PRALIONES |
+| 2711108 | SNICKERS CREAMY PEANUT | BUTTER 146G*SOBE |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS CREAMY PEANUT BUTTER |
+| 2711121 | SNICKERS CREAMY PEANUT | BUTTER 36,5G*SOBE |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS CREAMY PEANUT BUTTER |
+| 2718700 | SNICKERS STIELEIS | 91ML *EIS |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS STIELEIS |
+| 2722741 | HEIDEL MAENNERSPRUECHE | 52,5G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL MAENNERSPRUECHE |
+| 2722746 | HEIDEL WUENSCHEBOX | 75G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL WUENSCHEBOX |
+| 2722768 | HEIDEL 3D CHOCO-GRUESSE | MEERJUNGFRAU 100G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL 3D CHOCO GRUESSE MEERJUNGFRAU |
+| 2722777 | HEIDEL 3D CHOCO-GRUESSE | ASTRONAUT 100G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL 3D CHOCO GRUESSE ASTRONAUT |
+| 2728185 | LINDT CREATION*ALK | TARTE AU CITRON 150G*NML | 1002299 | LINDT CREATION 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT CREATION TARTE AU CITRON LINDT CREATION |
+| 272898 | FRUCHTGUMMI-BAERCHEN MIT | 20%FRUCHTSAFT 125G*SOBE | 1000207 | BEAUTY SWEETIES FRUCHTGUMMI 125G | Suesswaren | semantic_suesswaren:BEAUTY SWEETIES; whitelist_prefix:BEAUTY SWEETIES FRUCHTGUMMI 125G | FRUCHTGUMMI BAERCHEN MIT 20 FRUCHTSAFT BEAUTY SWEETIES FRUCHTGUMMI |
+| 2730113 | TROLLI SQUIGGLES | 150G             *NML | 1000323 | TROLLI FRUCHTGUMMI 175G-200G | Suesswaren | semantic_suesswaren:TROLLI | TROLLI SQUIGGLES TROLLI FRUCHTGUMMI |
+| 2730118 | TROLLI SQUIGGLES TWIST | 150G           *A*SOBE | 1000323 | TROLLI FRUCHTGUMMI 175G-200G | Suesswaren | semantic_suesswaren:TROLLI | TROLLI SQUIGGLES TWIST TROLLI FRUCHTGUMMI |
+| 2738599 | LINDT SANTA  DESIGN | EDITION 125G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA DESIGN EDITION |
+| 2738602 | LINDT MARC DE CHAMPAGNE | FLASCHE 131G *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MARC DE CHAMPAGNE FLASCHE |
+| 2738603 | LINDT DESIGN EDITION | XMAS PRALINES 180G*WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT DESIGN EDITION XMAS PRALINES |
+| 2738604 | LINDT ENGEL | 40G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ENGEL |
+| 2738606 | LINDT SANTA DESIGN | EDITION 70G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA DESIGN EDITION |
+| 2738612 | LINDT MINI SANTA IM | SCHLITTEN 60G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI SANTA IM SCHLITTEN |
+| 2738615 | LINDT MINI ENGEL | METALLIC 50G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI ENGEL METALLIC |
+| 2738620 | LINDT ENGEL | PRALINES 200G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT ENGEL PRALINES |
+| 2738622 | LINDT SANTA VEGAN | 80G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA VEGAN |
+| 2741808 | TRIXIE DOG PRALINE HUHN | 100 G SNACK*AUS |  |  | Suesswaren | semantic_suesswaren:PRALIN* | TRIXIE DOG PRALINE HUHN SNACK |
+| 2744045 | MERCI TOGETHER | 175G | 1000328 | MERCI VIELFALT 250G | Suesswaren | semantic_suesswaren:MERCI | MERCI TOGETHER MERCI VIELFALT |
+| 2746001 | ZETTI BAMBINA | CLASSIC 3ER PACK 125G *A |  |  | Suesswaren | semantic_suesswaren:ZETTI | ZETTI BAMBINA CLASSIC 3ER PACK |
+| 2746725 | KUEFFERLE PRALINEN | FROHE OSTERN 123G*O-BK |  |  | Suesswaren | semantic_suesswaren:PRALIN* | KUEFFERLE PRALINEN FROHE OSTERN |
+| 2746746 | LINDT GOLDHASE BLUMEN ED | PREMIUM GESCHEN210G*O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE BLUMEN ED PREMIUM GESCHEN210G |
+| 2746751 | LINDT GLAMOUR | GOLDHASE 100G *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GLAMOUR GOLDHASE |
+| 2746758 | LINDT GOLDHASE | GLAMOUR EDIT. 200G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE GLAMOUR EDIT |
+| 2746761 | LINDT GOLDHASE DU BIST | GOLD WERT 163G *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE DU BIST GOLD WERT |
+| 2746784 | LINDT GOLDHASE DU BIST | GOLD WERT GESCH270G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE DU BIST GOLD WERT GESCH270G |
+| 2746794 | LINDT XXL | LINDOR MILCH 254G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT XXL LINDOR MILCH |
+| 2746949 | LINDT KARAMELL EIER | BEUTEL 90G         *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KARAMELL EIER BEUTEL |
+| 2747671 | FRANKONIA NO SUGAR ADDED | HASELNUSS WAFFELN  *NML |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA NO SUGAR ADDED HASELNUSS WAFFELN |
+| 2749515 | LINDT DU BIST GOLDWERT | GOLDHASE 43G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DU BIST GOLDWERT GOLDHASE |
+| 2749518 | LINDT DU BIST GOLDWERT | GOLDHASE PAAR 100G*O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DU BIST GOLDWERT GOLDHASE PAAR |
+| 2749521 | LINDT DU BIST GOLDWERT | GOLDH. TASCHE 153G*O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DU BIST GOLDWERT GOLDH TASCHE |
+| 2750435 | HEIDEL WOHNWAGEN | OSTERGRUESSE 122G*OSTERN |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL WOHNWAGEN OSTERGRUESSE |
+| 2750436 | HEIDEL RUNDDOSE | OSTERGRUESSE 97G *OSTERN |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL RUNDDOSE OSTERGRUESSE |
+| 2751191 | TROLLI BYTES | 150G             *A*SOBE | 1000323 | TROLLI FRUCHTGUMMI 175G-200G | Suesswaren | semantic_suesswaren:TROLLI | TROLLI BYTES TROLLI FRUCHTGUMMI |
+| 2752195 | RITTER SPORT GIN BEUTEL | 200G   *A |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT GIN BEUTEL |
+| 2754114 | LINDT GOLDHASE MINIS | MILCH BTL 105G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE MINIS MILCH BTL |
+| 2754118 | LINDT GOLDHASE MINIS | MIX BTL 105G *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE MINIS MIX BTL |
+| 2754357 | TROLLI FUN FOR ALL | 750G |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI FUN FOR ALL |
+| 2754706 | NESTLE CHOCLAIT CHIPS | LEBKUCHEN 115G  *AK |  |  | Suesswaren | semantic_suesswaren:NESTLE CHOCLAIT; whitelist_prefix:NESTLE CHOCLAIT CHIPS 115G | NESTLE CHOCLAIT CHIPS LEBKUCHEN |
+| 2756116 | LINDT NUXOR | BEUTEL FEINHERB 103G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUXOR BEUTEL FEINHERB |
+| 2756119 | LINDT NUXOR | BEUTEL MILCH 103G *NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUXOR BEUTEL MILCH |
+| 2756123 | LINDT SCHOKOLADE TAFEL | -30%ZUCKERMILCH 100G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SCHOKOLADE TAFEL 30 ZUCKERMILCH |
+| 2756128 | LINDT VEGAN PUR | 100G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT VEGAN PUR |
+| 2756147 | LINDT VEGAN TAFEL | SALTED ALMONDE 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT VEGAN TAFEL SALTED ALMONDE |
+| 2756155 | LINDT VEGAN TAFEL | SWEET&SALTY POPCORN 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT VEGAN TAFEL SWEET&SALTY POPCORN |
+| 2757216 | LINDT NUXOR | BALLOTIN FEINHERB193G *A |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUXOR BALLOTIN FEINHERB193G |
+| 2757223 | LINDT NUXOR | BALLOTIN MILCH 193G   *A |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUXOR BALLOTIN MILCH |
+| 2757932 | FRANKONIA NO SUGAR ADDED | BAR CHOC HAZEL 50G |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA NO SUGAR ADDED BAR CHOC HAZEL |
+| 2767152 | RITTER SPORT SCHOKOLADE | OLYMPIA  250G         *A |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE OLYMPIA |
+| 2769367 | TRUEFFEL- / PRALINENDOSE | BAMBI 150 G*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | TRUEFFEL PRALINENDOSE BAMBI |
+| 2769577 | KEKS- / PRALINENDOSE | BAMBI M. DECKEL*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | KEKS PRALINENDOSE BAMBI M DECKEL |
+| 2772279 | LINDT OSTER EDITION | KASSETTE 144G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT OSTER EDITION KASSETTE |
+| 2772283 | LINDT GOLDHASE GROSSE | OSTER-MISCH 180G *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE GROSSE OSTER MISCH |
+| 2772292 | LINDT KLASSISCHE | SPEZIALIT. 216G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KLASSISCHE SPEZIALIT |
+| 2772294 | LINDT MINI EIER KNUSPRIG | CEREAL VM 86G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI EIER KNUSPRIG CEREAL VM |
+| 2776225 | LINDT HELLO BUNNY VEGAN | 80G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO BUNNY VEGAN |
+| 2778388 | RITTER SPORT BUNTE VIELF | SALTED CARAMEL100G*A*NML | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT BUNTE VIELF SALTED CARAMEL100G RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 2778413 | RITTER SPORT VEGAN PUR | OHNE MILCH 100G  *A*NML | 1000190 | RITTER SPORT SCHOKOLADE TAFEL VEGAN 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VEGAN PUR OHNE MILCH RITTER SPORT SCHOKOLADE TAFEL VEGAN |
+| 2790233 | PRALINENDOSE RANDLOS | BLUMENGUSS*ON |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENDOSE RANDLOS BLUMENGUSS |
+| 2790234 | TRUEFFEL-/PRALINENDOSE | BLUMENGUSS*ON |  |  | Suesswaren | semantic_suesswaren:PRALIN* | TRUEFFEL PRALINENDOSE BLUMENGUSS |
+| 2790235 | TRUEFFEL-/PRALINENDOSE | HASI*ON |  |  | Suesswaren | semantic_suesswaren:PRALIN* | TRUEFFEL PRALINENDOSE HASI |
+| 2799272 | LINDT LINDOR BEUTEL | HIMBEER 137G *A | 1002315 | LINDT LINDOR BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL HIMBEER LINDT LINDOR BEUTEL |
+| 2799293 | LINDT LINDOR BEUTEL | SOMMER-MIX 137G NML | 1002315 | LINDT LINDOR BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL SOMMER MIX NML LINDT LINDOR BEUTEL |
+| 2806172 | LINDT FIORETTO MINIS | BEUTEL COCOS 115G*NML | 1002305 | LINDT FIORETTO MINIS 115G | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO MINIS BEUTEL COCOS LINDT FIORETTO MINIS |
+| 2806176 | LINDT FIORETTO MINIS*ALK | BEUTEL ERDBEERE 115G*NML | 1002305 | LINDT FIORETTO MINIS 115G | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO MINIS BEUTEL ERDBEERE LINDT FIORETTO MINIS |
+| 2806180 | LINDT FIORETTO MINIS | BEUTEL STRACCIAT.115G | 1002305 | LINDT FIORETTO MINIS 115G | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO MINIS BEUTEL STRACCIAT LINDT FIORETTO MINIS |
+| 2807414 | HEIDEL WEIHNACHTSLICHT | ENGEL NOSTAL.135G *WEIHN |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL WEIHNACHTSLICHT ENGEL NOSTAL |
+| 2807424 | HEIDEL 3D CHOCO GRÜßE | ENGEL NOSTAL.100G *WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL 3D CHOCO GRUESSE ENGEL NOSTAL |
+| 2807437 | HEIDEL GESCHENKDOSE | MONDSICHEL 156G *WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GESCHENKDOSE MONDSICHEL |
+| 2809473 | LINDT SANTA TEDDY PULL | OVER ROT ROSA100G*BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA TEDDY PULL OVER ROT ROSA100G |
+| 2809562 | LINDT GESCHENK | MISCHUNG 180G *W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GESCHENK MISCHUNG |
+| 2809566 | LINDT MARC DE | CHAMPAGNE 190G *W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MARC DE CHAMPAGNE |
+| 2809567 | LINDT GESCHENK TANNE | BLÄTTERKROKANT 53G *W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GESCHENK TANNE BLAETTERKROKANT |
+| 2810125 | LINDT HELLO MINI MIX | STICK VEGAN 85G *W-BK*NM |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO MINI MIX STICK VEGAN |
+| 2811066 | RITTER SPORT SCHOKOLADE | MINI SCHOKO 150G*A*NML | 1000188 | RITTER SPORT MINIS 150G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE MINI SCHOKO RITTER SPORT MINIS |
+| 2815129 | FRANKONIA BIO VEGAN | SALT CARA TAFEL100G *NML |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA BIO VEGAN SALT CARA TAFEL100G |
+| 2815132 | FRANKONIA NO SUGAR ADDED | SNACK'N SHARE 120G *NML |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA NO SUGAR ADDED SNACK N SHARE |
+| 2815306 | VEGANZ BIO NOUGAT | PRALINE 85 G *SOBE |  |  | Suesswaren | semantic_suesswaren:PRALIN* | VEGANZ BIO NOUGAT PRALINE |
+| 2822136 | LINDT SCHOKOLADE EXCEL. | 50% MILD      100G | 1002337 | LINDT SCHOKOLADE GEFÜLLT 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G; whitelist_prefix:LINDT SCHOKOLADE GEFÜLLT 100G | LINDT SCHOKOLADE EXCEL 50 MILD LINDT SCHOKOLADE GEFUELLT |
+| 2822139 | LINDT WEISSE TAFEL | 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEISSE TAFEL |
+| 2827642 | ZETTI BAMBINA WEISSE | SCHOKOLADE 100G*SOBE |  |  | Suesswaren | semantic_suesswaren:ZETTI | ZETTI BAMBINA WEISSE SCHOKOLADE |
+| 2828794 | HEIDEL HAPPY BIRTHDAY | 7ER EMOTICONS 52,5G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL HAPPY BIRTHDAY 7ER EMOTICONS |
+| 2829165 | MIA BELLA BELGISCHE | TRUEFFEL ORIGI. 200G | 1004639 | MIA BELLA PRALINEN | Suesswaren | semantic_suesswaren:PRALIN* | MIA BELLA BELGISCHE TRUEFFEL ORIGI MIA BELLA PRALINEN |
+| 2829170 | MIA BELLA BELGISCHE | TRUEFFEL SALZ K 200G*SOB | 1004639 | MIA BELLA PRALINEN | Suesswaren | semantic_suesswaren:PRALIN* | MIA BELLA BELGISCHE TRUEFFEL SALZ K MIA BELLA PRALINEN |
+| 2830840 | CELEBRATIONS PRALINES | DOSE 650G        *A |  |  | Suesswaren | semantic_suesswaren:PRALIN* | CELEBRATIONS PRALINES DOSE |
+| 2833117 | LINDT WEIHNACHTSMANDEL | CARAMELSALZ 100G*WEIH*AL |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANDEL CARAMELSALZ |
+| 2833122 | LINDT WEIHN CHOCO MANDEL | CARAMEL SALZ100G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHN CHOCO MANDEL CARAMEL SALZ100G |
+| 2835990 | ZETTI WEIHNACHTSBAUM- | BEHANG 25G *WH |  |  | Suesswaren | semantic_suesswaren:ZETTI | ZETTI WEIHNACHTSBAUM BEHANG |
+| 2836133 | EDELMARZIPAN PRALINÉS | KIRSCH LEBK100G*WEIHN |  |  | Suesswaren | semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | EDELMARZIPAN PRALIN S KIRSCH LEBK100G |
+| 2837475 | CHOCOLATERIE PRALINEN- | DOSE 12X10CM*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | CHOCOLATERIE PRALINEN DOSE 12X10CM |
+| 2837477 | CHOCOLATERIE PRALINEN | PAPIERFÖR. 150ST.BRAU*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | CHOCOLATERIE PRALINEN PAPIERFOER BRAU |
+| 2838181 | LINDT CARAMEL & ZAPFEN | 101G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT CARAMEL & ZAPFEN |
+| 2838193 | LINDT SPEKULATIUS | DOPPELDREH 101G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SPEKULATIUS DOPPELDREH |
+| 2838194 | LINDT GLAMOUR MINI SANTA | IM SCHORNSTEIN 60G*WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GLAMOUR MINI SANTA IM SCHORNSTEIN |
+| 2838199 | LINDT MAGISCHE WEIHN | TANNE 105G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MAGISCHE WEIHN TANNE |
+| 2838217 | LINDT WEIHN.MANN GEBRANN | MANDEL 125G*WH-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHN MANN GEBRANN MANDEL |
+| 2838222 | LINDT MAGISCHE WEIHN | TASCHE 141G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MAGISCHE WEIHN TASCHE |
+| 2838224 | LINDT MAGISCHE WEIHN | PRALINÉS 175G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | LINDT MAGISCHE WEIHN PRALIN S |
+| 2839672 | LINDT BLAETTERKROKANT | KASETTE 170G   *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BLAETTERKROKANT KASETTE |
+| 2839674 | LINDT EIERKASETTE UNSERE | LIEBSTEN 185G*O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EIERKASETTE UNSERE LIEBSTEN |
+| 2839676 | LINDT OSTERKORB | KASETTE 144G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT OSTERKORB KASETTE |
+| 2839678 | LINDT TOGETHERNESS GOLDH | GESCHICHTE187G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TOGETHERNESS GOLDH GESCHICHTE187G |
+| 2839680 | LINDT TOGETHERNESS GOLDH | TASCHE106G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TOGETHERNESS GOLDH TASCHE106G |
+| 2839681 | LINDT TOGETHERNESS GOLDH | WÜRFEL55G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TOGETHERNESS GOLDH WUERFEL55G |
+| 2839683 | LINDT TOGETHERNESS GOLDH | GROSS KLEIN163G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TOGETHERNESS GOLDH GROSS KLEIN163G |
+| 2840723 | AFTER EIGHT WINTER | PRALINES 65G *WEIHN |  |  | Suesswaren | semantic_suesswaren:PRALIN* | AFTER EIGHT WINTER PRALINES |
+| 2840749 | LINDT WEIHNACHTSZAUBER | PRALINEDOSE 195G*WEI*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT WEIHNACHTSZAUBER PRALINEDOSE |
+| 2840754 | LINDT LIND.KOECHER | MILCH 150G*WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LIND KOECHER MILCH |
+| 2841354 | LINDT FUER KENNER | NOIRS 125G | 1002329 | LINDT PRALINES 125G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT FUER KENNER NOIRS LINDT PRALINES |
+| 2841364 | LINDT FUER KENNER | NOUGAT 125G | 1002329 | LINDT PRALINES 125G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT FUER KENNER NOUGAT LINDT PRALINES |
+| 2841368 | LINDT FUER KENNER | MARZIPAN 125G*ALK | 1002329 | LINDT PRALINES 125G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT FUER KENNER MARZIPAN LINDT PRALINES |
+| 2841987 | LINDT LINDOR | CORNET COCOS 200G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET COCOS |
+| 2841991 | LINDT LINDOR CORNET | SALTED CARAMEL 200G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET SALTED CARAMEL |
+| 2843757 | ALNATURA BIO RUM | PRALINEN 75G *NML |  |  | Suesswaren | semantic_suesswaren:PRALIN* | ALNATURA BIO RUM PRALINEN |
+| 2845109 | LINDT MAGISCHE WEIHN | KISSEN 46G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MAGISCHE WEIHN KISSEN |
+| 2847821 | RITTER SPORT SCHOKOLADE | KAFFEE KNUS 100G *AK*NML | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE KAFFEE KNUS RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 2848197 | LINDT LINDOR BEUTEL | DOUBLE CHOCO 137G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL DOUBLE CHOCO |
+| 2850119 | PRALINENMISCHUNG 194G | KLASSISCHE MISCHUNG*NML | 1002213 | HALLOREN CONFISERIE 130G | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENMISCHUNG KLASSISCHE MISCHUNG HALLOREN CONFISERIE |
+| 2850142 | HALLOREN PRALINENMISCH. | 205G*NML | 1002213 | HALLOREN CONFISERIE 130G | Suesswaren | semantic_suesswaren:PRALIN* | HALLOREN PRALINENMISCH HALLOREN CONFISERIE |
+| 2852994 | LINDT CREATION HIMBEER | PANA COTTA 150G | 1002299 | LINDT CREATION 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT CREATION HIMBEER PANA COTTA LINDT CREATION |
+| 2852995 | LINDT EXCELLENCE | WEISSER NOUGAT 100G*NML | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT EXCELLENCE WEISSER NOUGAT LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 2853335 | LINDT SCHOKOLADE | PFLAUME 100G*NML*ALK | 1002337 | LINDT SCHOKOLADE GEFÜLLT 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G; whitelist_prefix:LINDT SCHOKOLADE GEFÜLLT 100G | LINDT SCHOKOLADE PFLAUME LINDT SCHOKOLADE GEFUELLT |
+| 2853351 | LINDT EXCELLENCE | CRANBERRY MANDEL 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EXCELLENCE CRANBERRY MANDEL |
+| 2853384 | LINDT FIORETTO | SHARING BOX 230G*NML*ALK | 1002306 | LINDT FIORETTO PRÄSENT 138G | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO SHARING BOX LINDT FIORETTO PRAESENT |
+| 2855116 | LINDT MINI PRALINES | WEISS 90G*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES WEISS |
+| 2855118 | LINDT MINI PRALINES | MARZIPAN 90G |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES MARZIPAN |
+| 2855123 | LINDT LINDOR PRAESENT | BOX 70% 186G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR PRAESENT BOX 70 |
+| 2855855 | LINDT FUER KENNER CLASSI | DESIGN EDITION 200G *A |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FUER KENNER CLASSI DESIGN EDITION |
+| 2855864 | LINDT PRALINES KLEINER | DANK DESIGN EDIT. 40G *A |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES KLEINER DANK DESIGN EDIT |
+| 2855870 | LINDT EMOTIONAL GESCHENK | DESIGN EDITION 80G *A |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EMOTIONAL GESCHENK DESIGN EDITION |
+| 2858223 | HOFBAUER PRALINEN | ALLES GUTE  120G*AT*AUS |  |  | Suesswaren | semantic_suesswaren:PRALIN* | HOFBAUER PRALINEN ALLES GUTE |
+| 2863796 | TRUEFFEL-/PRALINENDOSE | MODERN YULE RED*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | TRUEFFEL PRALINENDOSE MODERN YULE RED |
+| 286392 | HEIDEL TEETASSE DEIN | MOMENT 86G  NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL TEETASSE DEIN MOMENT NML |
+| 2863946 | PRALINENDOSE YULE RED | *WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENDOSE YULE RED |
+| 2863948 | PILLEN-/PRALINENDOSE | YULE RED*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PILLEN PRALINENDOSE YULE RED |
+| 2863949 | PILLEN-/PRALINENDOSE | YULE WHITE*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PILLEN PRALINENDOSE YULE WHITE |
+| 2870209 | FRANKONIA MY LITTLE MIX | BOX VEGAN 120G*SOB |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA MY LITTLE MIX BOX VEGAN |
+| 2870570 | BEAUTY BABY BIO FRUCHT5M | HEIDEL PFIR BIRN190G*UMS |  |  | Suesswaren | semantic_suesswaren:HEIDEL | BEAUTY BABY BIO FRUCHT5M HEIDEL PFIR BIRN190G |
+| 2871552 | RITTER SPORT BUNTE VIELF | CRISPY BANANA100G*AK*NML | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT BUNTE VIELF CRISPY BANANA100G RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 2871557 | RITTER SPORT VEGAN | CRUNCHY MANDEL 100G | 1000190 | RITTER SPORT SCHOKOLADE TAFEL VEGAN 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VEGAN CRUNCHY MANDEL RITTER SPORT SCHOKOLADE TAFEL VEGAN |
+| 2871559 | RITTER SPORT VEGAN | CRUNC VOLL-NUSS 100G*NML | 1000190 | RITTER SPORT SCHOKOLADE TAFEL VEGAN 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VEGAN CRUNC VOLL NUSS RITTER SPORT SCHOKOLADE TAFEL VEGAN |
+| 2871562 | RITTER SPORT VEGAN | MILD CLASSIC 100G*SOBE | 1000190 | RITTER SPORT SCHOKOLADE TAFEL VEGAN 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VEGAN MILD CLASSIC RITTER SPORT SCHOKOLADE TAFEL VEGAN |
+| 2871566 | RITTER SPORT VEGAN | ROASTED PEANUT 100G | 1000190 | RITTER SPORT SCHOKOLADE TAFEL VEGAN 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VEGAN ROASTED PEANUT RITTER SPORT SCHOKOLADE TAFEL VEGAN |
+| 2871568 | RITTER SPORT VEGAN | SALTED CARAMEL 100G | 1000190 | RITTER SPORT SCHOKOLADE TAFEL VEGAN 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VEGAN SALTED CARAMEL RITTER SPORT SCHOKOLADE TAFEL VEGAN |
+| 2873293 | LINDT LINDOR FESTLICH | PRAESENT MISCHUNG 250G*A |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR FESTLICH PRAESENT MISCHUNG |
+| 2873297 | LINDT LINDOR FESTLICH | PRAESENT MILCH 250G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR FESTLICH PRAESENT MILCH |
+| 2875154 | LINDT GOLDHASE GLÜCKS- | BRINGER EDITION 100G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE GLUECKS BRINGER EDITION |
+| 2876037 | PPD SERVIETTE 33X33 | MERCI! *AUS |  |  | Suesswaren | semantic_suesswaren:MERCI | PPD SERVIETTE 33X33 MERCI |
+| 287681 | LINDT EXCELLENCE 90% | 100G | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT EXCELLENCE 90 LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 2877453 | LINDT GOLDHASE GLÜCKS- | BRINGER EDITI200G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE GLUECKS BRINGER EDITI200G |
+| 2877519 | LINDT MINI EIER ERDBEERE | 100G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI EIER ERDBEERE |
+| 2877521 | LINDT GLUECKSBRINGER ED. | NOUGAT EIER 90G *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GLUECKSBRINGER ED NOUGAT EIER |
+| 2877523 | LINDT GLUECKSBRINGER ED. | VOLLMIL EIER 180G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GLUECKSBRINGER ED VOLLMIL EIER |
+| 2877528 | LINDT KIDS EIER | NUSSCREME 86G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KIDS EIER NUSSCREME |
+| 2877536 | LINDT BIENE KAEFER | MAULWURF 40G *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BIENE KAEFER MAULWURF |
+| 2877544 | LINDT INDIV OSTERMI DE | COUPON 158G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT INDIV OSTERMI DE COUPON |
+| 2877834 | HEIDEL VOGELHAEUSCHEN | OSTER-NOSTALGIE 93G*O-BK |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL VOGELHAEUSCHEN OSTER NOSTALGIE |
+| 2877987 | SPRING CHICKS PRALINDOSE | QUADRATISCH 100G *ON |  |  | Suesswaren | semantic_suesswaren:PRALIN* | SPRING CHICKS PRALINDOSE QUADRATISCH |
+| 2879268 | LINDT MIT LIEBE SCHENKEN | 180G*AK*ALK | 1002326 | LINDT MINI PRALINES 90G-100G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MIT LIEBE SCHENKEN LINDT MINI PRALINES |
+| 2881225 | HEIDEL OSTERGRUESE | CHOCO-MINIS 36G*OSTERN |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL OSTERGRUESE CHOCO MINIS |
+| 2881321 | HEIDEL OSTERGRUESE | DREHSPASS 93G*OSTERN |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL OSTERGRUESE DREHSPASS |
+| 2881323 | HEIDEL OSTERGRUESE | PRAESENT 105G*OSTERN |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL OSTERGRUESE PRAESENT |
+| 2882102 | LINDT HAUCHD. TAEFELCHEN | WEISS 125G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HAUCHD TAEFELCHEN WEISS |
+| 2882122 | LINDT HAUCHD. TAEFELCHEN | CARAMEL UND SALZ 125G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HAUCHD TAEFELCHEN CARAMEL UND SALZ |
+| 2882209 | LINDT EXCELLENCE 100% | ORANGE 50G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EXCELLENCE 100 ORANGE |
+| 2882595 | LINDT DIVA TRUEFFEL | CLUTCH 114G*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DIVA TRUEFFEL CLUTCH |
+| 2882599 | LINDT LINDOR DOUBLE | CHOCLATE 100G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR DOUBLE CHOCLATE |
+| 2882759 | LINDT WAFFEL RIEGEL | 35G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WAFFEL RIEGEL |
+| 2885793 | ZETTI KNUSPERFLOCKEN130G | VOLLMILCHSCHOKOLADE |  |  | Suesswaren | semantic_suesswaren:ZETTI | ZETTI KNUSPERFLOCKEN130G VOLLMILCHSCHOKOLADE |
+| 2885794 | ZETTI KNUSPERFLOCKEN | WEISSE SCHOKOLADE 120G |  |  | Suesswaren | semantic_suesswaren:ZETTI | ZETTI KNUSPERFLOCKEN WEISSE SCHOKOLADE |
+| 288764 | LINDT LINDOR KUGELN | MISCHUNG BEUTEL 137G | 1002321 | LINDT LINDOR KUGELN BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KUGELN MISCHUNG BEUTEL LINDT LINDOR KUGELN BEUTEL |
+| 2889551 | RITTER SPORT SCHOKOLADE | KNUSPER-NUSS 100G | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE KNUSPER NUSS RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 2889578 | RITTER SPORT SCHOKOLADE | KNUSPER-KAFFEE 100G*NML | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE KNUSPER KAFFEE RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 2891771 | FRANKONIA NO SUGAR ADDED | RIEGEL CHOC.VAN 50G *NML |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA NO SUGAR ADDED RIEGEL CHOC VAN |
+| 2896497 | RITTER SPORT SCHOKOLADE | MINI SPASS200G*AK*NML |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE MINI SPASS200G |
+| 2897552 | SNICKERS ICE CREAMY | PEANUT BUTTER 56ML *EIS |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS ICE CREAMY PEANUT BUTTER |
+| 2897592 | LINDT HAUCHD. TAEFELCHEN | AUSLESE MOCCA 125G *W*NM |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HAUCHD TAEFELCHEN AUSLESE MOCCA |
+| 2898217 | FRANKONIA NO SUGAR ADDED | COCO N RELAX 90G*SOB |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA NO SUGAR ADDED COCO N RELAX |
+| 2898222 | FRANKONIA NO SUGAR ADDED | TAFEL LEMON N CHILL 90G |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA NO SUGAR ADDED TAFEL LEMON N CHILL |
+| 2900785 | LINDT FIORETTO BEUTEL | BUTTER 138G*AK*NML*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO BEUTEL BUTTER |
+| 2904754 | TROLLI ROTE FRÜCHTE | MINI-RINGE 150G |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI ROTE FRUECHTE MINI RINGE |
+| 2905699 | RITTER SPORT SCHOKOLADE | SMARTIES VM 100G*AK*NML | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE SMARTIES VM RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 2905706 | RITTER SPORT SCHOKOLADE | SMARTIES WEISS100G*AK*NM | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE SMARTIES WEISS100G RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 2908808 | RITTER SPORT SCHOKOLADE | CRUNCHY CREAM 100G   *AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE CRUNCHY CREAM |
+| 2908874 | RITTER SPORT SCHOKOLADE | MINI BLACK&WHITE  200GNM |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE MINI BLACK&WHITE 200GNM |
+| 2910621 | LINDT EISSCHOKOLADE | TAFEL 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EISSCHOKOLADE TAFEL |
+| 2910628 | LINDT ERFRISCHENDE | TAFEL LIMETTE 100G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ERFRISCHENDE TAFEL LIMETTE |
+| 2910633 | LINDT LINDOR SHARING | 250G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR SHARING |
+| 2912112 | LINDT MINI KUGELN DESIGN | EDITION LINDOR100G*W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI KUGELN DESIGN EDITION LINDOR100G |
+| 2912118 | LINDT WEIHNACHTSMANN | LINDOR GESCHENK197G*BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANN LINDOR GESCHENK197G |
+| 2912127 | LINDT WEIHNACHTSZAUBER | MINI PRALINÉS 90G*W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | LINDT WEIHNACHTSZAUBER MINI PRALIN S |
+| 2912137 | LINDT BAUMBEHANG CRESETA | BEUTEL 200G *W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BAUMBEHANG CRESETA BEUTEL |
+| 2912144 | LINDT ADVK NATUR | EDITION 317G *W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ADVK NATUR EDITION |
+| 2913367 | RITTER SPORT AMICELLI | TWINPACK WINTER 300G *AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT AMICELLI TWINPACK WINTER |
+| 2918125 | MERCI FINEST SELECTION | BLACK&WHITE 240G     *AK | 1000328 | MERCI VIELFALT 250G | Suesswaren | semantic_suesswaren:MERCI | MERCI FINEST SELECTION BLACK&WHITE MERCI VIELFALT |
+| 2919970 | MERCI LOVELIES | CLASSIC 185G |  |  | Suesswaren | semantic_suesswaren:MERCI | MERCI LOVELIES CLASSIC |
+| 2922486 | HEIDEL GRILLMEISTER | 86G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GRILLMEISTER |
+| 2922516 | TROLLI SAURE GLUEHWUERM- | CHEN MINIS 200G      *AK | 1000314 | HITSCHLER SCHNÜRE 125G | Suesswaren | semantic_suesswaren:TROLLI | TROLLI SAURE GLUEHWUERM CHEN MINIS HITSCHLER SCHNUERE |
+| 2922751 | HEIDEL SCHMUCKDOSE | WITH LOVE 90G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHMUCKDOSE WITH LOVE |
+| 2922789 | MIA BELLA KOKOS MANDEL | PRALINE 100G |  |  | Suesswaren | semantic_suesswaren:PRALIN* | MIA BELLA KOKOS MANDEL PRALINE |
+| 2922790 | MIA BELLA HASELNUSS | NOUGAT PRALINE 100G *SOB |  |  | Suesswaren | semantic_suesswaren:PRALIN* | MIA BELLA HASELNUSS NOUGAT PRALINE |
+| 2923652 | LINDT LINDOR CORNET | GENUSSWOCHE WEISS375G*AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET GENUSSWOCHE WEISS375G |
+| 2923684 | LINDT LINDOR CORNET | GENUSSWOCHE MILCH375G*AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET GENUSSWOCHE MILCH375G |
+| 2923690 | LINDT LINDOR CORNET | GENUSSWOCHE MISCH375G*AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET GENUSSWOCHE MISCH375G |
+| 2923694 | LINDT LINDOR CORNET | GENUSSWOCHE 70% 375G*AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET GENUSSWOCHE 70 |
+| 2925118 | LINDT GENUSS MOMENTE | TAFEL MARZIP.NOUGAT  *AK | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT GENUSS MOMENTE TAFEL MARZIP NOUGAT LINDT SCHOKOLADE |
+| 2925209 | LINDT GENUSS MOMENTE | BREZEL MANDEL NOUGAT *AK | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT GENUSS MOMENTE BREZEL MANDEL NOUGAT LINDT SCHOKOLADE |
+| 2925217 | LINDT GENUSS MOMENTE | CARAMEL & SALZ       *AK | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT GENUSS MOMENTE CARAMEL & SALZ LINDT SCHOKOLADE |
+| 2925220 | LINDT GENUSS MOMENTE | 90G                  *AK | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT GENUSS MOMENTE LINDT SCHOKOLADE |
+| 2925230 | LINDT GENUSS MOMENTE | 164G                 *AK | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT GENUSS MOMENTE LINDT SCHOKOLADE |
+| 2929162 | LINDT LINDOR SHARING | DUNKLE MISCHUNG 250G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR SHARING DUNKLE MISCHUNG |
+| 2929167 | LINDT LINDOR SHARING | MISCHUNG SILBER 250G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR SHARING MISCHUNG SILBER |
+| 2929650 | LINDT SANTA | DESIGN EDITION 125G  *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA DESIGN EDITION |
+| 2929664 | LINDT NATURE EDITION | PRALINES 160G*WH-BK*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT NATURE EDITION PRALINES |
+| 2929672 | LINDT WINTERTIERE | 40G                  *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WINTERTIERE |
+| 293014 | ROTSTERN SCHOKOEI | PHINEAS & FERB 20G |  |  | Suesswaren | semantic_suesswaren:ROTSTERN | ROTSTERN SCHOKOEI PHINEAS & FERB |
+| 2930540 | LINDT SANTA DESIGN | EDITION 70G          *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA DESIGN EDITION |
+| 2930572 | LINDT NATUR EDITION | MINI KUGELN 100G *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NATUR EDITION MINI KUGELN |
+| 2930582 | LINDT NATURE EDITION | KOECHER 150G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NATURE EDITION KOECHER |
+| 2930592 | LINDT FROHES FEST | PRALINEN 80G  *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT FROHES FEST PRALINEN |
+| 2930769 | LINDT FROHES FEST | TASCHE 137G          *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FROHES FEST TASCHE |
+| 2930772 | LINDT FROHES FEST | KISSEN 46G           *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FROHES FEST KISSEN |
+| 2931620 | LINDT LINDOR EIER SALZ | CARAMEL BTL. 90G *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR EIER SALZ CARAMEL BTL |
+| 2931640 | LINDT LINDOR EIER | SPLIT BTL. 90G   *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR EIER SPLIT BTL |
+| 2931651 | LINDT LINDOR EIER SPAGET | TI EIS BTL. 90G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR EIER SPAGET TI EIS BTL |
+| 2931663 | LINDT ZITRONE | BUTTERMILCH 85G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ZITRONE BUTTERMILCH |
+| 2934334 | LINDT LINDOR MILCH | MULTIPACK  4x25G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MILCH MULTIPACK 4X25G |
+| 2934335 | LINDT VEGAN PUR | TAFEL 100G*SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT VEGAN PUR TAFEL |
+| 2934338 | LINDT CREOLA | 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT CREOLA |
+| 2934339 | LINDT HELLO VEGAN TAFEL | POPCORN 100G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO VEGAN TAFEL POPCORN |
+| 2934345 | LINDT HELLO VEGAN OAT CR | STRAWBERRIES 100G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO VEGAN OAT CR STRAWBERRIES |
+| 2934352 | LINDT HELLO VEGAN SALTED | CARAMEL 100G*SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO VEGAN SALTED CARAMEL |
+| 2934749 | LINDT LINDOR-BAUMBEHANG | 200G BEUTEL *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BAUMBEHANG BEUTEL |
+| 2934751 | LINDT LINDOR-BAUMBEHANG | 200G NOUGA BEUTEL *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BAUMBEHANG NOUGA BEUTEL |
+| 2934753 | LINDT LINDOR-BAUMBE 200G | DOPPELM BEUTEL *WEIH*BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BAUMBE DOPPELM BEUTEL |
+| 2934776 | LINDT HELLO ADVK | VEGAN 228G *W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO ADVK VEGAN |
+| 2934976 | HEIDEL 4ER STANGE | WEIHNACHTEN *WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL 4ER STANGE WEIHNACHTEN |
+| 2934984 | HEIDEL ADVENTSKALENDER | MAENNER XMAS 75G     *WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL ADVENTSKALENDER MAENNER XMAS |
+| 2935196 | ALETE BIO OBSTIES HEIDEL | BANANE JOGHURT 20 G*SOB |  |  | Suesswaren | semantic_suesswaren:HEIDEL | ALETE BIO OBSTIES HEIDEL BANANE JOGHURT |
+| 2936162 | LINDT NATURE EDITION | TASCHE 179G      *WH-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NATURE EDITION TASCHE |
+| 2938597 | LINDT MINI PRALINES | DANKE EDITION 100G *A*NM |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES DANKE EDITION |
+| 2939066 | HEIDEL SCHMUCKHERZ | WEIH.NOSTALG.54g*WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHMUCKHERZ WEIH NOSTALG |
+| 2939860 | LINDT PRALINES HOCHFEIN | PREMIUM NUSS 200G    *AK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES HOCHFEIN PREMIUM NUSS |
+| 2941573 | TRUEFFEL-/PRALINENDOSE | XMAS PARTY*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | TRUEFFEL PRALINENDOSE XMAS PARTY |
+| 2941582 | KEKS-/PRALINENDOSE MIT | DECKEL XMAS PARTY*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | KEKS PRALINENDOSE MIT DECKEL XMAS PARTY |
+| 2948140 | RITTER SPORT SCHOKOLADE | MINI POOL P 200G *AK*NML |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE MINI POOL P |
+| 2954543 | RITTER SPORT | MACADAMIA 100G *WH |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT MACADAMIA |
+| 2954585 | RITTER SPORT VEGAN | CRUNCHY MANDEL 100G *WH |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VEGAN CRUNCHY MANDEL |
+| 2954641 | RITTER SPORT | GOLDSCHATZ 145G |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT GOLDSCHATZ |
+| 2954645 | RITTER SPORT 145G | WEIHNACHTSTRAUM *WH |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT WEIHNACHTSTRAUM |
+| 2955891 | RITTER SPORT VEGAN | CRISPY COOKIE 100G *AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VEGAN CRISPY COOKIE |
+| 2955945 | RITTER SPORT | CREAMY MILK 100G *AK*SOB |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT CREAMY MILK |
+| 2956152 | RITTER SPORT SCHOKOLADE | CRUNCHY BREZEL 100G |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE CRUNCHY BREZEL |
+| 2956225 | RITTER SPORT SCHOKOLADE | WHITE LEMON 100G *AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE WHITE LEMON |
+| 2957927 | TROLLI ORIGINAL | HITS 200G |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI ORIGINAL HITS |
+| 2959117 | LINDT HELLO VEGAN DARK | CR COOKIE 100G  *AK*SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO VEGAN DARK CR COOKIE |
+| 2959124 | LINDT HELLO VEGAN*NML | PRETZEL & NUTS 100G  *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO VEGAN PRETZEL & NUTS |
+| 2959198 | GAWOL PRALINENDOSE MIYA | BLAU MIT GOLDEFFEKT |  |  | Suesswaren | semantic_suesswaren:PRALIN* | GAWOL PRALINENDOSE MIYA BLAU MIT GOLDEFFEKT |
+| 2960022 | HEIDEL OSTERHAESCHEN | OSTERGRUESSE 54G *ON |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL OSTERHAESCHEN OSTERGRUESSE |
+| 2960169 | HEIDEL KLEINES PRAESENT | OSTER-NOSTALGIE 54G *ON |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL KLEINES PRAESENT OSTER NOSTALGIE |
+| 2963285 | LINDT GOLDHASEN TAFEL | VOLLMILCH 120G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASEN TAFEL VOLLMILCH |
+| 2963329 | LINDT BLAUMEISE UND | IGEL HOHLFIGUR 40G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BLAUMEISE UND IGEL HOHLFIGUR |
+| 2963338 | LINDT GOLDHASEN TAFEL | EDELBITTER 120G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASEN TAFEL EDELBITTER |
+| 2963416 | LINDT GOLDHASEN TAFEL | WEISS 120G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASEN TAFEL WEISS |
+| 2963700 | MANGAROCA BATIDA DE COCO | PRALINE 127G *AK |  |  | Suesswaren | semantic_suesswaren:PRALIN* | MANGAROCA BATIDA DE COCO PRALINE |
+| 2964135 | LINDT NATURE ED. MINI | EIER IM KOECHER 170G*ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NATURE ED MINI EIER IM KOECHER |
+| 2964160 | LINDT KOKOS-MARZIPAN | EIER BEUTEL 85G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KOKOS MARZIPAN EIER BEUTEL |
+| 2964310 | LINDT NATUR EDITION MINI | EIER MISCHUNG 100G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NATUR EDITION MINI EIER MISCHUNG |
+| 2964543 | LINDT MINI PRALINES | BOTSCHAFTEN 180G*AK*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES BOTSCHAFTEN |
+| 2964557 | LINDT MINI PRALINES | BOTSCHAFTEN 100G*AK*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES BOTSCHAFTEN |
+| 2964628 | LINDT GOLDHASE CARAMEL & | SALZ 100G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE CARAMEL & SALZ |
+| 2965000 | LINDT NATUR EDITION | GROSSES GESCHENK 345G*ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NATUR EDITION GROSSES GESCHENK |
+| 2965573 | LINDT NATUR EDITION | GOLDHASE TASCHE 100G*ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NATUR EDITION GOLDHASE TASCHE |
+| 2983626 | LINDT LINDOR TAFEL | PISTAZIE 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TAFEL PISTAZIE |
+| 2983630 | LINDT FIORETTO CARAMEL & | SALT MINIS 115G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO CARAMEL & SALT MINIS |
+| 2983708 | LINDT CUTE CHOCOLATERIE | PRALINES 130G        *AK | 1002326 | LINDT MINI PRALINES 90G-100G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT CUTE CHOCOLATERIE PRALINES LINDT MINI PRALINES |
+| 2983710 | LINDT CUTE CHOCOLATERIE | HASELN.KRO.TAFEL 100G*AK | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT CUTE CHOCOLATERIE HASELN KRO TAFEL LINDT SCHOKOLADE |
+| 2983711 | LINDT CUTE CHOCOLATERIE | MANDELKROK.TAFEL 100G*AK | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT CUTE CHOCOLATERIE MANDELKROK TAFEL LINDT SCHOKOLADE |
+| 2983712 | LINDT CUTE CHOCOLATERIE | HIMB.CRISP TAFEL 100G*AK | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT CUTE CHOCOLATERIE HIMB CRISP TAFEL LINDT SCHOKOLADE |
+| 2983740 | LINDT LINDOR CORNET | 70%  75 JAHRE 375G   *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET 70 75 JAHRE |
+| 2983753 | LINDT LINDOR CORNET | WEISS 75 JAHRE 375G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET WEISS 75 JAHRE |
+| 2983754 | LINDT LINDOR CORNET | MILCH 75 JAHRE 375G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET MILCH 75 JAHRE |
+| 2983756 | LINDT LINDOR CORNET | MISCH. 75 JAHRE 375G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET MISCH 75 JAHRE |
+| 2984257 | SNICKERS LOW SUGAR | HIGH PROTEIN BAR 57G |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS LOW SUGAR HIGH PROTEIN BAR |
+| 2984258 | SNICKERS WHITE LOW SUGAR | HIGH PROTEIN BAR 57G |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS WHITE LOW SUGAR HIGH PROTEIN BAR |
+| 2984968 | LINDT PRALINÉS | BLUMEN 125G |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | LINDT PRALIN S BLUMEN |
+| 2985324 | ALNATURA BIO PRALINÉ | VARIATION 103G *OST |  |  | Suesswaren | semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | ALNATURA BIO PRALIN VARIATION |
+| 2986219 | TROLLI SOUR STRAWBIES | 150G | 1000323 | TROLLI FRUCHTGUMMI 175G-200G | Suesswaren | semantic_suesswaren:TROLLI | TROLLI SOUR STRAWBIES TROLLI FRUCHTGUMMI |
+| 2986692 | LINDT LINDOR CHEESECAKE | 75JAHRE 137G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CHEESECAKE 75JAHRE |
+| 2986910 | RITTER SPORT MINI | BUNTER MIX 1400g ° |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT MINI BUNTER MIX |
+| 2986916 | RITTER SPORT MINI | NUSS MIX 1100g ° |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT MINI NUSS MIX |
+| 2986921 | RITTER SPORT SCHOKO- | TÄFELCHEN MIX 1106g *SOB |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKO TAEFELCHEN MIX |
+| 2987259 | RITTER SPORT SCHOKOLADE | COFFEE DUO 218G |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE COFFEE DUO |
+| 2987267 | RITTER SPORT SCHOKOLADE | CRUNCHY DUO 218G*SOBE |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE CRUNCHY DUO |
+| 2987299 | RITTER SPORT SCHOKOLADE | FRUITY DUO 218G |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE FRUITY DUO |
+| 2987324 | RITTER SPORT SCHOKOLADE | SWEET&SALTY DUO 218G |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE SWEET&SALTY DUO |
+| 2990146 | RITTER SPORT HERZ | SCHOKOWUERFEL 119G *AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT HERZ SCHOKOWUERFEL |
+| 2992483 | LINDT LINDOR BEUTEL | SOMMER-MIX 137G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL SOMMER MIX |
+| 2993499 | LINDT MINI PRALINES | NOIRS 90G*ALK*SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES NOIRS |
+| 2993583 | LINDT PRALINES TRUEFFEL | 180G |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES TRUEFFEL |
+| 2997774 | TROLLI MILCHKUU | 150G                 *AK |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI MILCHKUU |
+| 2997777 | TROLLI WATERMELON SPLASH | 75G                  *AK |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI WATERMELON SPLASH |
+| 2997784 | TROLLI SUPER KICK | 75G |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI SUPER KICK |
+| 2999986 | ZETTI KNUSPERFLOCKEN | SPEKULATIUS 200G *W-BK |  |  | Suesswaren | semantic_suesswaren:ZETTI | ZETTI KNUSPERFLOCKEN SPEKULATIUS |
+| 3000864 | LINDT WEIHN.MANN WAFFEL& | ZIMT 125G *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHN MANN WAFFEL& ZIMT |
+| 3000867 | LINDT HELLO POP UP*ALK | ADVENTSKAL. 243G *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO POP UP ADVENTSKAL |
+| 3005475 | LINDT CREOLA | 165G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT CREOLA |
+| 3007840 | TROLLI TARANTULA | 150G  *AK |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI TARANTULA |
+| 3009075 | MERCI COCONUT | COLLECTION 250G      *AK | 1000328 | MERCI VIELFALT 250G | Suesswaren | semantic_suesswaren:MERCI | MERCI COCONUT COLLECTION MERCI VIELFALT |
+| 3009637 | LINDT MAITRE CHOCOLATIER | MILCH 100G*NML | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT MAITRE CHOCOLATIER MILCH LINDT SCHOKOLADE |
+| 3009647 | LINDT MAITRE CHOCOLATIER | HASELNUSS 100G*NML | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT MAITRE CHOCOLATIER HASELNUSS LINDT SCHOKOLADE |
+| 3009650 | LINDT NUXOR MISCHUNG | 103G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT NUXOR MISCHUNG LINDT SCHOKOLADE |
+| 3013649 | RITTER SPORT | SCHOKOWUERFEL 995G ° |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOWUERFEL |
+| 301375 | LINDT SCHOKOLADE MILD | EXCELLENCE 70% 100G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SCHOKOLADE MILD EXCELLENCE 70 LINDT SCHOKOLADE |
+| 3013840 | GAWOL PILLEN-/PRALINEN | DOSE ROTKEHLCHEN*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | GAWOL PILLEN PRALINEN DOSE ROTKEHLCHEN |
+| 301385 | LINDT EDELBITTER MOUSSE | CRANBERRY 150G | 1002303 | LINDT EDELBITTER MOUSSE 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT EDELBITTER MOUSSE CRANBERRY LINDT EDELBITTER MOUSSE |
+| 3013860 | RITTER SPORT SCHOKO TURM | MINI BUNTER MIX 150G |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKO TURM MINI BUNTER MIX |
+| 3013862 | RITTER SPORT SCHOKO TURM | MINI KNUSPER MIX 150G |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKO TURM MINI KNUSPER MIX |
+| 3013865 | RITTER SPORT SCHOKO TURM | MINI VOLL-NUSS MIX 116G |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKO TURM MINI VOLL NUSS MIX |
+| 3013951 | GAWOL TRUEFFEL-PRALINEN- | DOSE FESTIVE SEASON*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | GAWOL TRUEFFEL PRALINEN DOSE FESTIVE SEASON |
+| 3013955 | GAWOL TRUEFFEL-PRALINEN- | DOSE FESTIVE SEASON*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | GAWOL TRUEFFEL PRALINEN DOSE FESTIVE SEASON |
+| 3013979 | GAWOL KEKS-PRALINEN-DOSE | ROTKEHLCHEN*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | GAWOL KEKS PRALINEN DOSE ROTKEHLCHEN |
+| 3013984 | GAWOL TRUEFFEL-PRALINEN- | DOSE ROTKEHLCHEN*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | GAWOL TRUEFFEL PRALINEN DOSE ROTKEHLCHEN |
+| 3014000 | GAWOL TRUEFFEL-PRALINEN- | DOSE XMAS ORNAMENTS*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | GAWOL TRUEFFEL PRALINEN DOSE XMAS ORNAMENTS |
+| 3017492 | HEIDEL GESCHENKDOSE | GEBURTSTAG 75G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GESCHENKDOSE GEBURTSTAG |
+| 3017989 | HEIDEL GLUECKSPILZ | 43G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GLUECKSPILZ |
+| 3018340 | TROLLI SWEET BARBECUE | PARTY 360G *AK |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI SWEET BARBECUE PARTY |
+| 3019032 | SNICKERS PROTEIN | CHOCOLATE BAR 47G |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS PROTEIN CHOCOLATE BAR |
+| 3020099 | TROLLI | ENERGY BALLS 75G *AK |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI ENERGY BALLS |
+| 3021990 | LINDT LINDOR | BEUTEL WEISS 1KG   *SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL WEISS |
+| 3022022 | LINDT LINDOR | BEUTEL DARK 70% 1KG  *SO |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL DARK 70 |
+| 3022038 | LINDT LINDOR | BEUTEL MILCH 1KG   *SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL MILCH |
+| 3022053 | LINDT LINDOR | BEUTEL MISCHUNG 1KG  *SO |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL MISCHUNG |
+| 3028243 | HEIDEL 3D CHOCO-GRUESSE | KIDS 100G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL 3D CHOCO GRUESSE KIDS |
+| 3028808 | ZETTI COCOS FLOCKEN | ROSA WEISS 200G*SOBE |  |  | Suesswaren | semantic_suesswaren:ZETTI | ZETTI COCOS FLOCKEN ROSA WEISS |
+| 3030502 | SNICKERS COOKIE WHITE | HIGH PROTEIN CHO&PEA 60G |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS COOKIE WHITE HIGH PROTEIN CHO&PEA |
+| 3030505 | SNICKERS HIGH PROTEIN | COOKIE CHOCOLATE&PEANUT |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS HIGH PROTEIN COOKIE CHOCOLATE&PEANUT |
+| 3030809 | LINDT LINDOR CORNET | MILCH 75JAHRE 375G   *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET MILCH 75JAHRE |
+| 3030815 | LINDT LINDOR CORNET | WEISS 75JAHRE 375G   *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET WEISS 75JAHRE |
+| 3030818 | LINDT LINDOR CORNET | 70% 75JAHRE 375G   *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET 70 75JAHRE |
+| 3030835 | LINDT LINDOR CORNET | MISCH 75JAHRE 375G   *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR CORNET MISCH 75JAHRE |
+| 3031238 | LINDT LINDOR MILCH | BEUTEL 137G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MILCH BEUTEL |
+| 3031255 | LINDT NUXOR MILCH | BEUTEL 103G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUXOR MILCH BEUTEL |
+| 3031281 | LINDT MOMENTS | 223G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MOMENTS |
+| 3034449 | RITTER SPORT SCHOKOLADE | MANDEL MOUSSE 100G   *AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE MANDEL MOUSSE |
+| 3034737 | RITTER SPORT AMICELLI | MILCHCREME 200G*AK*NML |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT AMICELLI MILCHCREME |
+| 3037659 | MERCI WINTER COLLECTION | 250G      *WH |  |  | Suesswaren | semantic_suesswaren:MERCI | MERCI WINTER COLLECTION |
+| 3037725 | LINDT WEIHNACHTSMANN | EDELBITTER 70G   *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANN EDELBITTER |
+| 3037727 | LINDT WEIHNACHTSMANN | WEISS 70G   *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANN WEISS |
+| 3037732 | LINDT BLÄTTERKROKANT | 90G          *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BLAETTERKROKANT |
+| 3038332 | LINDT WICHTEL | 40G             *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WICHTEL |
+| 3038339 | LINDT MINI WICHTEL | 50G     *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI WICHTEL |
+| 3038384 | LINDT SANTA  CHARITY | DESIGN EDITION 125G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA CHARITY DESIGN EDITION |
+| 3038396 | LINDT NUSS SÉLECTION | PRALINÉS 125G*WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | LINDT NUSS S LECTION PRALIN S |
+| 3038454 | LINDT WICHTEL | GESCHENK 185G    *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WICHTEL GESCHENK |
+| 3038455 | LINDT WICHTEL TASCHE | 165G             *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WICHTEL TASCHE |
+| 3038464 | LINDT WICHTEL KÖCHER | 150G               *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WICHTEL KOECHER |
+| 3038587 | LINDT NUSS SÉLECTION | PRALINÉS 200G *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | LINDT NUSS S LECTION PRALIN S |
+| 3038968 | LINDT DE INDIVIDUELLER | KALENDER 194G ROT*WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DE INDIVIDUELLER KALENDER ROT |
+| 3038982 | RITTER SPORT TANNE | 115G*WEIHN |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT TANNE |
+| 3039265 | HEIDEL SCHOKOLADENBUCH | WH-NOSTALGIE 80G  *BK |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHOKOLADENBUCH WH NOSTALGIE |
+| 3039465 | HEIDEL LASTENFAHRRAD | NOSTALGIE 108G*WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL LASTENFAHRRAD NOSTALGIE |
+| 3040009 | LINDT NUSS DELUXE TAFEL | MILCH HASELNUSS 110G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUSS DELUXE TAFEL MILCH HASELNUSS |
+| 3040024 | LINDT NUSS DELUXE TAFEL | MILCH MANDEL 110G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUSS DELUXE TAFEL MILCH MANDEL |
+| 3040070 | LINDT NUSS DELUXE RIEGEL | HASELNUSS MILCH 35G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUSS DELUXE RIEGEL HASELNUSS MILCH |
+| 3040084 | LINDT NUSS DELUXE RIEGEL | HASELNUSS D 35G *AK*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUSS DELUXE RIEGEL HASELNUSS D |
+| 3040321 | LINDT GOLDHASE BEST | FRIENDS 100G *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE BEST FRIENDS |
+| 3042283 | LINDT SANTA  CHARITY | DESIGN EDITION 70G*WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA CHARITY DESIGN EDITION |
+| 3044868 | SNICKERS EINZELRIEGEL | 50G *KASSE |  |  | Suesswaren | semantic_suesswaren:SNICKERS; whitelist_prefix:SNICKERS EINZELRIEGEL 49G-50G | SNICKERS EINZELRIEGEL |
+| 3045841 | LINDT EXCELLENTE TAFEL | PISTAZIE 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EXCELLENTE TAFEL PISTAZIE |
+| 3045850 | LINDT NUXOR KISSEN- | PACKUNG MISCHUNG 206G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUXOR KISSEN PACKUNG MISCHUNG |
+| 3046286 | LINDT NUXOR | BEUTEL WEISS 103G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUXOR BEUTEL WEISS |
+| 3046426 | HEIDEL 3D CHOCO GRÜßE | NOSTAL.100G *WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL 3D CHOCO GRUESSE NOSTAL |
+| 3046473 | LINDT LINDOR TAFEL JUBI. | WEISS 150G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TAFEL JUBI WEISS |
+| 3046481 | LINDT LINDOR TAFEL JUBI. | MILCH 150G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TAFEL JUBI MILCH |
+| 3046716 | LINDT LINDOR TAFEL JUBI. | 70% 145G *AK*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TAFEL JUBI 70 |
+| 3048128 | LINDT LINDOR BEUTEL | MLCH 300G            *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL MLCH |
+| 3048136 | LINDT LINDOR BEUTEL | MISCHUNG 299G   *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL MISCHUNG |
+| 3048157 | LINDT LINDOR BEUTEL | MISCHUNG PROMO 300G *A |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL MISCHUNG PROMO |
+| 3048158 | LINDT LINDOR BEUTEL | WEISS 300G *A |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL WEISS |
+| 3048159 | LINDT LINDOR BEUTEL | 70%  300G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL 70 |
+| 3048167 | LINDT LINDOR BTL MILCH | 75 JUBILAEUM 137G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BTL MILCH 75 JUBILAEUM |
+| 3048168 | LINDT LINDOR BTL MSCHUNG | 75 JUBILAEUM 137G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BTL MSCHUNG 75 JUBILAEUM |
+| 3048172 | LINDT LINDOR BTL WEISS | 75 JUBILAEUM 136G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BTL WEISS 75 JUBILAEUM |
+| 3048173 | LINDT LINDOR BTL 70% | 75 JUBILAEUM 136G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BTL 70 75 JUBILAEUM |
+| 3049442 | RITTER SPORT VEGAN | DOUBLE CRUNCH 100G |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VEGAN DOUBLE CRUNCH |
+| 3054307 | LINDT EXCELL.PAILLETE | M.FEIN.GEBAECK 100G *NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EXCELL PAILLETE M FEIN GEBAECK |
+| 3054309 | LINDT EXCELL.PAILLETE*NM | F.GEBAE.CARAMEL 100G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EXCELL PAILLETE F GEBAE CARAMEL |
+| 3054312 | LINDT EXCELL.PAILLETE | KNUSPR.WAFFEL100G *AK*NM |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EXCELL PAILLETE KNUSPR WAFFEL100G |
+| 3054530 | LINDT WEISSE MANDEL | TAFEL 300G           *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEISSE MANDEL TAFEL |
+| 3057016 | LINDT HELLO XMAS MINI | SANTA 50G VEGAN*WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO XMAS MINI SANTA VEGAN |
+| 3070512 | LINDT LINDOR MILCH | OVERFILL 150G        *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MILCH OVERFILL |
+| 3070527 | LINDT LINDOR MISCHUNG | OVERFILL 150G        *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MISCHUNG OVERFILL |
+| 3070549 | LINDT LINDOR TIRAMISU | OVERFILL 150G        *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TIRAMISU OVERFILL |
+| 3070586 | LINDT LINDOR 70% | OVERFILL 150G        *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR 70 OVERFILL |
+| 3073785 | PASQUA TRUEFFEL- / | PRALINENDOSE*ON |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PASQUA TRUEFFEL PRALINENDOSE |
+| 3073826 | TRÜFFEL- / PRALINENDOSE | SUESSE IGEL 3500/039*ON |  |  | Suesswaren | semantic_suesswaren:PRALIN* | TRUEFFEL PRALINENDOSE SUESSE IGEL 3500 039 |
+| 3076009 | Graf, Lisa (HI) 10.24 | Lindt & Sprüngli 1 *AUS |  |  | Suesswaren | semantic_suesswaren:LINDT | GRAF LISA HI 10 24 LINDT & SPRUENGLI 1 |
+| 3077485 | LINDT DUBAI STYLE | SCHOKOLADE TAFEL 145G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DUBAI STYLE SCHOKOLADE TAFEL |
+| 3079461 | LINDT LINDOR TAFEL MILCH | EMOTIONALE BOTSCH100G *A |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TAFEL MILCH EMOTIONALE BOTSCH100G |
+| 3079876 | LINDT GOLDHASEN TAFEL | CARAMEL&SALZ 115G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASEN TAFEL CARAMEL&SALZ |
+| 3080021 | LINDT GOLDHASE CUT OUT | GROß. GESCH. 266G *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE CUT OUT GROSS GESCH |
+| 3080029 | LINDT GOLDHASE CUT OUT | RANGE NEST 198G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE CUT OUT RANGE NEST |
+| 3080038 | LINDT GOLDHASE CUT OUT | KISSENPACKUNG 39G *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE CUT OUT KISSENPACKUNG |
+| 3080046 | LINDT GOLDHASE CUT OUT | RANGE KÖCHER 87G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE CUT OUT RANGE KOECHER |
+| 3080054 | LINDT EIER VEGAN CHOCO | DELUXE 90G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EIER VEGAN CHOCO DELUXE |
+| 3080074 | LINDT EIER VEGAN KARAMEL | HASELNUSS 90G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EIER VEGAN KARAMEL HASELNUSS |
+| 3080081 | LINDT GOLDHASE CHARITY | EDITION 100G *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE CHARITY EDITION |
+| 3080088 | LINDT GOLDHASE CHARITY | EDITION 200G *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE CHARITY EDITION |
+| 3080146 | LINDT GOLDHASE VEGAN | 100G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE VEGAN |
+| 3080148 | LINDT DOPPELMICH | OSTERFREUNDE 100G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DOPPELMICH OSTERFREUNDE |
+| 3080150 | LINDT EIER INDULGENCE | KAKAO NIB BEU.90G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EIER INDULGENCE KAKAO NIB BEU |
+| 3080155 | LINDT EIER INDULGENCE | HIM. PAN BEUT.90G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EIER INDULGENCE HIM PAN BEUT |
+| 3080158 | LINDT BLÄTTERKROKANT | EIER DUN.BEUT.85G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BLAETTERKROKANT EIER DUN BEUT |
+| 3080160 | LINDT BLÄTTERKROKANT MIX | EIER BEUTEL 85G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BLAETTERKROKANT MIX EIER BEUTEL |
+| 3080213 | LINDT BLÄTTERKROKANT | EIER WEISS 85G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BLAETTERKROKANT EIER WEISS |
+| 3080488 | LINDT MINI PRALINES | ART EDITION 100G     *AK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES ART EDITION |
+| 3080492 | LINDT MINI PRALINES | ART EDITION 180G     *AK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT MINI PRALINES ART EDITION |
+| 3080671 | RITTER SPORT PISTAZIE | 100G |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT PISTAZIE |
+| 3080853 | RITTER SPORT AMICELLI | TAFEL 100G  *AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT AMICELLI TAFEL |
+| 3088203 | FRANKONIA BLONDE | SCHOKO VEGAN 100G |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA BLONDE SCHOKO VEGAN |
+| 3089612 | LINDT LIMONCELLO | TAFEL 100G *AK*SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LIMONCELLO TAFEL |
+| 3091798 | LINDT DUBAI STYLE CHOCO | LADE EIER 108G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DUBAI STYLE CHOCO LADE EIER |
+| 3092923 | RITTER SPORT SCHOKOLADE | MINI SCHOK.SPASS 150G*AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE MINI SCHOK SPASS |
+| 3093733 | HEIDEL FRAUENBOX | 86G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL FRAUENBOX |
+| 3093753 | HEIDEL SCHMUCKDOSE | DANKE 43G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHMUCKDOSE DANKE |
+| 3093767 | HEIDEL DANKE TAESCHCH. | 54G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL DANKE TAESCHCH |
+| 3094200 | RITTER SPORT | AMICELLI 900G ° *NML |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT AMICELLI |
+| 3096495 | TROLLI KISS MINIS | 150G |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI KISS MINIS |
+| 3096696 | LINDT PRALINES HOCHFEIN | 350G*A*NML |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES HOCHFEIN |
+| 3099121 | LINDT DUBAI STYLE CHOCO. | PRALINEN 90G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT DUBAI STYLE CHOCO PRALINEN |
+| 3099141 | LINDT DUBAI STYLE CHOCO. | RIEGEL 40G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DUBAI STYLE CHOCO RIEGEL |
+| 3099463 | LINDT LINDOR BEUTEL | TIRAMISU 137G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL TIRAMISU |
+| 3100194 | FRANKONIA VEGANE TAFEL | SALTED CARAMEL 100G *SOB |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA VEGANE TAFEL SALTED CARAMEL |
+| 3100218 | FRANKONIA NO SUGAR ADDED | HASELN. WAFFELN 9ER 175G |  |  | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA NO SUGAR ADDED HASELN WAFFELN 9ER |
+| 3102348 | SNICKERS MINIS 227G |  |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS MINIS |
+| 3104112 | PRALINENDOSE | AMOUR*ON |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENDOSE AMOUR |
+| 3104121 | PRALINENDOSE  M. EINSATZ | AMOUR*ON |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENDOSE M EINSATZ AMOUR |
+| 3104340 | SNICKERS | MULTIPACK 3X50G |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS MULTIPACK 3X50G |
+| 3104955 | TROLLI FLAVOR BOMB | CHERRY COLA 75G      *AK |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI FLAVOR BOMB CHERRY COLA |
+| 3104957 | TROLLI FLAVOR BOMB | MANGO 75G            *AK |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI FLAVOR BOMB MANGO |
+| 3104960 | TROLLI FLAVOR BOMB | STRAWBERRY 75G       *AK |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI FLAVOR BOMB STRAWBERRY |
+| 3105189 | RITTER SPORT WEISSE | SPEKULATIUS 100G     *AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT WEISSE SPEKULATIUS |
+| 3105192 | RITTER SPORT VANILLE | KIPFERL 100G         *AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VANILLE KIPFERL |
+| 3105738 | LINDT LEBKUCHEN MARZIPAN | BEUTEL100G   *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LEBKUCHEN MARZIPAN BEUTEL100G |
+| 3105819 | LINDT NUSS SELECTION | TASCHE MANDEL127G *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUSS SELECTION TASCHE MANDEL127G |
+| 3105821 | LINDT NUSS SELECTION | TASCHE PISTAZIE127G*WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUSS SELECTION TASCHE PISTAZIE127G |
+| 3110221 | ZETTI HAPPZ KOKOS | VOLLMILCH 130G |  |  | Suesswaren | semantic_suesswaren:ZETTI | ZETTI HAPPZ KOKOS VOLLMILCH |
+| 3110932 | RITTER SPORT ROASTED | PEANUT 100G          *AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT ROASTED PEANUT |
+| 3111992 | NESTLE CHOCLAIT CHIPS | KNUSPERBREZELN 115G*NML |  |  | Suesswaren | semantic_suesswaren:NESTLE CHOCLAIT; whitelist_prefix:NESTLE CHOCLAIT CHIPS 115G | NESTLE CHOCLAIT CHIPS KNUSPERBREZELN |
+| 3112852 | PRALINENDOSE KLEIN | WICHTEL 2.0*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENDOSE KLEIN WICHTEL 2 0 |
+| 3112856 | PRALINENDOSE GROSS | WICHTEL 2.0*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENDOSE GROSS WICHTEL 2 0 |
+| 3112882 | PRALINENDOSE KLEIN | CHRISTMAS MAGIC*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENDOSE KLEIN CHRISTMAS MAGIC |
+| 3112883 | PRALINENDOSE GROSS | CHRISTMAS MAGIC*WH |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENDOSE GROSS CHRISTMAS MAGIC |
+| 3112953 | MERCI PETITS CHOCOLATE | COLLECTION 1000G ° |  |  | Suesswaren | semantic_suesswaren:MERCI | MERCI PETITS CHOCOLATE COLLECTION |
+| 3115432 | HEIDEL GAMING BOX | KIDS 10G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GAMING BOX KIDS |
+| 3115436 | HEIDEL SCHOKOLADEN- | SPRUECHE 75G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHOKOLADEN SPRUECHE |
+| 3117678 | MERCI GROSSE VIELFALT | 675G ° |  |  | Suesswaren | semantic_suesswaren:MERCI | MERCI GROSSE VIELFALT |
+| 3119052 | LINDT ERDBEER MASCARPONE | TAFEL 100G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ERDBEER MASCARPONE TAFEL |
+| 3119054 | LINDT FROZEN YOGHURT | WILDBERRY TAFEL 100G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FROZEN YOGHURT WILDBERRY TAFEL |
+| 3120547 | HEIDEL NASCHTÜTE | KIDS 86G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL NASCHTUETE KIDS |
+| 3123496 | TROLLI FLAVORBOMB SAURE | GLUEHWUERMCHEN 75G   *AK |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI FLAVORBOMB SAURE GLUEHWUERMCHEN |
+| 3123817 | LINDT LINDOR PISTAZIE | OVERFILL 150G        *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR PISTAZIE OVERFILL |
+| 3123821 | EXCELLENCE FUSION 70PRO. | UND MILCH 100G | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | EXCELLENCE FUSION 70PRO UND MILCH LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 3123822 | EXCELLENCE FUSION 70% | WEISS 100G | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | EXCELLENCE FUSION 70 WEISS LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 3123823 | EXCELLENCE FUSION 70PRO. | UND FLEUR DE SEL 100G | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | EXCELLENCE FUSION 70PRO UND FLEUR DE SEL LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 3124438 | LINDT PRALINES CLASSIC | 200G |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES CLASSIC |
+| 3124443 | LINDT PRALINES HELL | 200G |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES HELL |
+| 3124448 | LINDT PRALINES MARZIPAN | 200G |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES MARZIPAN |
+| 3124623 | LINDT PRALINES FEINHERB | 200G |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES FEINHERB |
+| 3124624 | LINDT PRALINES NOUGAT | 200G |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES NOUGAT |
+| 3129097 | MIA BELLA PRALINEN- | MISCHUNG MIT+OHN ALK300G |  |  | Suesswaren | semantic_suesswaren:PRALIN* | MIA BELLA PRALINEN MISCHUNG MIT OHN ALK300G |
+| 3132895 | LINDT LINDOR TAFEL | 70% CACAO 150G*AK | 1004898 | LINDT LINDOR PROMO TAFEL 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TAFEL 70 CACAO LINDT LINDOR PROMO TAFEL |
+| 3132898 | LINDT LINDOR TAFEL | CARAMEL&SALZ 150G*AK | 1004898 | LINDT LINDOR PROMO TAFEL 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TAFEL CARAMEL&SALZ LINDT LINDOR PROMO TAFEL |
+| 3132906 | LINDT LINDOR BEUTEL | 70% CACAO 250G*AK | 1004899 | LINDT LINDOR PROMO BEUTEL 250G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL 70 CACAO LINDT LINDOR PROMO BEUTEL |
+| 3132909 | LINDT LINDOR BEUTEL | MILCH 250G*AK | 1004899 | LINDT LINDOR PROMO BEUTEL 250G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL MILCH LINDT LINDOR PROMO BEUTEL |
+| 3132912 | LINDT LINDOR BEUTEL | MISCHUNG 250G*AK | 1004899 | LINDT LINDOR PROMO BEUTEL 250G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL MISCHUNG LINDT LINDOR PROMO BEUTEL |
+| 3132914 | LINDT LINDOR BEUTEL | PISTAZIE 250G*AK | 1004899 | LINDT LINDOR PROMO BEUTEL 250G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL PISTAZIE LINDT LINDOR PROMO BEUTEL |
+| 3133625 | LINDT LINDOR TAFEL | MILCH 150G*AK | 1004898 | LINDT LINDOR PROMO TAFEL 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TAFEL MILCH LINDT LINDOR PROMO TAFEL |
+| 3133730 | LINDT LINDOR STICK | PISTAZIE 38G*AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR STICK PISTAZIE |
+| 3137177 | LINDT TEDDY GIFTING | 145G                 *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TEDDY GIFTING |
+| 3137405 | LINDT ADVK WINTERHÄUSER | 153G         *WH NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ADVK WINTERHAEUSER NML |
+| 3137427 | LINDT WINTERHAEUSER | GESCHENK 215G        *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WINTERHAEUSER GESCHENK |
+| 3137434 | LINDT WINTERHAEUSER | TAFEL VOLLMILCH 300G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WINTERHAEUSER TAFEL VOLLMILCH |
+| 3137626 | LINDT WINTERHAUS KLEIN | 68G                  *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WINTERHAUS KLEIN |
+| 3137636 | LINDT SANTA DESIGN | EDITION 70G          *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA DESIGN EDITION |
+| 3137638 | LINDT SANTA DESIGN | EDITION 125G         *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SANTA DESIGN EDITION |
+| 3137698 | LINDT WINTERHAUS | GROSS 135G           *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WINTERHAUS GROSS |
+| 3137838 | WONDERLETTER MERCI |  |  |  | Suesswaren | semantic_suesswaren:MERCI | WONDERLETTER MERCI |
+| 3137937 | LINDT WEIHNACHTSZAUBER | PRALINÉS 130G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | LINDT WEIHNACHTSZAUBER PRALIN S |
+| 3138248 | MIA BELLA PISTAZIE | KADAYIF PRALIN 160G *NEU |  |  | Suesswaren | semantic_suesswaren:PRALIN*; semantic_suesswaren:PRALINEN | MIA BELLA PISTAZIE KADAYIF PRALIN |
+| 3138390 | LINDT CREATION PETIT | DESSERTS 173G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT CREATION PETIT DESSERTS |
+| 3140339 | LINDT LINDOR MILCH | GEWINNSPIEL 137G     *AK | 1002321 | LINDT LINDOR KUGELN BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MILCH GEWINNSPIEL LINDT LINDOR KUGELN BEUTEL |
+| 3140346 | LINDT LINDOR MISCHUNG | GEWINNSPIEL 137G     *AK | 1002321 | LINDT LINDOR KUGELN BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MISCHUNG GEWINNSPIEL LINDT LINDOR KUGELN BEUTEL |
+| 3140352 | LINDT LINDOR 70% | GEWINNSPIEL 137G     *AK | 1002321 | LINDT LINDOR KUGELN BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR 70 GEWINNSPIEL LINDT LINDOR KUGELN BEUTEL |
+| 3140357 | LINDT LINDOR PISTAZIE | GEWINNSPIEL 137G     *AK | 1002321 | LINDT LINDOR KUGELN BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR PISTAZIE GEWINNSPIEL LINDT LINDOR KUGELN BEUTEL |
+| 3140361 | LINDT LINDOR TIRAMISU | GEWINNSPIEL 137G     *AK | 1002321 | LINDT LINDOR KUGELN BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TIRAMISU GEWINNSPIEL LINDT LINDOR KUGELN BEUTEL |
+| 3141607 | LINDT ICED COFFEE | EIER 85G *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ICED COFFEE EIER |
+| 3142014 | RITTER SPORT SCHOKOLADE | CRISPY CHOCO 100G    *AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE CRISPY CHOCO |
+| 3142935 | PRALINENKAPSEL 26X16MM | NATUR |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENKAPSEL 26X16MM NATUR |
+| 3142969 | LINDT MOMENTS XL | BEUTEL 750G ° |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MOMENTS XL BEUTEL |
+| 3142971 | LINDT NUXOR MILCH XL | BEUTEL 700G ° |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUXOR MILCH XL BEUTEL |
+| 3142973 | LINDT KÖCHER HERZ | ROT 300G ° *NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KOECHER HERZ ROT |
+| 3143061 | LINDT LINDOR TAFEL | TIRAMISU 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TAFEL TIRAMISU |
+| 3143066 | LINDT EXCELLENCE 100% | ORANGE 50G*SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EXCELLENCE 100 ORANGE |
+| 3143080 | LINDT LINDOR STICK | MP 60% 4X25G*SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR STICK MP 60 4X25G |
+| 3143081 | LINDT LINDOR TAFEL | DARK 60% 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TAFEL DARK 60 |
+| 3143086 | LINDT HELLO TAFEL | PISTACHIO SALT CARA.100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO TAFEL PISTACHIO SALT CARA |
+| 3143279 | RITTER SPORT TROPICAL | COCO VEGAN 100G*AK*SOBE |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT TROPICAL COCO VEGAN |
+| 3144469 | LINDT LINDOR BEUTEL 70% | PROMO 250G           *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL 70 PROMO |
+| 3144470 | LINDT LINDOR BEUTEL | MILCH PROMO 250G     *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL MILCH PROMO |
+| 3144472 | LINDT LINDOR BEUTEL | PROMO GOLD  250G     *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL PROMO GOLD |
+| 3144476 | LINDT LINDOR BEUTEL | PROMO SILBER 250G    *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL PROMO SILBER |
+| 3144486 | LINDT LINDOR BEUTEL | PROMO PISTAZIE 250G  *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL PROMO PISTAZIE |
+| 3144519 | LINDT PRALINES HOCHFEIN | 200G |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES HOCHFEIN |
+| 3144522 | LINDT PRALINES HOCHFEIN | 120G |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES HOCHFEIN |
+| 3144527 | LINDT PRALINES HOCHFEIN | 350G*SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES HOCHFEIN |
+| 3147887 | RITTER SPORT WEIHNACHTS- | MIX BEUTEL 195G *WEIHN |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT WEIHNACHTS MIX BEUTEL |
+| 3148252 | LINDT CHOCO KAROTTEN | 54G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT CHOCO KAROTTEN |
+| 3148274 | LINDT GEFÜLLTE GOLDHASEN | CARAMEL&SALZ 80G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GEFUELLTE GOLDHASEN CARAMEL&SALZ |
+| 3148291 | LINDT GEFÜLLTE GOLDHASEN | DOPPELMILCH 80G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GEFUELLTE GOLDHASEN DOPPELMILCH |
+| 3148305 | LINDT GEFÜLLTE GOLDHASEN | NUSS CRISP 80G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GEFUELLTE GOLDHASEN NUSS CRISP |
+| 3148311 | LINDT GEFÜLLTE GOLDHASEN | MIX 80G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GEFUELLTE GOLDHASEN MIX |
+| 3148317 | LINDT MINI EIER | ALPENMILCH 120G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI EIER ALPENMILCH |
+| 3149292 | NIEDEREGGER PRALINENEIER | EIERLIKÖR 100G  *O-BK |  |  | Suesswaren | semantic_suesswaren:PRALIN* | NIEDEREGGER PRALINENEIER EIERLIKOER |
+| 3151643 | LINDT NUXOR FEINHERB XL | BEUTEL 700G            ° |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUXOR FEINHERB XL BEUTEL |
+| 3151829 | LINDT DUBAI STYLE CHOCO. | TAFEL DUNKEL 150G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DUBAI STYLE CHOCO TAFEL DUNKEL |
+| 3151834 | LINDT DUBAI STYLE CHOCO. | TAFEL 150G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DUBAI STYLE CHOCO TAFEL |
+| 3151836 | LINDT DUBAI STYLE CHOCO. | TAFEL WEISS 150G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DUBAI STYLE CHOCO TAFEL WEISS |
+| 3154503 | LINDT PRALINES ROYAL ÜF | 300G     *W*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES ROYAL UEF |
+| 3154964 | LINDT HERZEN | ROT 340G               ° |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HERZEN ROT |
+| 3155106 | RITTER SPORT METALLDOSE | MINI&SCHOKOWÜRFEL 1495g° |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT METALLDOSE MINI&SCHOKOWUERFEL |
+| 3156018 | LINDT KOECHER HERZ | MISCHUNG 300G ° *NML |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KOECHER HERZ MISCHUNG |
+| 3157552 | RITTER SPORT PROTEIN | CRUNCHY HAZELNUT 75G *AK | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT PROTEIN CRUNCHY HAZELNUT RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 3157802 | RITTER SPORT PROTEIN | CRUNCHY PEANUT 75G *AK | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT PROTEIN CRUNCHY PEANUT RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 3157877 | LINDT LINDOR VALENTINS. | ERDB.-SAHNE 162G     *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR VALENTINS ERDB SAHNE |
+| 3157894 | LINDT LINDOR VALENTINS. | MILCH KISSENPACK162G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR VALENTINS MILCH KISSENPACK162G |
+| 3157899 | LINDT LINDOR VALENTINS. | MISCH KISSENPACK162G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR VALENTINS MISCH KISSENPACK162G |
+| 3160096 | RITTER SPORT SCHOKO | WÜRFEL LIEBLINGSMIX176G | 1000191 | RITTER SPORT SCHOKO WÜRFEL 176G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKO WUERFEL LIEBLINGSMIX176G RITTER SPORT SCHOKO WUERFEL |
+| 3160819 | LINDT GOLDHASE | KEKS 100G *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE KEKS |
+| 3160821 | LINDT GOLDHASE | PISTAZIE 100G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE PISTAZIE |
+| 3160830 | LINDT EIER LIMONCELLO | ALKOHOL 108G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EIER LIMONCELLO ALKOHOL |
+| 3161442 | RITTER SPORT AMICELLI | HERZ 137G*AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT AMICELLI HERZ |
+| 3161703 | LINDT TEDDY GIFTING | LOVE                 *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TEDDY GIFTING LOVE |
+| 3161727 | LINDT MINI EIER | BEUTEL 100G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI EIER BEUTEL |
+| 3163066 | LINDT LINDOR 4ER STANGE | MILCH 50G | 1002315 | LINDT LINDOR BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR 4ER STANGE MILCH LINDT LINDOR BEUTEL |
+| 3163067 | LINDT LINDOR 4ER STANGE | MISCHUNG 50G | 1002315 | LINDT LINDOR BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR 4ER STANGE MISCHUNG LINDT LINDOR BEUTEL |
+| 3163073 | LINDT LINDOR 4ER STANGE | PISTAZIE 50G | 1002315 | LINDT LINDOR BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR 4ER STANGE PISTAZIE LINDT LINDOR BEUTEL |
+| 3163076 | LINDT LINDOR 4ER STANGE | 70% 50G *AK | 1002315 | LINDT LINDOR BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR 4ER STANGE 70 LINDT LINDOR BEUTEL |
+| 3163139 | LINDT LINDOR BEUTEL | VEGAN CLASSIC 108G*AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL VEGAN CLASSIC |
+| 3163755 | LINDT LINDOR BEUTEL | GOLDEN CARAMEL 150G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL GOLDEN CARAMEL |
+| 3164067 | RITTER SPORT SCHOKO | WUER.EIERLIK.176G  *O-BK | 1000191 | RITTER SPORT SCHOKO WÜRFEL 176G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKO WUER EIERLIK RITTER SPORT SCHOKO WUERFEL |
+| 3164395 | LINDT DUBAI STYLE CASHEW | HASELNUSS 108G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DUBAI STYLE CASHEW HASELNUSS |
+| 3167048 | LINDT TOKIO STYLE | SCHOKOLADE TAFEL 145G*AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TOKIO STYLE SCHOKOLADE TAFEL |
+| 3169418 | LINDT TRAUBE NUSS | TAFEL 300G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TRAUBE NUSS TAFEL |
+| 3169430 | LINDT ALKOHOL ORANGE | SPRITZ 100G*SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ALKOHOL ORANGE SPRITZ |
+| 3169435 | LINDT LINDOR TAFEL | GOLDEN CARAMEL 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TAFEL GOLDEN CARAMEL |
+| 3169439 | LINDT LINDOR BEUTEL | GOLDEN CARAMEL 137G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL GOLDEN CARAMEL |
+| 3169474 | LINDT LINDOR KISSEN | MILCH 250G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KISSEN MILCH |
+| 3169499 | LINDT LINDOR KISSEN | MISCHUNG 250G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KISSEN MISCHUNG |
+| 3169511 | LINDT FIORETTO MINIS | NOUGAT 115G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO MINIS NOUGAT |
+| 3169517 | LINDT FIORETTO MINIS | CAPPUCCINO 115G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO MINIS CAPPUCCINO |
+| 3169521 | LINDT FIORETTO MINIS | MARZIPAN 115G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO MINIS MARZIPAN |
+| 3172475 | LINDT LINDOR KUGELN | MATCHA 137G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KUGELN MATCHA |
+| 3172741 | LINDT LINDOR DOUBLE | CHOCLATE 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR DOUBLE CHOCLATE |
+| 3175128 | LINDT LINDOR BEUTEL | PASSIONFR.MANGO 137G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BEUTEL PASSIONFR MANGO |
+| 3178059 | RITTER SPORT MINI | MOVIE NIGHT 150G     *AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT MINI MOVIE NIGHT |
+| 3178156 | FLORA PRALINENDOSE | KLEIN*ON |  |  | Suesswaren | semantic_suesswaren:PRALIN* | FLORA PRALINENDOSE KLEIN |
+| 3178160 | FLORA  PRALINENDOSE | GROSS*ON |  |  | Suesswaren | semantic_suesswaren:PRALIN* | FLORA PRALINENDOSE GROSS |
+| 3178505 | MUGLER ALIEN STARLICIOUS | PISTACHIO PRALINE EDT 75 |  |  | Suesswaren | semantic_suesswaren:PRALIN* | MUGLER ALIEN STARLICIOUS PISTACHIO PRALINE EDT 75 |
+| 3178552 | LINDT TOKIO STYLE RIEGEL | SCHOKOLADE 40G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TOKIO STYLE RIEGEL SCHOKOLADE |
+| 3179176 | RITTER SPORT SCHOKOLADE | DIE AROMATISCHE 74% 75G | 1002455 | RITTER SPORT SCHOKOLADE KAKAO KLASSE 100G | Suesswaren | semantic_suesswaren:RITTER SPORT; whitelist_prefix:RITTER SPORT SCHOKOLADE KAKAO KLASSE 100G | RITTER SPORT SCHOKOLADE DIE AROMATISCHE 74 RITTER SPORT SCHOKOLADE KAKAO KLASSE |
+| 3179180 | RITTER SPORT SCHOKOLADE | DIE INTENSIVE 81% 75G | 1002455 | RITTER SPORT SCHOKOLADE KAKAO KLASSE 100G | Suesswaren | semantic_suesswaren:RITTER SPORT; whitelist_prefix:RITTER SPORT SCHOKOLADE KAKAO KLASSE 100G | RITTER SPORT SCHOKOLADE DIE INTENSIVE 81 RITTER SPORT SCHOKOLADE KAKAO KLASSE |
+| 3179578 | LINDT LINDOR PRAESENT | FRUEHLING MILCH 250G *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR PRAESENT FRUEHLING MILCH |
+| 3179590 | LINDT LINDOR PRAESENT | FRUEHLINGMISCHUNG250G*AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR PRAESENT FRUEHLINGMISCHUNG250G |
+| 3179881 | RITTER SPORT ALPENMILCH | COVER 100G *AK |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT ALPENMILCH COVER |
+| 3186152 | HEIDEL BIENE | BEE HAPPY 43G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL BIENE BEE HAPPY |
+| 3186190 | HEIDEL SCHUTZENGEL | 43G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHUTZENGEL |
+| 3186681 | RITTER SPORT | AMICELLI HASELNUSS600G ° |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT AMICELLI HASELNUSS600G |
+| 3188933 | LINDT NUXOR RIEGEL | MILCH 33G            *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUXOR RIEGEL MILCH |
+| 3193565 | LINDT COCOS | TAFEL 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT COCOS TAFEL |
+| 3193567 | LINDT BUTTERMILCH | LIMETTE TAFEL 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BUTTERMILCH LIMETTE TAFEL |
+| 3193580 | LINDT SPAGHETTI-EIS | PRALINES 80g |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT SPAGHETTI EIS PRALINES |
+| 3193621 | LINDT FROYO ERDBEER- | MASCARPON 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FROYO ERDBEER MASCARPON |
+| 3193625 | LINDT FROYO | WILDBERRY 100G   *AK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FROYO WILDBERRY |
+| 3193629 | LINDT FROYO MANGO - | MARACUJA 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FROYO MANGO MARACUJA |
+| 3194528 | JEAN&LEN HANDCREME | MERCI MON CHERRY 75ML*AK |  |  | Suesswaren | semantic_suesswaren:MERCI | JEAN&LEN HANDCREME MERCI MON CHERRY |
+| 3198626 | TROLLI MILKY | WOW 150G |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI MILKY WOW |
+| 320749 | REBER MOZART-PRALINE- | RIEGEL 45G*NML |  |  | Suesswaren | semantic_suesswaren:PRALIN* | REBER MOZART PRALINE RIEGEL |
+| 329076 | LINDT BAUMBEHANG | LOSE WARE 20G *W-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BAUMBEHANG LOSE WARE |
+| 330912 | FRANKONIA DEXTROSE TAFEL | VOLLMILCH LAKTOSEFR. 80G | 1000938 | FRANKONIA LAKTOSEFREI 80-100G | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA DEXTROSE TAFEL VOLLMILCH LAKTOSEFR FRANKONIA LAKTOSEFREI 80 |
+| 332464 | LINDT HAUCHD. TAEFELCHEN | EDELBITTER 125G | 1002307 | LINDT HAUCHDÜNNE TÄFELCHEN 125G | Suesswaren | semantic_suesswaren:LINDT | LINDT HAUCHD TAEFELCHEN EDELBITTER LINDT HAUCHDUENNE TAEFELCHEN |
+| 332472 | LINDT PRALINEN CREOLA | 165G |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINEN CREOLA |
+| 332473 | LINDT PRALINEN CREOLA | 100G*NML |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINEN CREOLA |
+| 332484 | LINDT PRALINES-MISCHUNG | HOCHFEIN 120G*ALK*NML |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINES MISCHUNG HOCHFEIN |
+| 339882 | LINDT SCHOKOLADE MASSIV | EXCELLENCE 70%. 100G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SCHOKOLADE MASSIV EXCELLENCE 70 LINDT SCHOKOLADE |
+| 3436 | HEIDEL MUSCHELDOSE | MEERJUNGFRAU 86G *A |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL MUSCHELDOSE MEERJUNGFRAU |
+| 344598 | LINDT ALPENVOLLMILCH | EXTRA 300G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ALPENVOLLMILCH EXTRA |
+| 344600 | LINDT ALPENVOLLMILCH | NUSS 300G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ALPENVOLLMILCH NUSS |
+| 345336 | LINDT LINDOR-BAUMBEHANG | 100G      *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR BAUMBEHANG |
+| 345531 | LINDT SCHOKOLADE MASSIV | EXCELL EXT CREM 100G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SCHOKOLADE MASSIV EXCELL EXT CREM LINDT SCHOKOLADE |
+| 346034 | LINDT DOPPELMILCH-EIER | BTL. 100G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DOPPELMILCH EIER BTL |
+| 347679 | HEILEMANN ROTES | PRALINE HERZ |  |  | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN ROTES PRALINE HERZ |
+| 364383 | LINDT GOLDHASE WEISS | 100G *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE WEISS |
+| 364391 | LINDT GOLDHASE IN DER | TASCHE 200G      *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE IN DER TASCHE |
+| 364404 | LINDT LINDOR PRAESENT-EI | 303G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR PRAESENT EI |
+| 364415 | LINDT SPEZ.-EIER GROSSER | MISCHBEUTEL 180G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SPEZ EIER GROSSER MISCHBEUTEL |
+| 365608 | HEIDEL ALLES GUTE | PRALINEN 97G*NML | 1002243 | HEIDEL PRALINEN 97G | Suesswaren | semantic_suesswaren:HEIDEL; semantic_suesswaren:PRALIN* | HEIDEL ALLES GUTE PRALINEN HEIDEL PRALINEN |
+| 368723 | LINDT SCHOKOLADE | EXCELLENCE 99% 50G | 1002304 | LINDT EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SCHOKOLADE EXCELLENCE 99 LINDT EXCELLENCE 78 99 |
+| 378584 | HEIDEL ABC SCHULRANZEN | 60G *SA | 1002244 | HEIDEL SCHOKO 60G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL ABC SCHULRANZEN HEIDEL SCHOKO |
+| 378619 | HEIDEL STIFTDOSE ABC | 118G *SA | 1002238 | HEIDEL DOSE 118G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL STIFTDOSE ABC HEIDEL DOSE |
+| 378774 | HEIDEL ABC | 93G *SA |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL ABC |
+| 384009 | HEIDEL EURO -SPARSCHWEIN | GEF.M.EDELVM |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL EURO SPARSCHWEIN GEF M EDELVM |
+| 384030 | HEIDEL CHOCO GRUESSE | NOSTALGIE 30G     *WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL; whitelist_prefix:HEIDEL CHOCO GRÜSSE 100G; whitelist_prefix:HEIDEL CHOCO GRÜSSE 30G | HEIDEL CHOCO GRUESSE NOSTALGIE |
+| 384043 | HEIDEL SCHMUCKDOSE | NOSTALGIE 120G*WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHMUCKDOSE NOSTALGIE |
+| 384069 | HEIDEL ADV.KALENDER | NOSTALGIE 75G    *WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL ADV KALENDER NOSTALGIE |
+| 38729 | PRINZEN ROLLE MINIS | 187,5G | 1000309 | PRINZENROLLE MINIS 187,5G | Suesswaren | semantic_suesswaren:PRINZENROLLE; whitelist_prefix:PRINZENROLLE MINIS 187,5G | PRINZEN ROLLE MINIS PRINZENROLLE MINIS |
+| 387758 | LINDT GOLDHASE FUER DICH | IN DER BLUME 200G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE FUER DICH IN DER BLUME |
+| 387793 | LINDT LINDOR-MINI-EIER | MISCHUNG 180G    *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MINI EIER MISCHUNG |
+| 387974 | LINDT DEKO EDIT HENNE | 35G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DEKO EDIT HENNE |
+| 388692 | LINDT LINDOR-EIER | 60% CACAO BTL.90G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR EIER 60 CACAO BTL |
+| 390843 | LINDT DEKO ALPENMILCH | MINI EIER 180G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DEKO ALPENMILCH MINI EIER |
+| 390982 | LINDT DEKO EDIT NOUGAT | EIER BEUTEL90G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DEKO EDIT NOUGAT EIER BEUTEL90G |
+| 39461 | MERCI FINEST SELECTION | 400G*OSTERN |  |  | Suesswaren | semantic_suesswaren:MERCI | MERCI FINEST SELECTION |
+| 396313 | HALLOREN BOEHME CREME | SCHOKO PFEFFERMINZ 100G | 1001957 | BOEHME CREME SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:BOEHME; whitelist_prefix:BOEHME CREME SCHOKOLADE 100G | HALLOREN BOEHME CREME SCHOKO PFEFFERMINZ BOEHME CREME SCHOKOLADE |
+| 396489 | BOEHME CREME SCHOKOLADEN | ZITRONE 100G | 1001957 | BOEHME CREME SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:BOEHME; whitelist_prefix:BOEHME CREME SCHOKOLADE 100G | BOEHME CREME SCHOKOLADEN ZITRONE BOEHME CREME SCHOKOLADE |
+| 396509 | BOEHME CREME SCHOKOLADEN | HIMBEERE 100G | 1001957 | BOEHME CREME SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:BOEHME; whitelist_prefix:BOEHME CREME SCHOKOLADE 100G | BOEHME CREME SCHOKOLADEN HIMBEERE BOEHME CREME SCHOKOLADE |
+| 396524 | BOEHME CREME SCHOKOLADEN | ORANGE 100G | 1001957 | BOEHME CREME SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:BOEHME; whitelist_prefix:BOEHME CREME SCHOKOLADE 100G | BOEHME CREME SCHOKOLADEN ORANGE BOEHME CREME SCHOKOLADE |
+| 419422 | HEIDEL KLEINE HERZEN | MIT SPRUECHEN |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL KLEINE HERZEN MIT SPRUECHEN |
+| 426945 | HEIDEL GUTSCHEIN | DOSE 32G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GUTSCHEIN DOSE |
+| 426973 | HEIDEL MARIENKAEFER | VIEL GLUECK 43G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL MARIENKAEFER VIEL GLUECK |
+| 426988 | HEIDEL GLUECKSBOTE | 60G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GLUECKSBOTE |
+| 428225 | MERCI GRUEN - MANDEL | KNUSPER VIELFALT 250G*SO | 1000328 | MERCI VIELFALT 250G | Suesswaren | semantic_suesswaren:MERCI | MERCI GRUEN MANDEL KNUSPER VIELFALT MERCI VIELFALT |
+| 44259 | HEIDEL GESCHENKANHAENGER | HERZVERWOEHNER 21G*NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GESCHENKANHAENGER HERZVERWOEHNER |
+| 444084 | LINDT LINDOR MISCH- | KASSETTE 144G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MISCH KASSETTE |
+| 450088 | HEIDEL SCHOKOLADEN- | SPRUECHE 52,5G | 1002245 | HEIDEL SPRÜCHE 52,5G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHOKOLADEN SPRUECHE HEIDEL SPRUECHE |
+| 450139 | HEIDEL ROSENSCHACHTEL | 54G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL ROSENSCHACHTEL |
+| 450191 | HEIDEL | GEBURTSTAGSTORTE |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GEBURTSTAGSTORTE |
+| 451396 | FRANKONIA LAKTOSEFREIE | MI.-CR.GEF.VOLL.SCH.100G | 1000938 | FRANKONIA LAKTOSEFREI 80-100G | Suesswaren | semantic_suesswaren:FRANKONIA | FRANKONIA LAKTOSEFREIE MI CR GEF VOLL SCH FRANKONIA LAKTOSEFREI 80 |
+| 454554 | LINDT LINDOR MILCH | TANNE 112G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MILCH TANNE |
+| 455156 | RITTER SPORT VOLL NUSS | LAKTOSEFREI 100G ° |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VOLL NUSS LAKTOSEFREI |
+| 455247 | RITTER SPORT VOLLMILCH | LAKTOSEFREI 100G ° |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT VOLLMILCH LAKTOSEFREI |
+| 45636 | HEIDEL GEBURTSTAGS- | VERSUESSER 64G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GEBURTSTAGS VERSUESSER |
+| 459055 | LINDT HELLO X-MAS TOWER | ADVENTSKAL. 235G*W-BK*AL |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO X MAS TOWER ADVENTSKAL |
+| 466954 | LINDT GOLDSTUECKE*ALK | ADVENTSKAL. 156G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDSTUECKE ADVENTSKAL |
+| 466958 | LINDT MINI-TISCH-KALEND | FROHES FEST 115G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI TISCH KALEND FROHES FEST |
+| 466981 | LINDT WEIHNACHTS-TRAD. | PRALINES 264G*WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT WEIHNACHTS TRAD PRALINES |
+| 467691 | LINDT FROHES FEST | PRALINES 180G *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT FROHES FEST PRALINES |
+| 468821 | ROTSTERN SCHOKOLADE | 126G*SOBE | 1002466 | ROTSTERN SCHOKOLADE 126G | Suesswaren | semantic_suesswaren:ROTSTERN; whitelist_prefix:ROTSTERN SCHOKOLADE 126G | ROTSTERN SCHOKOLADE ROTSTERN SCHOKOLADE |
+| 469221 | ROTSTERN SCHOKOLADE | EDELBITTER 126G*NML | 1002466 | ROTSTERN SCHOKOLADE 126G | Suesswaren | semantic_suesswaren:ROTSTERN; whitelist_prefix:ROTSTERN SCHOKOLADE 126G | ROTSTERN SCHOKOLADE EDELBITTER ROTSTERN SCHOKOLADE |
+| 472450 | LINDT SCHOKOLADE | EXCELL MEERSALZ 100G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SCHOKOLADE EXCELL MEERSALZ LINDT SCHOKOLADE |
+| 47301 | RITTER SPORT SCHOKOLADE | KOKOS 100G | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE KOKOS RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 474546 | LINDT LINDOR STICK | 60% CACAO 38G | 1002311 | LINDT HELLO STICK 39G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR STICK 60 CACAO LINDT HELLO STICK |
+| 474640 | LINDT WEIHNACHTSZAUBER | PRALINES 200G *WEI*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT WEIHNACHTSZAUBER PRALINES |
+| 474780 | LINDT WEIHNACHTSMANN | MUETZE 175G  *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANN MUETZE |
+| 474979 | LINDT WILLIAMS 131G | FLAESCHCHEN *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WILLIAMS FLAESCHCHEN |
+| 474982 | LINDT EIERLIKOER 131G | FLAESCHCHEN *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EIERLIKOER FLAESCHCHEN |
+| 475297 | LINDT MINI WH-MAENNER | M.PERFORATION 50G*WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI WH MAENNER M PERFORATION |
+| 475950 | LINDT LINDOR TANNE | 187G              *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR TANNE |
+| 482020 | LINDT HELLO X-MAS HOHL- | FIGUR SANTA 140G*WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO X MAS HOHL FIGUR SANTA |
+| 4824 | LINDT WEIHNACHTSZAUBER | ADVENTSKALENDER 265G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSZAUBER ADVENTSKALENDER |
+| 503286 | HEIDEL SPRUECHEDOSEN | SCHUTZENGEL 32G*NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SPRUECHEDOSEN SCHUTZENGEL |
+| 503292 | HEIDEL SCHUTZENGEL | 52,5G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHUTZENGEL |
+| 503315 | HEIDEL SUESSE AUSZEIT | 64G*NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SUESSE AUSZEIT |
+| 506133 | CELEBRATIONS PRALINES | 186G |  |  | Suesswaren | semantic_suesswaren:PRALIN* | CELEBRATIONS PRALINES |
+| 50809 | LINDT LINDOR LINDOR-EIER | GROSSER BTL.180G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR LINDOR EIER GROSSER BTL |
+| 50838 | LINDT OSTER-FREUDEN | GOLDHASEN 100G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT OSTER FREUDEN GOLDHASEN |
+| 511645 | SNICKERS ICE CREAM | 72.5ML *EIS |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS ICE CREAM |
+| 511955 | LINDT GOLDHASE FUER DICH | GESCHENKBOX 100G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE FUER DICH GESCHENKBOX |
+| 512669 | LINDT EIER MISCHUNG | 145G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EIER MISCHUNG |
+| 51731 | LINDT JOGHURT-EIER | MISCHUNG 140G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT JOGHURT EIER MISCHUNG |
+| 51818 | LINDT GOLDHASE | EDELBITTER 200G  *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE EDELBITTER |
+| 528321 | HEIDEL GOLDMEDAILLE | 30G*NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GOLDMEDAILLE |
+| 530436 | LINDT BEAUTY OF NATURE | BEUTEL 150G      *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BEAUTY OF NATURE BEUTEL |
+| 530994 | LINDT BEAUTY OF NATURE | GOLDHA.TASCHE100G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BEAUTY OF NATURE GOLDHA TASCHE100G |
+| 541601 | HEIDEL NASCHTUETE ABC | 84G *SA | 1002242 | HEIDEL NASCHTÜTE 84G-95G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL NASCHTUETE ABC HEIDEL NASCHTUETE |
+| 541639 | HEIDEL NASCHTUETE | PRINZESSIN 95G*SA | 1002242 | HEIDEL NASCHTÜTE 84G-95G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL NASCHTUETE PRINZESSIN HEIDEL NASCHTUETE |
+| 543110 | LINDT LINDOR STICK | MILCH 38G | 1002311 | LINDT HELLO STICK 39G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR STICK MILCH LINDT HELLO STICK |
+| 543168 | LINDT CREATION | CREME BRULEE 150G | 1002299 | LINDT CREATION 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT CREATION CREME BRULEE LINDT CREATION |
+| 543190 | LINDT CREATION | CHOCO DE LUXE 150G | 1002299 | LINDT CREATION 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT CREATION CHOCO DE LUXE LINDT CREATION |
+| 553441 | HEIDEL OSTER NOSTALGIE | DOSE GEF. 120G  *ON |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL OSTER NOSTALGIE DOSE GEF |
+| 553442 | HEIDEL OSTER NOSTALGIE | CHOCO GRUESSE100G *ON |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL OSTER NOSTALGIE CHOCO GRUESSE100G |
+| 556926 | ROTSTERN NOUGATTUETCHEN | 130G |  |  | Suesswaren | semantic_suesswaren:ROTSTERN | ROTSTERN NOUGATTUETCHEN |
+| 55698 | LINDT COCOS | 100G *S*ALK*NML | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT COCOS LINDT SCHOKOLADE |
+| 557508 | HEIDEL SAVE THE DATE | 37G*NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SAVE THE DATE |
+| 557549 | HEIDEL GOLD POKAL | 85G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GOLD POKAL |
+| 559801 | HEIDEL OSTER NOSTALGIE | CHOCO GRUESSE 30G *ON |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL OSTER NOSTALGIE CHOCO GRUESSE |
+| 567339 | LINDT GOLDHASE | LTD EDIT 200G    *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE LTD EDIT |
+| 567534 | LINDT GOLDHASE | PERFORIERT 5x10g *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE PERFORIERT 5X10G |
+| 567555 | LINDT BEAUTY OF NATURE | GESCHENK 200G    *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BEAUTY OF NATURE GESCHENK |
+| 570040 | LINDT HELLO BUNNY HOHL- | FIGUR 140G *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO BUNNY HOHL FIGUR |
+| 57479 | HEIDEL LIEBESBRIEF | 30G*NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL LIEBESBRIEF |
+| 57553 | HEIDEL HAPPY BIRTHDAY | 3D CHOCO-GRUESSE 100G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL HAPPY BIRTHDAY 3D CHOCO GRUESSE |
+| 59061 | RITTER SPORT SCHOKOLADE | PFEFFERMINZ 100G   *SOBE | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE PFEFFERMINZ RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 59412 | TROLLI OSTERFEST | 600G             *OSTERN |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI OSTERFEST |
+| 594292 | HEIDEL SCHOKOGESCHENK | 32G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHOKOGESCHENK |
+| 598708 | LINDT WEIHN.-TRADITION | ADVENTSKAL. 253G *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHN TRADITION ADVENTSKAL |
+| 598711 | LINDT TEDDY | 100G      *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TEDDY |
+| 598731 | LINDT MINI-BAEREN | 50G   *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI BAEREN |
+| 598799 | LINDT BAERENFREUNDE | 96G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BAERENFREUNDE |
+| 598816 | LINDT WEIHN.-TRADITION | PRALINES 137G*WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT WEIHN TRADITION PRALINES |
+| 599254 | ZETTI BAMBINA | 100G |  |  | Suesswaren | semantic_suesswaren:ZETTI | ZETTI BAMBINA |
+| 60247 | TROLLI MINI BURGER | 170G |  |  | Suesswaren | semantic_suesswaren:TROLLI | TROLLI MINI BURGER |
+| 60377 | RITTER SPORT RUM BEUTEL | 200G |  |  | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT RUM BEUTEL |
+| 606552 | HEIDEL NERVENSTAERKER | BATTERIE       90G*NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL NERVENSTAERKER BATTERIE |
+| 60852 | HEIDEL STRESSSTOPPER | PRALINEN 97G*NML | 1002243 | HEIDEL PRALINEN 97G | Suesswaren | semantic_suesswaren:HEIDEL; semantic_suesswaren:PRALIN* | HEIDEL STRESSSTOPPER PRALINEN HEIDEL PRALINEN |
+| 60861 | HEIDEL MAENNERBAROMETER | 75G*NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL MAENNERBAROMETER |
+| 60976 | LINDT SCHICHT NOUGAT | PRALINES 125G |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT SCHICHT NOUGAT PRALINES |
+| 61085 | LINDT MINI GOLDHASE | 5x10G   *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI GOLDHASE 5X10G |
+| 61094 | LINDT WEIHNACHTS-MANDEL | CHOCOLADE 100G *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTS MANDEL CHOCOLADE |
+| 61098 | LINDT WEIHNACHTS-TRUEFF. | 100G        *WEIHN*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTS TRUEFF |
+| 612851 | HEIDEL SMARTPHONE | DOSE 30G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SMARTPHONE DOSE |
+| 612886 | HEIDEL WOCHENTAGE | 7ER STANGE |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL WOCHENTAGE 7ER STANGE |
+| 61608 | LINDT EMOTIONALE | GESCHENKE 80G *W*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EMOTIONALE GESCHENKE |
+| 61811 | RITTER SPORT SCHOKOLADE | KNUSPERKEKS 100G | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE KNUSPERKEKS RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 630564 | HEIDEL GEBURTSTAGSPOST | 86G*NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GEBURTSTAGSPOST |
+| 630865 | HEIDEL DANKE TAEFELCHEN |  |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL DANKE TAEFELCHEN |
+| 630877 | HEIDEL GLUECKSBOTSCHAFT | 75G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GLUECKSBOTSCHAFT |
+| 631051 | HEIDEL GEBURTSTAGS- | TAEFELCHEN |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GEBURTSTAGS TAEFELCHEN |
+| 631067 | HEIDEL STIFTEDOSE | MEERJUNGFRAU 118G | 1002238 | HEIDEL DOSE 118G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL STIFTEDOSE MEERJUNGFRAU HEIDEL DOSE |
+| 646600 | LINDT WEIHNACHTSMANN | 1KG               *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANN |
+| 646612 | LINDT WEIHNACHTSMANN | 125G WEISS        *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANN WEISS |
+| 646625 | LINDT LINDOR KUGEL | MIX 145G    *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KUGEL MIX |
+| 646640 | LINDT MINI SCHNEEMAENNER | 50G               *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI SCHNEEMAENNER |
+| 647244 | CELEBRATIONS PRALINES | 269G |  |  | Suesswaren | semantic_suesswaren:PRALIN* | CELEBRATIONS PRALINES |
+| 648067 | LINDT WEIHNACHTS- | MANDEL 70% 100G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTS MANDEL 70 |
+| 650475 | MERCI ADVENTSKALENDER | 255G              *WH |  |  | Suesswaren | semantic_suesswaren:MERCI | MERCI ADVENTSKALENDER |
+| 650517 | LINDT LINDOR TAFEL | 60% 100G*NML | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT LINDOR TAFEL 60 LINDT SCHOKOLADE |
+| 656743 | LINDT WEIHNACHTSMANN | BEUTEL MISCH. 130G*WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANN BEUTEL MISCH |
+| 664550 | HEIDEL SCHMUCKDOSE | DARK SELECTION |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHMUCKDOSE DARK SELECTION |
+| 67284 | LINDT WEIHNACHTSMANN | EDELBITTER 125G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSMANN EDELBITTER |
+| 673583 | RITTER SPORT SCHOKOLADE | SALTED CARAMEL 100G*AK | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE SALTED CARAMEL RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 67513 | LINDT WEIHNACHTSTRAD. | MANDEL I.NOUGAT100G*WEIH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSTRAD MANDEL I NOUGAT100G |
+| 67519 | LINDT SPEZIALITAETEN | KNABBERMIX 210G*WEI*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT SPEZIALITAETEN KNABBERMIX |
+| 67563 | LINDT WEIHN.-MARZIPAN | SELECTION 175G*WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHN MARZIPAN SELECTION |
+| 67912 | LINDT PAERCHEN ADVENTS- | KALENDER 505G  *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT PAERCHEN ADVENTS KALENDER |
+| 68272 | LINDT EDELBITTER MOUSSE | CHILI SAUERKIR.150G | 1002303 | LINDT EDELBITTER MOUSSE 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT EDELBITTER MOUSSE CHILI SAUERKIR LINDT EDELBITTER MOUSSE |
+| 68273 | LINDT EDELBITTER | MOUSSE ORANGE 150G | 1002303 | LINDT EDELBITTER MOUSSE 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT EDELBITTER MOUSSE ORANGE LINDT EDELBITTER MOUSSE |
+| 68275 | LINDT EDELBITTER MOUSSE | CHOCO-TRUEFFEL 150G | 1002303 | LINDT EDELBITTER MOUSSE 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT EDELBITTER MOUSSE CHOCO TRUEFFEL LINDT EDELBITTER MOUSSE |
+| 695473 | RITTER SPORT SCHOKO | WUERFEL SCHOKOGRUSS176G | 1000191 | RITTER SPORT SCHOKO WÜRFEL 176G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKO WUERFEL SCHOKOGRUSS176G RITTER SPORT SCHOKO WUERFEL |
+| 695481 | RITTER SPORT SCHOKO WUER | FEL JOGHURTSCHATZ176G*NM | 1000191 | RITTER SPORT SCHOKO WÜRFEL 176G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKO WUER FEL JOGHURTSCHATZ176G RITTER SPORT SCHOKO WUERFEL |
+| 704725 | LINDT MINI TISCHKALENDER | WEIHN-ZAUBER 115G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI TISCHKALENDER WEIHN ZAUBER |
+| 70632 | LINDT LINDOR MINI EIER | MISCHUNG 150G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR MINI EIER MISCHUNG |
+| 710613 | HEIDEL TEDDY | 30G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL TEDDY |
+| 710626 | HEIDEL MEERJUNGFRAU | NASCHTUETE |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL MEERJUNGFRAU NASCHTUETE |
+| 715082 | LINDT BATONS KIRSCH | STENGELI 250G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BATONS KIRSCH STENGELI |
+| 718459 | ASBACH PRALINENMISCHUNG | WEIHNACHTEN 125G *W-BK |  |  | Suesswaren | semantic_suesswaren:PRALIN* | ASBACH PRALINENMISCHUNG WEIHNACHTEN |
+| 718461 | ASBACH PRALINENMISCHUNG | WEIHNACHTEN 250G *W-BK |  |  | Suesswaren | semantic_suesswaren:PRALIN* | ASBACH PRALINENMISCHUNG WEIHNACHTEN |
+| 718470 | ASBACH PRALINENPACKUNG | WEIHNACHTEN 250G *W-BK |  |  | Suesswaren | semantic_suesswaren:PRALIN* | ASBACH PRALINENPACKUNG WEIHNACHTEN |
+| 718986 | LINDT SWEET YOU CARAMEL | BROWNIE 100G *S*ALK*SOBE | 1002340 | LINDT SWEET YOU 100G | Suesswaren | semantic_suesswaren:LINDT | LINDT SWEET YOU CARAMEL BROWNIE LINDT SWEET YOU |
+| 719000 | LINDT SWEET YOU | NOUGAT CRUNCH 100G*NML | 1002340 | LINDT SWEET YOU 100G | Suesswaren | semantic_suesswaren:LINDT | LINDT SWEET YOU NOUGAT CRUNCH LINDT SWEET YOU |
+| 719012 | LINDT SWEET YOU | COOKIES & CREAM 100G*NML | 1002340 | LINDT SWEET YOU 100G | Suesswaren | semantic_suesswaren:LINDT | LINDT SWEET YOU COOKIES & CREAM LINDT SWEET YOU |
+| 719019 | LINDT SWEET YOU STRAWBER | CHEESECAKE 100G*ALK*SOBE | 1002340 | LINDT SWEET YOU 100G | Suesswaren | semantic_suesswaren:LINDT | LINDT SWEET YOU STRAWBER CHEESECAKE LINDT SWEET YOU |
+| 719040 | LINDT SWEET YOU | COOK&CREAM ST. 39G *S*NM | 1002341 | LINDT SWEET YOU 39G | Suesswaren | semantic_suesswaren:LINDT | LINDT SWEET YOU COOK&CREAM ST LINDT SWEET YOU |
+| 719049 | LINDT SWEET YOU NOUG | CRUN STICK 39G*S*NML | 1002341 | LINDT SWEET YOU 39G | Suesswaren | semantic_suesswaren:LINDT | LINDT SWEET YOU NOUG CRUN STICK LINDT SWEET YOU |
+| 719082 | LINDT SWEET YOU*NML | STRAWB CHEESE.ST39G*S | 1002341 | LINDT SWEET YOU 39G | Suesswaren | semantic_suesswaren:LINDT | LINDT SWEET YOU STRAWB CHEESE ST39G LINDT SWEET YOU |
+| 72143 | LINDT OSTERSCHAF HOHLF. | 40G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT OSTERSCHAF HOHLF |
+| 722857 | TROLLI WURRLI | MIT FRUCHTSAFT 150G | 1000323 | TROLLI FRUCHTGUMMI 175G-200G | Suesswaren | semantic_suesswaren:TROLLI | TROLLI WURRLI MIT FRUCHTSAFT TROLLI FRUCHTGUMMI |
+| 72426 | LINDT OSTERSCHAF MINI | 50G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT OSTERSCHAF MINI |
+| 729230 | LINDT MINI ENGEL | 50G       *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI ENGEL |
+| 732244 | LINDT GOLDHASE NUSS | 100G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE NUSS |
+| 738558 | LINDT AMARENA | KIRSCH 100G *S ALK | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT AMARENA KIRSCH ALK LINDT SCHOKOLADE |
+| 738568 | LINDT EISCAFE | 100G *S | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT EISCAFE LINDT SCHOKOLADE |
+| 739913 | LINDT GOLDSTUECKE | PRALINES 180G  *WH*SOBE |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT GOLDSTUECKE PRALINES |
+| 739923 | LINDT GOLDSTUECKE*ALK | TRUEFFELHERZ 50G  *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDSTUECKE TRUEFFELHERZ |
+| 739950 | LINDT GOLDSTUECKE 140G | RUNDSCHACHTEL *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDSTUECKE RUNDSCHACHTEL |
+| 740421 | LINDT WEIHNACHTS | HASELNUSS 100G*WEIHN*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTS HASELNUSS |
+| 740475 | LINDT WEIHN.MACADAMIA | 100G*WEIHN*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHN MACADAMIA |
+| 742507 | LINDT PRALINEN | VON HERZEN 30G*ALK | 1002328 | LINDT PRALINEN VON HERZEN 30G | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT PRALINEN VON HERZEN LINDT PRALINEN VON HERZEN |
+| 742633 | LINDT FIORETTO MINIS | CAPPUCCINO 115G*W*NML | 1002305 | LINDT FIORETTO MINIS 115G | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO MINIS CAPPUCCINO LINDT FIORETTO MINIS |
+| 748434 | LINDT GOLDHASE | 500G *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE |
+| 748440 | LINDT OSTER MINI PRALINE | 90G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT OSTER MINI PRALINE |
+| 748445 | LINDT LINDOR EIERKARTON | 168G*O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR EIERKARTON |
+| 748539 | LINDT BLAETTERKROKANT | EIER LOSE 17G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BLAETTERKROKANT EIER LOSE |
+| 748616 | LINDT TRUEFFEL A LA | VANILLE EIER 18G  *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT TRUEFFEL A LA VANILLE EIER |
+| 748623 | LINDT FROHE OSTERN | ROEHRCHEN 200G   *OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FROHE OSTERN ROEHRCHEN |
+| 757211 | KAISER PRALINENFOERMCHEN | PAPIER 200 ST.  769271 |  |  | Suesswaren | semantic_suesswaren:PRALIN* | KAISER PRALINENFOERMCHEN PAPIER 769271 |
+| 757331 | KAISER PRALINENFOERMCHEN | ALU 30 STUECK 769288 |  |  | Suesswaren | semantic_suesswaren:PRALIN* | KAISER PRALINENFOERMCHEN ALU 30 STUECK 769288 |
+| 75938 | LINDT DEKO MINI HENNEN | 50G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT DEKO MINI HENNEN |
+| 759687 | LINDT GOLDHASE | EDELBITTER 100G   *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDHASE EDELBITTER |
+| 76179 | LINDT KUEKEN | 100G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KUEKEN |
+| 761810 | RITTER SPORT SCHOKOLADE | WEISS.MANGO MARA100G*NML | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE WEISS MANGO MARA100G RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 766509 | HEIDEL KOMPLIMENTE | FUER DICH 75G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL KOMPLIMENTE FUER DICH |
+| 77872 | LINDT EULE FIGUR | MILCH 40G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT EULE FIGUR MILCH |
+| 780084 | RITTER SPORT SCHOKOLADE | ERDBEER JOGHURT 100G | 1000187 | RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT 100G | Suesswaren | semantic_suesswaren:RITTER SPORT | RITTER SPORT SCHOKOLADE ERDBEER JOGHURT RITTER SPORT SCHOKOLADE TAFEL BUNTE VIELFALT |
+| 782437 | LINDT SCHOKOLADE JOGHURT | HEIDEL.VAN.VM 100G*S*NML | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:HEIDEL; semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SCHOKOLADE JOGHURT HEIDEL VAN VM LINDT SCHOKOLADE |
+| 782442 | LINDT SCHOKOLADE JOGHURT | ERDB.-RHABAR.100G *S*NML | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SCHOKOLADE JOGHURT ERDB RHABAR LINDT SCHOKOLADE |
+| 784413 | LINDT EXCELLENCE | ORANGE INTENSE  100G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT EXCELLENCE ORANGE INTENSE LINDT SCHOKOLADE |
+| 800990 | MERCI HASE | 120G *ON |  |  | Suesswaren | semantic_suesswaren:MERCI | MERCI HASE |
+| 80205 | HEIDEL GLUECKS EMOTICONS | 7ER 52,5G*NML | 1002240 | HEIDEL EMOTICON 7ER 52,5G | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GLUECKS EMOTICONS 7ER HEIDEL EMOTICON 7ER |
+| 802089 | SNICKERS CORNETTO | 110G *INT |  |  | Suesswaren | semantic_suesswaren:SNICKERS | SNICKERS CORNETTO |
+| 808117 | HEIDEL MAENNERRUNDE | 75G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL MAENNERRUNDE |
+| 808733 | LINDT LINDOR KUGELN | WEISS BEUTEL 136G | 1002321 | LINDT LINDOR KUGELN BEUTEL 137G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KUGELN WEISS BEUTEL LINDT LINDOR KUGELN BEUTEL |
+| 809890 | LINDT EXCELLENCE | MILD 85% 100G | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT EXCELLENCE MILD 85 LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 809959 | LINDOR WEISS | 100G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDOR WEISS LINDT SCHOKOLADE |
+| 814601 | HEIDEL KUSSMUND | 32G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL KUSSMUND |
+| 814617 | HEIDEL KLEINES SCHMUCK- | HERZ VON HERZEN 32G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL KLEINES SCHMUCK HERZ VON HERZEN |
+| 814665 | LINDT KNUSPER MINIS | 200G*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KNUSPER MINIS |
+| 814677 | LINDT EDEL-NOUGAT | SCHOKOLADE 100G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT EDEL NOUGAT SCHOKOLADE LINDT SCHOKOLADE |
+| 816257 | TROLLI BIZZL MIX | 1000G | 1002505 | TROLLI BIZZL MIX/SAURE GLÜHWÜRMCHEN 1000G | Suesswaren | semantic_suesswaren:TROLLI; whitelist_prefix:TROLLI BIZZL MIX/SAURE GLÜHWÜRMCHEN 1000G | TROLLI BIZZL MIX TROLLI BIZZL MIX SAURE GLUEHWUERMCHEN |
+| 830500 | LINDT CHOCO-KAEFER | 100G   *O-BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT CHOCO KAEFER |
+| 830570 | LINDT LINDOR KISSENPCKG. | MILCH 325G*NML | 1002320 | LINDT LINDOR KISSEN 322-325G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KISSENPCKG MILCH LINDT LINDOR KISSEN 322 |
+| 833581 | LINDT MINI-EIER SORTIERT | 100G *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI EIER SORTIERT |
+| 833717 | LINDT KLEINE OSTER- | GESCHENKE 37G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KLEINE OSTER GESCHENKE |
+| 833951 | LINDT FUER DICH & MICH | NEST 195G  *ON |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT FUER DICH & MICH NEST |
+| 83416 | HEIDEL CHOCO.PRAESENT | NOSTALGIE 80G*WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL CHOCO PRAESENT NOSTALGIE |
+| 83421 | HEIDEL WEIHN.NOSTALGIE | TAEFELCHEN 10G *WH |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL WEIHN NOSTALGIE TAEFELCHEN |
+| 841041 | ZETTI BAMBINA | MINIS 200G |  |  | Suesswaren | semantic_suesswaren:ZETTI | ZETTI BAMBINA MINIS |
+| 844836 | RITTER SPORT SCHOKOLADE | DUNKLE VOLL NUSS 100G | 1000189 | RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE 100G | Suesswaren | semantic_suesswaren:RITTER SPORT; whitelist_prefix:RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE 100G | RITTER SPORT SCHOKOLADE DUNKLE VOLL NUSS RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE |
+| 847387 | HEIDEL VIEL GLUECK | PRALINEN 97G*NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL; semantic_suesswaren:PRALIN* | HEIDEL VIEL GLUECK PRALINEN |
+| 847391 | HEIDEL SCHUTZENGEL | PRALINEN 75G*NML |  |  | Suesswaren | semantic_suesswaren:HEIDEL; semantic_suesswaren:PRALIN* | HEIDEL SCHUTZENGEL PRALINEN |
+| 847636 | HEIDEL GESCHENKDOSE | OSTER.NOSTALG108G *ON |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL GESCHENKDOSE OSTER NOSTALG108G |
+| 847979 | LINDT SCHOKOLADE MASSIV | EXCELLENCE 85% 100G | 1002336 | LINDT SCHOKOLADE EXCELLENCE 78-99% 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SCHOKOLADE MASSIV EXCELLENCE 85 LINDT SCHOKOLADE EXCELLENCE 78 99 |
+| 847980 | LINDT FIORETTO MINIS | MARZIPAN 115G*ALK*NML | 1002305 | LINDT FIORETTO MINIS 115G | Suesswaren | semantic_suesswaren:LINDT | LINDT FIORETTO MINIS MARZIPAN LINDT FIORETTO MINIS |
+| 856257 | RITTER SPORT SCHOKOLADE | HONIG SALZ MANDEL 100G | 1000189 | RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE 100G | Suesswaren | semantic_suesswaren:RITTER SPORT; whitelist_prefix:RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE 100G | RITTER SPORT SCHOKOLADE HONIG SALZ MANDEL RITTER SPORT SCHOKOLADE TAFEL NUSS KLASSE |
+| 869515 | LINDT WEIHNACHTSPUNSCH | CHOCOLADE 100G *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTSPUNSCH CHOCOLADE |
+| 869522 | LINDT 1001 NACHT*ALK | ADV.KALENDER 281G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT 1001 NACHT ADV KALENDER |
+| 872084 | LINDT LINDOR KISSENPACK | DARK 322G *NML | 1002320 | LINDT LINDOR KISSEN 322-325G | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KISSENPACK DARK LINDT LINDOR KISSEN 322 |
+| 878476 | LINDT KIRSCH-STENGLI | 125G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KIRSCH STENGLI |
+| 890183 | ROTSTERN MOKKABOHNEN | ZARTBITTER 50G*NML |  |  | Suesswaren | semantic_suesswaren:ROTSTERN | ROTSTERN MOKKABOHNEN ZARTBITTER |
+| 892515 | LINDT OSTER GOLD GOLD- | HASEN TASCHE 100G*OSTERN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT OSTER GOLD GOLD HASEN TASCHE |
+| 895586 | TROLLI PLAYMOUSE | 150G | 1000323 | TROLLI FRUCHTGUMMI 175G-200G | Suesswaren | semantic_suesswaren:TROLLI | TROLLI PLAYMOUSE TROLLI FRUCHTGUMMI |
+| 896452 | DAIM PRALINEN | 200G |  |  | Suesswaren | semantic_suesswaren:PRALIN* | DAIM PRALINEN |
+| 906349 | LINDT LINDOR KUGELN | MILCH 12G LOSE  *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KUGELN MILCH LOSE |
+| 906370 | LINDT BAUMBEHANG | NOUGAT 20G LOSE *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BAUMBEHANG NOUGAT LOSE |
+| 906376 | LINDT BAUMBEHANG | VOLLMILCH 20G LOSE*BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BAUMBEHANG VOLLMILCH LOSE |
+| 906391 | LINDT BAUMBEHANG | CRESTA 20G LOSE   *BK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT BAUMBEHANG CRESTA LOSE |
+| 906403 | LINDT ALKOHOL-SPEZIAL- | ITAET 22G LOSE *BK*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT ALKOHOL SPEZIAL ITAET LOSE |
+| 906602 | HEILEMANN TRUEFFEL | PRALINES 100G | 1002257 | HEILEMANN PRALINEN 100G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN TRUEFFEL PRALINES HEILEMANN PRALINEN |
+| 906603 | HEILEMANN NOUGAT | PRALINEN 95G  FS | 1002257 | HEILEMANN PRALINEN 100G | Suesswaren | semantic_suesswaren:PRALIN* | HEILEMANN NOUGAT PRALINEN FS HEILEMANN PRALINEN |
+| 906689 | PRALINENKAPSELN FARBIG | SORTIERT 150 STUECK |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENKAPSELN FARBIG SORTIERT 150 STUECK |
+| 912785 | LINDT SPAGHETTI EIS | TAFEL 100G *S | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT SPAGHETTI EIS TAFEL LINDT SCHOKOLADE |
+| 923826 | PRALINENKAPSELN WEISS | 200 STUECK |  |  | Suesswaren | semantic_suesswaren:PRALIN* | PRALINENKAPSELN WEISS 200 STUECK |
+| 93477 | LINDT EDELBITTER MOUSSE | BLAUB.LAV 150G | 1002303 | LINDT EDELBITTER MOUSSE 150G | Suesswaren | semantic_suesswaren:LINDT | LINDT EDELBITTER MOUSSE BLAUB LAV LINDT EDELBITTER MOUSSE |
+| 93520 | LINDT STICKS | ALPENVOLLMILCH 40G |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT STICKS ALPENVOLLMILCH |
+| 944002 | MERCI TAFELSCHOKOLADE | KAFFEE-SAHNE 100G*A | 1000330 | MERCI TAFELSCHOKOLADE 100G | Suesswaren | semantic_suesswaren:MERCI; whitelist_prefix:MERCI TAFELSCHOKOLADE 100G | MERCI TAFELSCHOKOLADE KAFFEE SAHNE MERCI TAFELSCHOKOLADE |
+| 944036 | MERCI TAFELSCHOKOLADE | EDEL-RAHM 100G*A | 1000330 | MERCI TAFELSCHOKOLADE 100G | Suesswaren | semantic_suesswaren:MERCI; whitelist_prefix:MERCI TAFELSCHOKOLADE 100G | MERCI TAFELSCHOKOLADE EDEL RAHM MERCI TAFELSCHOKOLADE |
+| 944279 | MERCI TAFELSCHOKOLADE | MANDEL-MILCH 100G*A | 1000330 | MERCI TAFELSCHOKOLADE 100G | Suesswaren | semantic_suesswaren:MERCI; whitelist_prefix:MERCI TAFELSCHOKOLADE 100G | MERCI TAFELSCHOKOLADE MANDEL MILCH MERCI TAFELSCHOKOLADE |
+| 959572 | PRINZEN ROLLE | CHOCO DUO 352G*SOBE | 1000308 | PRINZENROLLE 400G | Suesswaren | semantic_suesswaren:PRINZENROLLE | PRINZEN ROLLE CHOCO DUO PRINZENROLLE |
+| 96038 | ZETTI COCOSFLOCKEN ZART- | BITTERSCHO250G *NML |  |  | Suesswaren | semantic_suesswaren:ZETTI | ZETTI COCOSFLOCKEN ZART BITTERSCHO250G |
+| 972684 | LINDT MINI TISCH ADVENTS | KAL. W-MARKT 115G *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT MINI TISCH ADVENTS KAL W MARKT |
+| 972765 | LINDT WEIHNACHTS-MARKT | PRALINES 200G *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT WEIHNACHTS MARKT PRALINES |
+| 972772 | LINDT WEIHNACHTS-MARKT | GEBR.MANDELN 100G*WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTS MARKT GEBR MANDELN |
+| 972800 | LINDT WEIHNACHTS-MARKT | PRALINES 130G *WH*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT; semantic_suesswaren:PRALIN* | LINDT WEIHNACHTS MARKT PRALINES |
+| 972831 | LINDT GOLDSTUECKE | MINI TASCHE 50G*WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDSTUECKE MINI TASCHE |
+| 972845 | LINDT LINDOR KOECHER MIN | KUGELN MIX 150G  *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT LINDOR KOECHER MIN KUGELN MIX |
+| 972880 | LINDT GOLDSTUECKE KOECHE | MINI KUGELN 150G*WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT GOLDSTUECKE KOECHE MINI KUGELN |
+| 978974 | HEIDEL SCHULBUS | A-Z |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHULBUS A Z |
+| 980229 | LINDT EXCELLENCE | CHILI 100G | 1002335 | LINDT SCHOKOLADE 100G | Suesswaren | semantic_suesswaren:LINDT; whitelist_prefix:LINDT SCHOKOLADE 100G | LINDT EXCELLENCE CHILI LINDT SCHOKOLADE |
+| 985207 | LINDT HELLO XMAS MINI | SANTA 50G *WEIHN |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT HELLO XMAS MINI SANTA |
+| 9900 | HEIDEL SCHMUCKHERZ | MIT SCHLOSS 54G |  |  | Suesswaren | semantic_suesswaren:HEIDEL | HEIDEL SCHMUCKHERZ MIT SCHLOSS |
+| 997934 | LINDT KINDER-MISCHUNG | BTL.145G    *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT KINDER MISCHUNG BTL |
+| 997943 | LINDT WEIHNACHTS-KOSTBAR | KEITEN DOSE 315G*WEI*ALK |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT WEIHNACHTS KOSTBAR KEITEN DOSE |
+| 997957 | LINDT NUSS KUGELN | MISCHUNG 140G  *WH |  |  | Suesswaren | semantic_suesswaren:LINDT | LINDT NUSS KUGELN MISCHUNG |
+| 999992 | HALLOREN CHOC'N CARAMEL | PRALINE 145G*NML |  |  | Suesswaren | semantic_suesswaren:PRALIN* | HALLOREN CHOC N CARAMEL PRALINE |
