@@ -1,6 +1,6 @@
 # SQL Starterkit – Warenkorbanalyse in BigQuery
 
-> **Dataset**: `amgdev_curated`  
+> **Dataset**: `itse-a.ml_itse_cleaned`  
 > **Ausführung**: Alle Queries laufen direkt in der BigQuery Console (Web UI)  
 > **Ziel**: Daten verstehen, erste Muster erkennen, Co-Occurrence-Matrix bauen
 
@@ -22,7 +22,7 @@ SELECT
   MIN(tag)                                                    AS erster_tag,
   MAX(tag)                                                    AS letzter_tag,
   DATE_DIFF(MAX(tag), MIN(tag), MONTH)                        AS monate_abgedeckt
-FROM `amgdev_curated.T_Scanner_curated`;
+FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging`;
 ```
 
 ### 1.2 Korbgrößen-Verteilung
@@ -38,7 +38,7 @@ FROM (
   SELECT
     CONCAT(CAST(filialNummer AS STRING), '_', CAST(bonNummer AS STRING), '_', CAST(tag AS STRING)) AS basket_id,
     COUNT(DISTINCT artikelNummer) AS basket_size
-  FROM `amgdev_curated.T_Scanner_curated`
+  FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging`
   GROUP BY basket_id
 )
 GROUP BY basket_size
@@ -54,7 +54,7 @@ SELECT
   COUNT(*) AS anzahl_positionen,
   COUNT(DISTINCT CONCAT(CAST(filialNummer AS STRING), '_', CAST(bonNummer AS STRING), '_', CAST(tag AS STRING))) AS anzahl_koerbe,
   ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER(), 2) AS prozent_positionen
-FROM `amgdev_curated.T_Scanner_curated`
+FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging`
 GROUP BY inAktion;
 ```
 
@@ -77,7 +77,7 @@ FROM (
   SELECT
     CONCAT(CAST(filialNummer AS STRING), '_', CAST(bonNummer AS STRING), '_', CAST(tag AS STRING)) AS basket_id,
     MAX(inAktion) AS inAktion
-  FROM `amgdev_curated.T_Scanner_curated`
+  FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging`
   GROUP BY basket_id
 )
 GROUP BY korb_typ
@@ -94,8 +94,8 @@ SELECT
   COUNT(DISTINCT CONCAT(CAST(SC.filialNummer AS STRING), '_', CAST(SC.bonNummer AS STRING), '_', CAST(SC.tag AS STRING))) AS anzahl_koerbe,
   SUM(SC.abverkaufsMenge) AS gesamt_menge,
   ROUND(SUM(SC.vkNettoBereinigtEuro), 2) AS umsatz_netto
-FROM `amgdev_curated.T_Scanner_curated` AS SC
-LEFT JOIN `amgdev_curated.T_Artikel_curated` AS TA
+FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging` AS SC
+LEFT JOIN `itse-a.ml_itse_cleaned.T_Artikel_curated` AS TA
   ON SC.artikelNummer = TA.artikelNummer
 GROUP BY SC.artikelNummer, TA.full_artikel_beschreibung
 ORDER BY anzahl_koerbe DESC
@@ -112,8 +112,8 @@ SELECT
   COUNT(DISTINCT CONCAT(CAST(SC.filialNummer AS STRING), '_', CAST(SC.bonNummer AS STRING), '_', CAST(SC.tag AS STRING))) AS anzahl_koerbe,
   COUNT(*) AS anzahl_positionen,
   ROUND(SUM(SC.vkNettoBereinigtEuro), 2) AS umsatz_netto
-FROM `amgdev_curated.T_Scanner_curated` AS SC
-LEFT JOIN `amgdev_curated.T_filiale_bundesland` AS FB
+FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging` AS SC
+LEFT JOIN `itse-a.ml_itse_cleaned.T_filiale_bundesland` AS FB
   ON SC.filialNummer = FB.filialNummer
 GROUP BY FB.bundesLand, SC.filialNummer
 ORDER BY anzahl_koerbe DESC;
@@ -129,7 +129,7 @@ SELECT
   COUNT(DISTINCT CONCAT(CAST(filialNummer AS STRING), '_', CAST(bonNummer AS STRING), '_', CAST(tag AS STRING))) AS anzahl_koerbe,
   COUNT(*) AS anzahl_positionen,
   ROUND(SUM(vkNettoBereinigtEuro), 2) AS umsatz_netto
-FROM `amgdev_curated.T_Scanner_curated`
+FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging`
 GROUP BY jahr, monat
 ORDER BY jahr, monat;
 ```
@@ -149,7 +149,7 @@ FROM (
     filialNummer,
     bonNummer,
     COUNT(DISTINCT artikelNummer) AS basket_groesse
-  FROM `amgdev_curated.T_Scanner_curated`
+  FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging`
   GROUP BY tag, filialNummer, bonNummer
 )
 GROUP BY wochentag_nr, wochentag_name
@@ -171,7 +171,7 @@ SELECT
   COUNTIF(vkNettoBereinigtEuro IS NULL) AS null_preis,
   COUNTIF(vkNettoBereinigtEuro < 0) AS negativer_preis,
   COUNTIF(inAktion IS NULL) AS null_aktion
-FROM `amgdev_curated.T_Scanner_curated`;
+FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging`;
 ```
 
 ---
@@ -187,7 +187,7 @@ WITH basket_base AS (
   SELECT DISTINCT
     CONCAT(CAST(filialNummer AS STRING), '_', CAST(bonNummer AS STRING), '_', CAST(tag AS STRING)) AS basket_id,
     artikelNummer
-  FROM `amgdev_curated.T_Scanner_curated`
+  FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging`
 ),
 total_baskets AS (
   SELECT COUNT(DISTINCT basket_id) AS n_total FROM basket_base
@@ -216,7 +216,7 @@ WITH basket_base AS (
   SELECT DISTINCT
     CONCAT(CAST(filialNummer AS STRING), '_', CAST(bonNummer AS STRING), '_', CAST(tag AS STRING)) AS basket_id,
     artikelNummer
-  FROM `amgdev_curated.T_Scanner_curated`
+  FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging`
 ),
 total_baskets AS (
   SELECT COUNT(DISTINCT basket_id) AS n_total FROM basket_base
@@ -267,7 +267,7 @@ WITH basket_base AS (
   SELECT DISTINCT
     CONCAT(CAST(filialNummer AS STRING), '_', CAST(bonNummer AS STRING), '_', CAST(tag AS STRING)) AS basket_id,
     artikelNummer
-  FROM `amgdev_curated.T_Scanner_curated`
+  FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging`
 ),
 total_baskets AS (
   SELECT COUNT(DISTINCT basket_id) AS n_total FROM basket_base
@@ -317,7 +317,7 @@ WITH basket_base AS (
   SELECT DISTINCT
     CONCAT(CAST(filialNummer AS STRING), '_', CAST(bonNummer AS STRING), '_', CAST(tag AS STRING)) AS basket_id,
     artikelNummer
-  FROM `amgdev_curated.T_Scanner_curated`
+  FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging`
 ),
 total_baskets AS (
   SELECT COUNT(DISTINCT basket_id) AS n_total FROM basket_base
@@ -370,7 +370,7 @@ WITH aktion_baskets AS (
   SELECT DISTINCT
     CONCAT(CAST(filialNummer AS STRING), '_', CAST(bonNummer AS STRING), '_', CAST(tag AS STRING)) AS basket_id,
     artikelNummer
-  FROM `amgdev_curated.T_Scanner_curated`
+  FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging`
   WHERE inAktion = TRUE
 ),
 total_aktion_baskets AS (
@@ -420,7 +420,7 @@ WITH normal_baskets AS (
   SELECT DISTINCT
     CONCAT(CAST(filialNummer AS STRING), '_', CAST(bonNummer AS STRING), '_', CAST(tag AS STRING)) AS basket_id,
     artikelNummer
-  FROM `amgdev_curated.T_Scanner_curated`
+  FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging`
   WHERE inAktion = FALSE
 ),
 total_normal_baskets AS (
@@ -505,8 +505,8 @@ WITH basket_base AS (
     CONCAT(CAST(SC.filialNummer AS STRING), '_', CAST(SC.bonNummer AS STRING), '_', CAST(SC.tag AS STRING)) AS basket_id,
     SC.artikelNummer,
     FB.bundesLand
-  FROM `amgdev_curated.T_Scanner_curated` AS SC
-  LEFT JOIN `amgdev_curated.T_filiale_bundesland` AS FB
+  FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging` AS SC
+  LEFT JOIN `itse-a.ml_itse_cleaned.T_filiale_bundesland` AS FB
     ON SC.filialNummer = FB.filialNummer
 ),
 bundesland_stats AS (
@@ -555,8 +555,8 @@ WITH basket_wg AS (
   SELECT DISTINCT
     CONCAT(CAST(SC.filialNummer AS STRING), '_', CAST(SC.bonNummer AS STRING), '_', CAST(SC.tag AS STRING)) AS basket_id,
     TA.wg3Id
-  FROM `amgdev_curated.T_Scanner_curated` AS SC
-  LEFT JOIN `amgdev_curated.T_Artikel_curated` AS TA
+  FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging` AS SC
+  LEFT JOIN `itse-a.ml_itse_cleaned.T_Artikel_curated` AS TA
     ON SC.artikelNummer = TA.artikelNummer
   WHERE TA.wg3Id IS NOT NULL
 ),
@@ -596,8 +596,8 @@ SELECT
 FROM pairs_wg P
 JOIN wg_frequency FA ON P.wg_a = FA.wg3Id
 JOIN wg_frequency FB ON P.wg_b = FB.wg3Id
-JOIN `amgdev_curated.T_Warengruppen_curated` WA ON P.wg_a = WA.wgId
-JOIN `amgdev_curated.T_Warengruppen_curated` WB ON P.wg_b = WB.wgId
+JOIN `itse-a.ml_itse_cleaned.T_Warengruppen_curated` WA ON P.wg_a = WA.wgId
+JOIN `itse-a.ml_itse_cleaned.T_Warengruppen_curated` WB ON P.wg_b = WB.wgId
 CROSS JOIN total_baskets T
 ORDER BY lift DESC
 LIMIT 100;
@@ -613,8 +613,8 @@ SELECT
   TA.eigenMarke,
   COUNT(DISTINCT CONCAT(CAST(SC.filialNummer AS STRING), '_', CAST(SC.bonNummer AS STRING), '_', CAST(SC.tag AS STRING))) AS anzahl_koerbe,
   SUM(SC.abverkaufsMenge) AS menge
-FROM `amgdev_curated.T_Scanner_curated` AS SC
-LEFT JOIN `amgdev_curated.T_Artikel_curated` AS TA
+FROM `itse-a.ml_itse_cleaned.T_Scannerzahlen_staging` AS SC
+LEFT JOIN `itse-a.ml_itse_cleaned.T_Artikel_curated` AS TA
   ON SC.artikelNummer = TA.artikelNummer
 WHERE TA.eigenMarke = TRUE
 GROUP BY SC.artikelNummer, TA.full_artikel_beschreibung, TA.eigenMarke
@@ -630,7 +630,7 @@ LIMIT 50;
 
 ```sql
 -- Welche Zeiträume sind als Schulanfang markiert?
-SELECT * FROM `amgdev_curated.T_Schulanfang_Basis`
+SELECT * FROM `itse-a.ml_itse_cleaned.T_Schulanfang_Basis`
 ORDER BY referenz_tag;
 ```
 
@@ -643,8 +643,8 @@ SELECT
   TA.full_artikel_beschreibung,
   SUM(SA.abverkaufsmenge) AS menge_schulanfang,
   COUNT(DISTINCT SA.artikel_nummer) AS anzahl_koerbe
-FROM `amgdev_curated.T_Schulanfang_ArtikelNummer_Basis` AS SA
-LEFT JOIN `amgdev_curated.T_Artikel_curated` AS TA
+FROM `itse-a.ml_itse_cleaned.T_Schulanfang_ArtikelNummer_Basis` AS SA
+LEFT JOIN `itse-a.ml_itse_cleaned.T_Artikel_curated` AS TA
   ON SA.artikel_nummer = TA.artikelNummer
 GROUP BY SA.artikel_nummer, TA.full_artikel_beschreibung
 ORDER BY menge_schulanfang DESC
@@ -659,19 +659,19 @@ LIMIT 50;
 -- Sobald die Analysen laufen, Ergebnisse in Tabellen speichern
 -- Dann können Looker/Data Studio darauf zugreifen
 
-CREATE OR REPLACE TABLE `amgdev_curated.ergebnis_paare_alle` AS
+CREATE OR REPLACE TABLE `itse-a.ml_itse_cleaned.ergebnis_paare_alle` AS
 -- Hier Query 2.2 einfügen
 ;
 
-CREATE OR REPLACE TABLE `amgdev_curated.ergebnis_paare_aktion` AS
+CREATE OR REPLACE TABLE `itse-a.ml_itse_cleaned.ergebnis_paare_aktion` AS
 -- Hier Query 3.1 einfügen
 ;
 
-CREATE OR REPLACE TABLE `amgdev_curated.ergebnis_paare_normal` AS
+CREATE OR REPLACE TABLE `itse-a.ml_itse_cleaned.ergebnis_paare_normal` AS
 -- Hier Query 3.2 einfügen
 ;
 
-CREATE OR REPLACE TABLE `amgdev_curated.ergebnis_warengruppen_paare` AS
+CREATE OR REPLACE TABLE `itse-a.ml_itse_cleaned.ergebnis_warengruppen_paare` AS
 -- Hier Query 5.1 einfügen
 ;
 ```
